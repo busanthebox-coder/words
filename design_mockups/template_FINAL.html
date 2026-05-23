@@ -1,0 +1,1817 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Oxford 3000 Practical English — 한국 학습자 단어장</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+<style>
+:root {
+  --bg: #FAFAFA;
+  --surface-1: #FFFFFF;
+  --surface-2: #F4F5F7;
+  --surface-3: #EBEDF0;
+  --border: #E5E7EB;
+  --border-strong: #D1D5DB;
+  --text-1: #0F172A;
+  --text-2: #334155;
+  --text-3: #64748B;
+  --text-4: #94A3B8;
+  --accent: #4F46E5;
+  --accent-hover: #4338CA;
+  --accent-soft: #EEF2FF;
+  --accent-text: #3730A3;
+  --success: #10B981;
+  --success-soft: #D1FAE5;
+  --success-text: #065F46;
+  --danger: #EF4444;
+  --danger-soft: #FEE2E2;
+  --danger-text: #991B1B;
+  --cefr-a1: #10B981;
+  --cefr-a2: #0EA5E9;
+  --cefr-b1: #F59E0B;
+  --cefr-b2: #EF4444;
+  --shadow-1: 0 1px 2px rgba(15,23,42,0.04), 0 1px 1px rgba(15,23,42,0.03);
+  --shadow-2: 0 4px 12px rgba(15,23,42,0.06), 0 2px 4px rgba(15,23,42,0.04);
+  --shadow-3: 0 12px 32px rgba(15,23,42,0.10), 0 4px 12px rgba(15,23,42,0.06);
+  --shadow-focus: 0 0 0 3px rgba(79,70,229,0.18);
+  --r-sm: 6px; --r-md: 10px; --r-lg: 14px; --r-xl: 20px; --r-full: 9999px;
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 20px; --s-6: 24px; --s-8: 32px; --s-12: 48px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --d-fast: 120ms; --d-mid: 200ms; --d-slow: 320ms;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background: var(--bg); color: var(--text-2);
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", Roboto, sans-serif;
+  font-size: 14px; line-height: 1.6;
+  word-break: keep-all;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01","cv11";
+}
+button { font: inherit; cursor: pointer; border: 0; background: transparent; color: inherit; }
+input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: none; box-shadow: var(--shadow-focus); border-radius: var(--r-sm); }
+a { color: var(--accent); text-decoration: none; }
+
+/* ============ Top bar ============ */
+.topbar {
+  position: sticky; top: 0; z-index: 30;
+  height: 56px;
+  display: grid; grid-template-columns: 200px 1fr 200px;
+  align-items: center;
+  background: var(--surface-1); border-bottom: 1px solid var(--border);
+}
+.topbar .brand { display: flex; align-items: center; gap: var(--s-2); padding-left: var(--s-5); font-weight: 800; color: var(--text-1); font-size: 15px; letter-spacing: -0.01em; cursor: pointer; transition: opacity var(--d-fast) var(--ease); }
+.topbar .brand:hover { opacity: 0.75; }
+.home-btn {
+  display: inline-flex; align-items: center; gap: 4px;
+  margin-left: var(--s-2); padding: 4px 10px;
+  font-size: 12px; font-weight: 600;
+  background: var(--surface-2); color: var(--text-3);
+  border-radius: var(--r-full);
+  transition: all var(--d-fast) var(--ease);
+}
+.home-btn:hover { background: var(--accent-soft); color: var(--accent-text); }
+.home-btn svg { width: 12px; height: 12px; }
+.topbar .brand .mark {
+  width: 28px; height: 28px; border-radius: var(--r-md);
+  background: linear-gradient(135deg, var(--accent), #7C3AED);
+  display: grid; place-items: center; color: white; font-weight: 900; font-size: 14px;
+}
+.topbar .modes-wrap { display: flex; justify-content: center; }
+.modes { display: flex; background: var(--surface-2); border-radius: var(--r-full); padding: 4px; gap: 2px; }
+.modes .mode { padding: 6px 14px; border-radius: var(--r-full); font-size: 13px; font-weight: 600; color: var(--text-3); display: flex; align-items: center; gap: 6px; transition: color var(--d-fast) var(--ease); }
+.modes .mode .icn { width: 14px; height: 14px; }
+.modes .mode[aria-selected="true"] { color: var(--text-1); background: var(--surface-1); box-shadow: var(--shadow-1); }
+.modes .mode:hover:not([aria-selected="true"]) { color: var(--text-2); }
+.topbar .right { display: flex; align-items: center; gap: var(--s-2); justify-content: flex-end; padding-right: var(--s-3); }
+.icn-btn { width: 36px; height: 36px; border-radius: var(--r-md); display: grid; place-items: center; color: var(--text-2); transition: background var(--d-fast) var(--ease); }
+.icn-btn:hover { background: var(--surface-2); color: var(--text-1); }
+.icn-btn svg { width: 18px; height: 18px; }
+
+/* ============ App layout ============ */
+.app { display: grid; grid-template-columns: 200px 1fr; min-height: calc(100vh - 56px); }
+
+.mode-pane { display: none; min-width: 0; min-height: 0; grid-column: 2; grid-row: 1; }
+.mode-pane.is-active { display: block; }
+#paneFlash.is-active, #paneQuiz.is-active { display: flex; flex-direction: column; align-items: center; padding: var(--s-6) var(--s-4) var(--s-12); overflow-y: auto; }
+
+/* ============ Slim rail ============ */
+.rail {
+  background: var(--surface-1);
+  border-right: 1px solid var(--border);
+  padding: var(--s-3); display: flex; flex-direction: column; gap: var(--s-4);
+  overflow-y: auto;
+  max-height: calc(100vh - 56px);
+  position: sticky; top: 56px;
+}
+.rail .label { font-size: 10px; font-weight: 700; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+.rail .search-mini {
+  display: flex; align-items: center; gap: 6px;
+  background: var(--surface-2); border: 1px solid transparent;
+  border-radius: var(--r-md); padding: 7px 9px;
+}
+.rail .search-mini:focus-within { background: var(--surface-1); border-color: var(--border-strong); }
+.rail .search-mini input { flex: 1; border: 0; outline: 0; background: transparent; font-size: 12.5px; }
+.rail .search-mini svg { width: 13px; height: 13px; color: var(--text-3); flex-shrink: 0; }
+
+.alpha-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 2px; }
+.alpha-grid .letter {
+  aspect-ratio: 1; border-radius: 4px;
+  font-size: 10.5px; font-weight: 700;
+  color: var(--text-2); display: grid; place-items: center;
+  background: var(--surface-2); transition: all var(--d-fast) var(--ease);
+}
+.alpha-grid .letter:hover { background: var(--accent-soft); color: var(--accent-text); }
+.alpha-grid .letter.is-active { background: var(--accent); color: white; }
+.alpha-grid .letter.empty { color: var(--text-4); cursor: default; pointer-events: none; }
+
+.rail-filter { display: flex; flex-direction: column; gap: 1px; }
+.rail-filter .item {
+  display: flex; align-items: center; gap: 7px;
+  padding: 5px 7px; border-radius: 5px;
+  font-size: 12px; font-weight: 500; color: var(--text-2);
+  text-align: left; width: 100%;
+}
+.rail-filter .item:hover { background: var(--surface-2); }
+.rail-filter .item.active { background: var(--accent-soft); color: var(--accent-text); font-weight: 600; }
+.rail-filter .item .count { margin-left: auto; font-size: 10.5px; color: var(--text-4); font-variant-numeric: tabular-nums; }
+.rail-filter .item .dot { width: 7px; height: 7px; border-radius: 50%; }
+.rail-filter .item.A1 .dot { background: var(--cefr-a1); }
+.rail-filter .item.A2 .dot { background: var(--cefr-a2); }
+.rail-filter .item.B1 .dot { background: var(--cefr-b1); }
+.rail-filter .item.B2 .dot { background: var(--cefr-b2); }
+
+.clear-filters {
+  margin-top: 6px; padding: 6px 10px;
+  background: var(--surface-2); border-radius: var(--r-sm);
+  font-size: 11px; font-weight: 600; color: var(--text-3);
+  width: 100%;
+}
+.clear-filters:hover { background: var(--surface-3); color: var(--text-1); }
+.clear-filters[hidden] { display: none; }
+
+/* ============ Main: Browse view ============ */
+.main { padding: 0; overflow-y: auto; min-height: 100%; }
+
+/* HOME view (no filter, no search) */
+.home-hero {
+  background: linear-gradient(180deg, #F0F4FF 0%, #FAFBFF 60%, var(--bg) 100%);
+  padding: var(--s-12) var(--s-6) var(--s-8);
+  position: relative;
+  overflow: hidden;
+}
+.home-hero::before {
+  content: ""; position: absolute;
+  top: -100px; right: -100px;
+  width: 320px; height: 320px;
+  background: radial-gradient(circle, rgba(79,70,229,0.08), transparent 70%);
+  border-radius: 50%;
+}
+.home-hero::after {
+  content: ""; position: absolute;
+  bottom: -50px; left: -50px;
+  width: 240px; height: 240px;
+  background: radial-gradient(circle, rgba(124,58,237,0.06), transparent 70%);
+  border-radius: 50%;
+}
+.home-hero-inner { max-width: 880px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
+.home-greeting { font-size: 13px; font-weight: 600; color: var(--accent); letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 6px; }
+.home-hero h1 { margin: 0; font-size: 32px; font-weight: 800; letter-spacing: -0.02em; color: var(--text-1); line-height: 1.2; }
+.home-hero .sub { color: var(--text-3); margin-top: 6px; font-size: 14px; }
+
+.home-search {
+  display: flex; max-width: 560px; margin: var(--s-6) auto 0;
+  border-radius: 14px; overflow: hidden;
+  box-shadow: 0 8px 24px rgba(79,70,229,0.12), 0 1px 3px rgba(15,23,42,0.04);
+  background: white; border: 2px solid var(--accent);
+}
+.home-search input { flex: 1; border: 0; outline: 0; padding: 13px 18px; font-size: 15px; }
+.home-search .go { background: var(--accent); color: white; padding: 0 22px; font-weight: 700; font-size: 13px; display: grid; place-items: center; }
+.home-search .go:hover { background: var(--accent-hover); }
+
+/* Quick start strip */
+.quick-start {
+  max-width: 1100px; margin: var(--s-6) auto 0;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-3);
+  padding: 0 var(--s-6);
+}
+.qs-card {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--r-lg); padding: var(--s-4) var(--s-5);
+  cursor: pointer; transition: all var(--d-fast) var(--ease);
+  display: flex; align-items: center; gap: var(--s-3);
+}
+.qs-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-2); }
+.qs-card .icn-bg {
+  width: 44px; height: 44px; border-radius: var(--r-md);
+  display: grid; place-items: center; flex-shrink: 0;
+  font-size: 22px;
+}
+.qs-card.flash .icn-bg { background: linear-gradient(135deg, #EEF2FF, #E0E7FF); color: var(--accent); }
+.qs-card.quiz .icn-bg { background: linear-gradient(135deg, #FEF3C7, #FDE68A); color: #B45309; }
+.qs-card.random .icn-bg { background: linear-gradient(135deg, #D1FAE5, #A7F3D0); color: #065F46; }
+.qs-card .info { flex: 1; min-width: 0; }
+.qs-card .title { font-size: 14px; font-weight: 800; color: var(--text-1); }
+.qs-card .desc { font-size: 11.5px; color: var(--text-3); margin-top: 2px; }
+
+.home-section { padding: var(--s-6) var(--s-6); max-width: 1100px; margin: 0 auto; }
+.home-section .head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: var(--s-3); }
+.home-section h2 { margin: 0; font-size: 14px; font-weight: 800; color: var(--text-1); letter-spacing: -0.005em; }
+.home-section .more { font-size: 12px; color: var(--text-3); cursor: pointer; }
+.home-section .more:hover { color: var(--accent); }
+
+/* Featured big card */
+.featured-grid { display: grid; grid-template-columns: 2fr 3fr; gap: var(--s-3); }
+.featured-big {
+  background: linear-gradient(135deg, var(--accent), #7C3AED);
+  color: white; border-radius: var(--r-lg); padding: var(--s-5);
+  cursor: pointer; transition: all var(--d-fast) var(--ease);
+  display: flex; flex-direction: column;
+  position: relative; overflow: hidden;
+}
+.featured-big:hover { transform: translateY(-2px); box-shadow: var(--shadow-3); }
+.featured-big::before {
+  content: ""; position: absolute; top: -40px; right: -40px;
+  width: 160px; height: 160px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 50%;
+}
+.featured-big .label { font-size: 11px; font-weight: 700; opacity: 0.85; letter-spacing: 0.06em; text-transform: uppercase; position: relative; }
+.featured-big .word { font-size: 36px; font-weight: 800; letter-spacing: -0.02em; margin-top: 6px; line-height: 1.0; position: relative; }
+.featured-big .pron { font-family: "SF Mono", Monaco, monospace; font-size: 12px; opacity: 0.85; margin-top: 4px; position: relative; }
+.featured-big .meaning { font-size: 16px; font-weight: 600; margin-top: var(--s-3); opacity: 0.95; position: relative; }
+.featured-big .ex {
+  font-size: 12.5px; opacity: 0.92; line-height: 1.5;
+  padding: 8px 10px; background: rgba(255,255,255,0.14);
+  border-radius: var(--r-sm); border-left: 2px solid rgba(255,255,255,0.5);
+  margin-top: var(--s-3); position: relative;
+}
+.featured-big .cta { margin-top: auto; padding-top: var(--s-3); font-size: 12px; font-weight: 700; opacity: 0.9; position: relative; }
+
+.todays-mini-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: var(--s-3); align-content: start; }
+.today-card {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--r-md); padding: var(--s-3) var(--s-4);
+  cursor: pointer; transition: all var(--d-fast) var(--ease);
+  display: flex; flex-direction: column; gap: 2px;
+  min-height: 86px;
+}
+.today-card:hover { border-color: var(--border-strong); box-shadow: var(--shadow-1); transform: translateY(-1px); }
+.today-card .top { display: flex; gap: 4px; }
+.today-card .word { font-size: 16px; font-weight: 800; color: var(--text-1); letter-spacing: -0.005em; margin-top: 4px; }
+.today-card .meaning { font-size: 12px; font-weight: 500; color: var(--text-3); margin-top: 1px; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: var(--s-2); }
+.cat-tile {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--r-md); padding: 14px 8px; text-align: center; cursor: pointer;
+  transition: all var(--d-fast) var(--ease);
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+}
+.cat-tile:hover { background: var(--accent-soft); border-color: var(--accent); transform: translateY(-1px); }
+.cat-tile .emoji { font-size: 24px; line-height: 1; }
+.cat-tile .name { font-weight: 700; color: var(--text-1); font-size: 12px; }
+.cat-tile .count { font-size: 10.5px; color: var(--text-3); }
+
+.recent-list { display: flex; gap: 6px; flex-wrap: wrap; }
+.recent-item {
+  padding: 5px 11px; border-radius: var(--r-full);
+  background: var(--surface-1); border: 1px solid var(--border);
+  font-size: 12px; color: var(--text-2);
+  display: flex; align-items: center; gap: 5px;
+}
+.recent-item:hover { background: var(--surface-2); }
+.recent-item .meaning { color: var(--text-4); font-size: 11px; }
+.recent-item .empty { color: var(--text-4); font-size: 11px; padding: 0 4px; }
+
+/* LIST view (search or filter active) */
+.list-view { padding: var(--s-5) var(--s-6) var(--s-12); max-width: 1100px; margin: 0 auto; }
+.list-head {
+  display: flex; align-items: baseline; gap: var(--s-3); flex-wrap: wrap;
+  margin-bottom: var(--s-4);
+}
+.list-head h1 { margin: 0; font-size: 22px; font-weight: 800; color: var(--text-1); letter-spacing: -0.01em; }
+.list-head .count { font-size: 14px; color: var(--text-3); font-weight: 500; }
+.list-head .active-filters { display: flex; gap: 6px; margin-left: auto; flex-wrap: wrap; }
+.list-tools { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; width: 100%; }
+.list-head .filter-chip {
+  font-size: 11px; padding: 3px 8px; border-radius: var(--r-full);
+  background: var(--accent-soft); color: var(--accent-text); font-weight: 600;
+  display: flex; align-items: center; gap: 4px;
+}
+.list-head .filter-chip .x { cursor: pointer; opacity: 0.6; }
+.list-head .filter-chip .x:hover { opacity: 1; }
+.list-toggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 10px; border-radius: var(--r-full);
+  background: var(--surface-2); color: var(--text-2);
+  font-size: 11.5px; font-weight: 700;
+  border: 1px solid transparent;
+}
+.list-toggle:hover { background: var(--surface-3); color: var(--text-1); }
+.list-toggle.is-active { background: var(--success-soft); color: var(--success-text); border-color: rgba(16,185,129,0.22); }
+
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--s-3); }
+.word-card {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--r-md); padding: var(--s-4);
+  cursor: pointer; transition: all var(--d-fast) var(--ease);
+  display: flex; flex-direction: column; gap: 4px; min-height: 160px;
+}
+.word-card:hover { border-color: var(--border-strong); box-shadow: var(--shadow-1); transform: translateY(-1px); }
+.word-card .top { display: flex; gap: 4px; margin-bottom: 2px; align-items: center; }
+.word-card .star { margin-left: auto; color: var(--text-4); font-size: 14px; cursor: pointer; padding: 2px 4px; }
+.word-card .star.is-fav { color: #F59E0B; }
+.word-card .word { font-size: 19px; font-weight: 800; color: var(--text-1); letter-spacing: -0.005em; }
+.word-card .pron { font-family: "SF Mono", Monaco, monospace; font-size: 10.5px; color: var(--text-3); margin-top: 2px; }
+.word-card .meaning { font-size: 13px; font-weight: 600; color: var(--text-2); margin-top: 6px; }
+.word-card .ex { font-size: 11.5px; color: var(--text-3); margin-top: 6px; line-height: 1.4; flex: 1; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+.empty-state {
+  text-align: center; padding: var(--s-12) var(--s-5); color: var(--text-3);
+}
+.empty-state .icon { font-size: 36px; opacity: 0.5; margin-bottom: 10px; }
+.empty-state .msg { font-size: 14px; }
+
+/* DETAIL view (word selected) */
+.detail-view { max-width: 920px; margin: 0 auto; padding: var(--s-5) var(--s-6) var(--s-12); }
+.detail-back {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 6px 10px; margin-bottom: var(--s-3);
+  background: var(--surface-2); border-radius: var(--r-sm);
+  font-size: 12px; font-weight: 600; color: var(--text-2);
+}
+.detail-back:hover { background: var(--surface-3); color: var(--text-1); }
+.detail-back svg { width: 12px; height: 12px; }
+
+.detail-card {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--r-lg); padding: var(--s-6); box-shadow: var(--shadow-1);
+}
+.detail-head {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: var(--s-4);
+  flex-wrap: wrap;
+}
+.detail-head .title { font-size: 36px; font-weight: 800; color: var(--text-1); letter-spacing: -0.02em; line-height: 1.05; margin: 0; }
+.detail-head .pron { font-family: "SF Mono", Monaco, monospace; font-size: 13px; color: var(--text-3); margin-top: 4px; }
+.detail-head .meta { margin-top: 8px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; color: var(--text-3); font-size: 12px; }
+.detail-head .meta .dot { color: var(--text-4); }
+.detail-actions { display: flex; gap: var(--s-2); flex-wrap: wrap; }
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 12px; border-radius: var(--r-md);
+  font-size: 12.5px; font-weight: 600;
+  background: var(--surface-2); color: var(--text-1);
+  transition: all var(--d-fast) var(--ease);
+}
+.btn:hover { background: var(--surface-3); }
+.btn.primary { background: var(--accent); color: white; }
+.btn.primary:hover { background: var(--accent-hover); }
+.btn.success { background: var(--success-soft); color: var(--success-text); }
+.btn.danger { background: var(--danger-soft); color: var(--danger-text); }
+.btn.ghost { background: transparent; }
+.btn.ghost:hover { background: var(--surface-2); }
+.btn.is-active { background: var(--accent-soft); color: var(--accent-text); }
+.btn svg { width: 13px; height: 13px; }
+
+.cefr-pill { font-size: 10px; font-weight: 800; padding: 2px 6px; border-radius: var(--r-sm); letter-spacing: 0.04em; display: inline-block; }
+.cefr-pill.A1 { background: rgba(16,185,129,0.14); color: var(--cefr-a1); }
+.cefr-pill.A2 { background: rgba(14,165,233,0.14); color: var(--cefr-a2); }
+.cefr-pill.B1 { background: rgba(245,158,11,0.14); color: var(--cefr-b1); }
+.cefr-pill.B2 { background: rgba(239,68,68,0.14); color: var(--cefr-b2); }
+.pos-pill { font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: var(--r-sm); background: var(--surface-3); color: var(--text-3); display: inline-block; }
+
+.audio-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; border-radius: var(--r-full);
+  background: var(--surface-2); color: var(--accent);
+  margin-left: 8px; vertical-align: middle;
+  transition: all var(--d-fast) var(--ease);
+}
+.audio-btn:hover { background: var(--accent-soft); transform: scale(1.05); }
+.audio-btn.is-playing {
+  background: var(--accent); color: white;
+  animation: pulse-audio 1.5s var(--ease) infinite;
+}
+@keyframes pulse-audio {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(79, 70, 229, 0); }
+}
+.audio-btn svg { width: 14px; height: 14px; }
+
+.section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--text-3); letter-spacing: 0.06em; margin-bottom: 8px; }
+.kor-meaning { font-size: 22px; font-weight: 800; color: var(--text-1); line-height: 1.3; }
+.eng-def { font-size: 13.5px; color: var(--text-2); line-height: 1.6; margin-top: 4px; font-style: italic; }
+
+.dual-row { background: var(--surface-2); border-radius: var(--r-md); padding: var(--s-4); }
+.dual-row .ex { font-size: 16px; font-weight: 600; color: var(--text-1); line-height: 1.5; letter-spacing: -0.005em; }
+.dual-row .tr { font-size: 13.5px; color: var(--text-2); margin-top: 6px; line-height: 1.5; }
+
+.detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-4); margin-top: var(--s-5); }
+.detail-grid > .span2 { grid-column: 1 / -1; }
+.detail-grid .panel {
+  border: 1px solid var(--border); border-radius: var(--r-md);
+  padding: var(--s-4); background: var(--surface-1);
+}
+
+.point-block, .pitfall-block {
+  margin-top: var(--s-3); padding: var(--s-4);
+  border-radius: var(--r-md);
+  font-size: 13px; line-height: 1.6;
+}
+.point-block { background: var(--accent-soft); border-left: 3px solid var(--accent); color: var(--accent-text); }
+.pitfall-block { background: rgba(245,158,11,0.08); border-left: 3px solid var(--cefr-b1); color: var(--text-1); }
+
+.lex-section { margin-top: var(--s-4); }
+.lex-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 4px; }
+.lex-tag {
+  font-size: 11.5px; padding: 3px 9px; border-radius: var(--r-full);
+  background: var(--surface-2); color: var(--text-2); font-weight: 600;
+}
+.lex-tag.syn { background: rgba(16,185,129,0.10); color: var(--cefr-a1); }
+.lex-tag.ant { background: rgba(239,68,68,0.10); color: var(--cefr-b2); }
+.lex-tag.fam { background: rgba(14,165,233,0.10); color: var(--cefr-a2); }
+.lex-section .label-inline { font-size: 10px; font-weight: 700; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.06em; min-width: 50px; }
+
+.pattern-card { background: var(--surface-2); border-radius: var(--r-md); padding: var(--s-4); border-left: 3px solid var(--accent); }
+.pattern-text { font-family: "SF Mono", Monaco, monospace; font-size: 13px; font-weight: 700; color: var(--accent-text); margin-bottom: 6px; }
+
+.practice-card { background: linear-gradient(135deg, var(--surface-2), var(--surface-3)); border-radius: var(--r-md); padding: var(--s-4); }
+.practice-q { font-size: 14px; color: var(--text-1); line-height: 1.55; }
+.practice-q .blank { display: inline-block; min-width: 70px; border-bottom: 2px solid var(--accent); margin: 0 4px; }
+.practice-a { margin-top: 6px; font-size: 12px; color: var(--success-text); }
+.practice-h { font-size: 11.5px; color: var(--text-3); margin-top: 4px; font-style: italic; }
+
+.sense-list { display: flex; flex-direction: column; gap: var(--s-3); margin-top: var(--s-4); }
+.sense-item { border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--s-4); background: var(--surface-1); }
+.sense-head { display: flex; align-items: center; gap: var(--s-2); margin-bottom: 8px; }
+.sense-num { width: 20px; height: 20px; border-radius: var(--r-full); background: var(--accent-soft); color: var(--accent-text); font-size: 10px; font-weight: 700; display: grid; place-items: center; }
+.sense-label { font-size: 12px; font-weight: 700; color: var(--text-1); text-transform: uppercase; letter-spacing: 0.04em; }
+.sense-grammar { font-size: 10.5px; color: var(--text-3); padding: 2px 6px; border-radius: var(--r-sm); background: var(--surface-2); }
+.sense-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-3); margin-top: 6px; }
+.sense-ko strong { display: block; font-size: 14px; color: var(--text-1); margin-bottom: 2px; }
+.sense-ko .desc { font-size: 12px; color: var(--text-2); line-height: 1.5; }
+.sense-en .ex { font-size: 13px; font-weight: 600; color: var(--text-1); line-height: 1.5; }
+.sense-en .tr { font-size: 12px; color: var(--text-2); margin-top: 3px; line-height: 1.5; }
+.sense-note { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--border); font-size: 11.5px; color: var(--text-3); line-height: 1.5; }
+
+/* ============ Flashcard ============ */
+.deck-strip {
+  display: flex; align-items: center; gap: var(--s-3);
+  width: 100%; max-width: 720px;
+  padding: 10px 14px;
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--r-full); box-shadow: var(--shadow-1);
+  font-size: 12px; color: var(--text-3);
+  margin-bottom: var(--s-5);
+}
+.deck-strip .deck-btn { padding: 5px 9px; border-radius: var(--r-full); background: var(--surface-2); font-weight: 600; color: var(--text-2); font-size: 11.5px; }
+.deck-strip .deck-btn:hover { background: var(--surface-3); }
+.deck-strip .progress { flex: 1; height: 6px; background: var(--surface-3); border-radius: var(--r-full); overflow: hidden; position: relative; }
+.deck-strip .progress .fill { position: absolute; top: 0; left: 0; bottom: 0; background: linear-gradient(90deg, var(--accent), #7C3AED); border-radius: var(--r-full); transition: width var(--d-mid) var(--ease); }
+.deck-strip .counter { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text-2); }
+
+/* 3D flip flashcard */
+.flashcard-wrap { width: 100%; max-width: 720px; perspective: 1500px; }
+.flashcard {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 360px;
+}
+.flashcard.is-flipped { transform: rotateY(180deg); }
+.card-face {
+  position: absolute; inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--r-xl); padding: var(--s-8) var(--s-6) var(--s-6);
+  box-shadow: var(--shadow-2);
+  display: flex; flex-direction: column;
+}
+.card-back { transform: rotateY(180deg); }
+.card-face .meta-row { display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--text-3); }
+.card-face .word-block { text-align: center; padding: var(--s-8) 0 var(--s-5); flex: 1; display: flex; flex-direction: column; justify-content: center; }
+.card-face .word { font-size: 48px; font-weight: 800; color: var(--text-1); letter-spacing: -0.03em; line-height: 1.0; }
+.card-face .word-pos { margin-top: 8px; color: var(--text-3); font-size: 13px; }
+.card-face .reveal-hint { font-size: 12px; color: var(--text-4); text-align: center; }
+.card-face .reveal-hint kbd { display: inline-block; padding: 1px 6px; border-radius: 4px; background: var(--surface-2); border: 1px solid var(--border); font-size: 11px; font-weight: 600; }
+.card-back .meaning { font-size: 22px; font-weight: 800; color: var(--text-1); text-align: center; margin-bottom: var(--s-3); }
+.card-back .ex-block { margin: 0 auto; max-width: 540px; padding: var(--s-3) var(--s-4); border-left: 3px solid var(--accent); background: var(--surface-2); border-radius: 0 var(--r-md) var(--r-md) 0; }
+.card-back .ex { font-size: 15px; font-weight: 600; color: var(--text-1); line-height: 1.5; }
+.card-back .tr { font-size: 13px; color: var(--text-2); margin-top: 4px; }
+.card-back .quick-sense { margin-top: var(--s-3); text-align: center; font-size: 12px; color: var(--text-3); line-height: 1.5; }
+
+.card-actions { display: flex; align-items: center; justify-content: space-between; margin-top: var(--s-4); gap: var(--s-3); width: 100%; max-width: 720px; }
+.card-actions .btn { padding: 9px 16px; font-size: 13px; }
+.card-actions .nav-btn { width: 36px; height: 36px; border-radius: var(--r-full); display: grid; place-items: center; background: var(--surface-2); color: var(--text-2); }
+.card-actions .nav-btn:hover { background: var(--surface-3); color: var(--text-1); }
+
+/* ============ Quiz ============ */
+.quiz-card {
+  width: 100%; max-width: 640px;
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--r-xl); padding: var(--s-6);
+  box-shadow: var(--shadow-1);
+  transition: border-color var(--d-mid) var(--ease), box-shadow var(--d-mid) var(--ease);
+}
+.quiz-card.is-correct { border-color: var(--success); box-shadow: 0 0 0 4px rgba(16,185,129,0.18); animation: pulse 320ms var(--ease); }
+.quiz-card.is-wrong { border-color: var(--danger); box-shadow: 0 0 0 4px rgba(239,68,68,0.18); animation: shake 320ms var(--ease); }
+@keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(16,185,129,0)} 60%{box-shadow:0 0 0 8px rgba(16,185,129,0.16)} 100%{box-shadow:0 0 0 4px rgba(16,185,129,0.18)} }
+@keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-6px)} 50%{transform:translateX(6px)} 75%{transform:translateX(-3px)} }
+.quiz-progress { display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--s-4); font-size: 12px; color: var(--text-3); }
+.quiz-dots { display: flex; gap: 4px; }
+.quiz-dot { width: 6px; height: 6px; border-radius: var(--r-full); background: var(--surface-3); }
+.quiz-dot.is-done { background: var(--accent); }
+.quiz-dot.is-current { background: var(--accent); transform: scale(1.4); }
+.quiz-type-label { font-size: 11px; color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: var(--s-2); }
+.quiz-question { font-size: 19px; line-height: 1.4; color: var(--text-1); font-weight: 700; letter-spacing: -0.01em; }
+.quiz-question .blank { display: inline-block; min-width: 90px; border-bottom: 2px solid var(--accent); margin: 0 6px; }
+.quiz-translation { font-size: 13px; color: var(--text-3); margin-top: var(--s-2); }
+.quiz-answer-input { width: 100%; padding: 12px 14px; margin-top: var(--s-4); background: var(--surface-2); border: 1px solid transparent; border-radius: var(--r-md); font-size: 15px; font-weight: 600; transition: all var(--d-fast) var(--ease); }
+.quiz-answer-input:focus { background: var(--surface-1); border-color: var(--accent); outline: none; }
+.quiz-options { display: flex; flex-direction: column; gap: 6px; margin-top: var(--s-4); }
+.quiz-option {
+  display: flex; align-items: center; gap: var(--s-3);
+  padding: 11px 14px; background: var(--surface-2);
+  border: 1px solid transparent; border-radius: var(--r-md);
+  text-align: left; font-size: 14px; font-weight: 600; color: var(--text-1);
+  transition: all var(--d-fast) var(--ease);
+}
+.quiz-option:hover { background: var(--surface-3); border-color: var(--border); }
+.quiz-option .opt-letter { width: 24px; height: 24px; border-radius: var(--r-full); background: var(--surface-1); border: 1px solid var(--border); display: grid; place-items: center; font-size: 11px; font-weight: 800; color: var(--text-3); }
+.quiz-option.is-correct { background: var(--success-soft); border-color: var(--success); color: var(--success-text); }
+.quiz-option.is-correct .opt-letter { background: var(--success); color: white; border-color: var(--success); }
+.quiz-option.is-wrong { background: var(--danger-soft); border-color: var(--danger); color: var(--danger-text); }
+.quiz-option.is-wrong .opt-letter { background: var(--danger); color: white; border-color: var(--danger); }
+.quiz-feedback { margin-top: var(--s-4); padding: var(--s-3); border-radius: var(--r-md); font-size: 12.5px; line-height: 1.55; }
+.quiz-feedback.correct { background: var(--success-soft); color: var(--success-text); }
+.quiz-feedback.wrong { background: var(--danger-soft); color: var(--danger-text); }
+.quiz-feedback strong { font-weight: 800; }
+.quiz-actions { display: flex; justify-content: flex-end; gap: var(--s-2); margin-top: var(--s-4); }
+.quiz-results { width: 100%; max-width: 640px; background: var(--surface-1); border: 1px solid var(--border); border-radius: var(--r-xl); padding: var(--s-6); }
+.quiz-results .score-row { display: flex; align-items: baseline; gap: var(--s-3); margin-bottom: var(--s-4); }
+.quiz-results .big-score { font-size: 48px; font-weight: 800; color: var(--text-1); line-height: 1; letter-spacing: -0.02em; }
+.quiz-results .big-score .out-of { font-size: 22px; color: var(--text-3); font-weight: 600; }
+
+/* === Word detail modal === */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(15,23,42,0.55);
+  display: none; z-index: 60;
+  align-items: flex-start; justify-content: center;
+  padding: 5vh var(--s-4);
+  backdrop-filter: blur(4px);
+  overflow-y: auto;
+}
+.modal-overlay.is-open { display: flex; }
+.modal-card {
+  width: 100%; max-width: 880px;
+  background: var(--surface-1); border-radius: var(--r-xl);
+  box-shadow: var(--shadow-3);
+  position: relative;
+  margin-bottom: 5vh;
+  animation: modalIn 200ms var(--ease);
+}
+@keyframes modalIn { from { opacity: 0; transform: translateY(8px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+.modal-close {
+  position: absolute; top: 14px; right: 14px;
+  width: 32px; height: 32px; border-radius: var(--r-full);
+  background: var(--surface-2); color: var(--text-2);
+  display: grid; place-items: center;
+  z-index: 5;
+}
+.modal-close:hover { background: var(--surface-3); color: var(--text-1); }
+.modal-card .detail-card { box-shadow: none; border: 0; padding: var(--s-6) var(--s-8) var(--s-8); }
+
+/* Command palette */
+.palette-overlay {
+  position: fixed; inset: 0;
+  background: rgba(15,23,42,0.5);
+  display: none; z-index: 50;
+  align-items: flex-start; justify-content: center;
+  padding-top: 15vh; backdrop-filter: blur(6px);
+}
+.palette-overlay.is-open { display: flex; }
+.palette {
+  width: 100%; max-width: 560px;
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: var(--r-lg); box-shadow: var(--shadow-3);
+  overflow: hidden;
+}
+.palette-input-wrap { position: relative; padding: 14px; border-bottom: 1px solid var(--border); }
+.palette-input-wrap svg { position: absolute; left: 26px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--text-3); }
+.palette-input { width: 100%; padding: 8px 12px 8px 32px; background: transparent; border: 0; font-size: 16px; outline: 0; }
+.palette-results { max-height: 360px; overflow-y: auto; padding: 6px; }
+.palette-row {
+  display: block; width: 100%; text-align: left;
+  padding: 8px 10px; border-radius: var(--r-sm); cursor: pointer;
+}
+.palette-row:hover, .palette-row.is-focused { background: var(--surface-2); }
+.palette-row .pal-word { font-weight: 700; color: var(--text-1); font-size: 14px; }
+.palette-row .pal-meta { font-size: 11.5px; color: var(--text-3); margin-top: 2px; }
+.palette-foot { border-top: 1px solid var(--border); padding: 6px 14px; display: flex; gap: var(--s-4); font-size: 11px; color: var(--text-3); }
+.palette-foot kbd { padding: 1px 5px; border-radius: 3px; background: var(--surface-2); border: 1px solid var(--border); font-family: inherit; font-size: 10px; }
+
+/* Mobile */
+@media (max-width: 760px) {
+  .topbar { grid-template-columns: 1fr auto auto; }
+  .topbar .brand .lbl { display: none; }
+  .modes .mode .lbl { display: none; }
+  .modes .mode { padding: 6px 10px; }
+  .app { grid-template-columns: 1fr; }
+  .rail {
+    position: fixed; top: 56px; left: -220px; width: 220px; height: calc(100vh - 56px);
+    transition: left var(--d-mid) var(--ease);
+    z-index: 25; box-shadow: var(--shadow-3);
+  }
+  .rail.is-open { left: 0; }
+  .home-hero { padding: var(--s-6) var(--s-4); }
+  .home-section { padding: var(--s-4); }
+  .detail-view { padding: var(--s-4); }
+  .detail-grid { grid-template-columns: 1fr; }
+  .sense-grid { grid-template-columns: 1fr; }
+  .detail-head .title { font-size: 28px; }
+  .flashcard { padding: var(--s-6) var(--s-4); }
+  .flashcard .word { font-size: 36px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 1ms !important; animation-duration: 1ms !important; }
+}
+</style>
+</head>
+<body>
+
+<header class="topbar" role="banner">
+  <div class="brand" id="goHome" title="홈으로">
+    <div class="mark">O</div>
+    <span class="lbl">Oxford 3000</span>
+    <button class="home-btn" id="homeBtn" aria-label="홈으로">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      홈
+    </button>
+  </div>
+  <div class="modes-wrap">
+    <div class="modes" role="tablist" aria-label="Study mode">
+      <button class="mode" role="tab" aria-selected="true" data-mode="browse">
+        <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+        <span class="lbl">Browse</span>
+      </button>
+      <button class="mode" role="tab" aria-selected="false" data-mode="flashcard">
+        <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        <span class="lbl">Flashcard</span>
+      </button>
+      <button class="mode" role="tab" aria-selected="false" data-mode="quiz">
+        <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <span class="lbl">Quiz</span>
+      </button>
+    </div>
+  </div>
+  <div class="right">
+    <button class="icn-btn" id="paletteBtn" aria-label="Search (⌘K)" title="Search (⌘K)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="app">
+  <!-- ===== Slim rail ===== -->
+  <aside class="rail" id="rail">
+    <div>
+      <div class="label">검색</div>
+      <div class="search-mini">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="searchInput" placeholder="단어, 의미, 예문…">
+      </div>
+    </div>
+
+    <div>
+      <div class="label">A-Z 점프</div>
+      <div class="alpha-grid" id="alphaGrid"></div>
+    </div>
+
+    <div>
+      <div class="label">CEFR 레벨</div>
+      <div class="rail-filter" id="cefrFilter"></div>
+    </div>
+
+    <div>
+      <div class="label">품사</div>
+      <div class="rail-filter" id="posFilter"></div>
+    </div>
+
+    <div>
+      <div class="label">학습 상태</div>
+      <div class="rail-filter" id="statusFilter">
+        <button class="item" id="hideKnownToggle" type="button">✓ 외운 단어 숨김 <span class="count"></span></button>
+        <button class="item" data-status="fav">⭐ 즐겨찾기</button>
+        <button class="item" data-status="known">✓ 외움</button>
+        <button class="item" data-status="review">🔄 재학습</button>
+      </div>
+    </div>
+
+    <button class="clear-filters" id="clearFilters" hidden>필터 모두 지우기</button>
+  </aside>
+
+  <!-- ===== Browse pane ===== -->
+  <main class="mode-pane is-active main" id="paneBrowse" role="tabpanel">
+    <!-- view: home / list / detail -->
+    <div id="browseView"></div>
+  </main>
+
+  <!-- ===== Flashcard pane ===== -->
+  <section class="mode-pane" id="paneFlash" role="tabpanel">
+    <div class="deck-strip">
+      <button class="deck-btn" id="deckInfo">덱: 3000</button>
+      <button class="deck-btn" id="deckShuffle">⇄ 셔플</button>
+      <div class="progress"><div class="fill" id="flashProgressFill" style="width: 0.03%"></div></div>
+      <div class="counter" id="flashCounter">1 / 3000</div>
+    </div>
+    <div class="flashcard-wrap">
+      <article class="flashcard" id="flashcard"></article>
+    </div>
+    <div class="card-actions" id="flashActions"></div>
+  </section>
+
+  <!-- ===== Quiz pane ===== -->
+  <section class="mode-pane" id="paneQuiz" role="tabpanel">
+    <article class="quiz-card" id="quizCard"></article>
+  </section>
+</div>
+
+<!-- Word detail modal -->
+<div class="modal-overlay" id="wordModal">
+  <div class="modal-card" id="wordModalCard">
+    <button class="modal-close" id="modalClose" aria-label="닫기" title="닫기 (Esc)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<!-- Command palette -->
+<div class="palette-overlay" id="paletteOverlay">
+  <div class="palette" role="dialog" aria-label="Command palette">
+    <div class="palette-input-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input class="palette-input" id="paletteInput" placeholder="단어 검색…" autocomplete="off">
+    </div>
+    <div class="palette-results" id="paletteResults"></div>
+    <div class="palette-foot">
+      <span><kbd>↑↓</kbd> 이동</span>
+      <span><kbd>Enter</kbd> 열기</span>
+      <span><kbd>Esc</kbd> 닫기</span>
+    </div>
+  </div>
+</div>
+
+<script id="payload" type="application/json">{"entries":[]}</script>
+
+<script>
+// ============ Data load ============
+const _data = JSON.parse(document.getElementById('payload').textContent).entries;
+const $ = id => document.getElementById(id);
+const esc = v => String(v ?? '').replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const norm = v => String(v || '').toLowerCase();
+
+// ============ State ============
+const state = {
+  mode: 'browse',
+  view: 'home', // home / list / detail
+  searchQuery: '',
+  cefrFilter: new Set(),
+  posFilter: new Set(),
+  statusFilter: null, // 'fav' | 'known' | 'review' | null
+  hideKnown: lsGet('vocab.hideKnown', true),
+  letterJump: new Set(), // multi-select letters
+  topicFilter: null, // {name, regex} or null
+  selectedNo: null,
+  flashIdx: 0,
+  flashRevealed: false,
+  flashShuffled: false,
+  flashOrder: null, // array of indices when shuffled
+  quizQ: 0,
+  quizQuestions: [],
+  quizAnswers: [],
+  paletteFocus: 0,
+};
+
+// localStorage helpers
+function lsGet(key, fallback) {
+  try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; }
+  catch (e) { return fallback; }
+}
+function lsSet(key, val) {
+  try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
+}
+const fav = new Set(lsGet('vocab.fav', []));
+const known = new Set(lsGet('vocab.known', []));
+const review = new Set(lsGet('vocab.review', []));
+const recent = lsGet('vocab.recent', []); // array of `no`s, max 12
+
+function saveSets() {
+  lsSet('vocab.fav', Array.from(fav));
+  lsSet('vocab.known', Array.from(known));
+  lsSet('vocab.review', Array.from(review));
+}
+function pushRecent(no) {
+  const i = recent.indexOf(no);
+  if (i >= 0) recent.splice(i, 1);
+  recent.unshift(no);
+  if (recent.length > 12) recent.length = 12;
+  lsSet('vocab.recent', recent);
+}
+
+// ============ POS computed counts ============
+const posCount = {};
+for (const e of _data) {
+  const p = e.corePos.split(',')[0].trim();
+  posCount[p] = (posCount[p] || 0) + 1;
+}
+const posTopList = Object.entries(posCount).sort((a,b)=>b[1]-a[1]).slice(0, 6).map(x => x[0]);
+
+// ============ Filtered list ============
+function filteredEntries() {
+  let list = _data;
+  if (state.cefrFilter.size > 0) list = list.filter(e => state.cefrFilter.has(e.cefr));
+  if (state.posFilter.size > 0) list = list.filter(e => {
+    const p = e.corePos.split(',')[0].trim();
+    return state.posFilter.has(p);
+  });
+  if (state.letterJump.size > 0) list = list.filter(e => state.letterJump.has(e.headword[0].toUpperCase()));
+  if (state.statusFilter === 'fav') list = list.filter(e => fav.has(e.lookup));
+  else if (state.statusFilter === 'known') list = list.filter(e => known.has(e.lookup));
+  else if (state.statusFilter === 'review') list = list.filter(e => review.has(e.lookup));
+  else if (state.hideKnown) list = list.filter(e => !known.has(e.lookup));
+  if (state.topicFilter) {
+    const re = state.topicFilter.regex;
+    list = list.filter(e => re.test((e.meaning || '') + ' ' + (e.coreKo || '') + ' ' + (e.translation || '')));
+  }
+  if (state.searchQuery) {
+    const q = state.searchQuery;
+    list = list.filter(e =>
+      [e.headword, e.lookup, e.meaning, e.coreKo, e.example, e.translation, e.english]
+        .some(x => norm(x).includes(q))
+    );
+  }
+  return list;
+}
+
+function hasAnyFilter() {
+  return state.searchQuery || state.cefrFilter.size > 0 || state.posFilter.size > 0 ||
+         state.letterJump.size > 0 || state.statusFilter || state.topicFilter;
+}
+
+// ============ Mode switching ============
+const modeBtns = document.querySelectorAll('.modes .mode');
+modeBtns.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+const PANE_BY_MODE = { browse: 'paneBrowse', flashcard: 'paneFlash', quiz: 'paneQuiz' };
+function setMode(m) {
+  state.mode = m;
+  modeBtns.forEach(b => b.setAttribute('aria-selected', b.dataset.mode === m));
+  const targetId = PANE_BY_MODE[m];
+  document.querySelectorAll('.mode-pane').forEach(p => p.classList.toggle('is-active', p.id === targetId));
+  if (m === 'browse') renderBrowse();
+  else if (m === 'flashcard') renderFlashcard();
+  else if (m === 'quiz') startQuiz();
+}
+
+// ============ Browse view ============
+function renderBrowse() {
+  const view = $('browseView');
+  if (state.view === 'list' || hasAnyFilter()) {
+    view.innerHTML = renderListHTML();
+    wireList();
+  } else {
+    view.innerHTML = renderHomeHTML();
+    wireHome();
+  }
+}
+
+function renderHomeHTML() {
+  // Daily seed (changes once per day)
+  const seed = Math.floor(Date.now() / (1000*60*60*24));
+  const featured = pickRandom(_data, 6, seed);
+  const big = featured[0];
+  const minis = featured.slice(1, 6);
+
+  // Time-based greeting
+  const h = new Date().getHours();
+  let greeting;
+  if (h >= 5 && h < 11) greeting = '☕ 좋은 아침이에요';
+  else if (h >= 11 && h < 17) greeting = '☀️ 오늘도 한 걸음 더';
+  else if (h >= 17 && h < 22) greeting = '🌆 오늘 하루도 수고하셨어요';
+  else greeting = '🌙 자기 전에 단어 한 개';
+
+  // Recent
+  const recentEntries = recent.map(no => _data.find(e => e.no === no)).filter(Boolean).slice(0, 10);
+
+  // Topic counts (computed from data: keyword search)
+  const topics = [
+    {k:'business', emoji:'💼', name:'비즈니스', kw:'(회사|회의|업무|보고서|이메일|동료|상사|프로젝트|마감|매출)'},
+    {k:'travel',   emoji:'✈️', name:'여행',     kw:'(여행|공항|호텔|비행기|관광|예약|출장|티켓)'},
+    {k:'health',   emoji:'🏥', name:'병원·건강', kw:'(병원|의사|약|건강|검진|처방|치료|아프|통증|간호)'},
+    {k:'money',    emoji:'💰', name:'돈·금융',   kw:'(돈|월급|적금|송금|은행|카드|결제|환불|예산|월세)'},
+    {k:'food',     emoji:'🍴', name:'음식·요리', kw:'(음식|요리|식사|메뉴|식당|레시피|밥|커피|차)'},
+    {k:'home',     emoji:'🏠', name:'집·이사',   kw:'(이사|아파트|집|방|거실|부엌|침실|월세|보증금|인테리어)'},
+    {k:'school',   emoji:'🎓', name:'학교·시험', kw:'(학교|학생|시험|수업|공부|숙제|성적|졸업|학원)'},
+    {k:'tech',     emoji:'📱', name:'앱·기술',   kw:'(앱|스마트폰|컴퓨터|노트북|와이파이|구독|업데이트|인터넷)'},
+  ];
+  // Compute approximate counts (reuse from cache if exists)
+  const topicCounts = (window._topicCounts ||= computeTopicCounts(topics));
+
+  return `
+    <section class="home-hero">
+      <div class="home-hero-inner">
+        <div class="home-greeting">${greeting}</div>
+        <h1>오늘도 영어 단어 한 개 더</h1>
+        <div class="sub">Oxford 3000 — 한국 학습자를 위한 회화·실용 영어 단어장</div>
+        <div class="home-search">
+          <input type="search" id="homeSearch" placeholder="단어, 의미, 예문으로 검색해 보세요…">
+          <button class="go" id="homeSearchGo">검색</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="quick-start">
+      <div class="qs-card flash" data-action="go-flash">
+        <div class="icn-bg">🎴</div>
+        <div class="info"><div class="title">Flashcard 학습</div><div class="desc">3D 카드로 외우기</div></div>
+      </div>
+      <div class="qs-card quiz" data-action="go-quiz">
+        <div class="icn-bg">📝</div>
+        <div class="info"><div class="title">Quiz 도전</div><div class="desc">10문제 자동 출제</div></div>
+      </div>
+      <div class="qs-card random" data-action="go-random">
+        <div class="icn-bg">🎲</div>
+        <div class="info"><div class="title">랜덤 단어</div><div class="desc">한 단어 무작위 보기</div></div>
+      </div>
+    </div>
+
+    <section class="home-section">
+      <div class="head">
+        <h2>⭐ 오늘의 단어</h2>
+        <span class="more" id="refreshFeatured">새로 뽑기 ↻</span>
+      </div>
+      <div class="featured-grid">
+        <article class="featured-big" data-no="${big.no}">
+          <div class="label">B${big.cefr.replace('B','')}? · ${esc(big.posCefr)}</div>
+          <div class="word">${esc(big.headword)}</div>
+          <div class="pron">${esc(big.pronunciation || '')}</div>
+          <div class="meaning">${esc(big.meaning)}</div>
+          <div class="ex">${esc(big.example)}<br><span style="opacity:0.85;font-size:11px;">${esc(big.translation)}</span></div>
+          <div class="cta">자세히 보기 →</div>
+        </article>
+        <div class="todays-mini-grid">
+          ${minis.map(w => `
+            <article class="today-card" data-no="${w.no}">
+              <div class="top">
+                <span class="cefr-pill ${w.cefr}">${w.cefr}</span>
+                <span class="pos-pill">${esc(w.corePos)}</span>
+              </div>
+              <div class="word">${esc(w.headword)}</div>
+              <div class="meaning">${esc(w.meaning)}</div>
+            </article>
+          `).join('')}
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section">
+      <div class="head"><h2>📖 CEFR 레벨별</h2></div>
+      <div class="cat-grid">
+        <div class="cat-tile" data-cefr="A1"><div class="emoji">🌱</div><div class="name">A1 입문</div><div class="count">${countByCefr('A1')} 단어</div></div>
+        <div class="cat-tile" data-cefr="A2"><div class="emoji">🌿</div><div class="name">A2 초급</div><div class="count">${countByCefr('A2')} 단어</div></div>
+        <div class="cat-tile" data-cefr="B1"><div class="emoji">🌳</div><div class="name">B1 중급</div><div class="count">${countByCefr('B1')} 단어</div></div>
+        <div class="cat-tile" data-cefr="B2"><div class="emoji">🍀</div><div class="name">B2 중상급</div><div class="count">${countByCefr('B2')} 단어</div></div>
+      </div>
+    </section>
+
+    <section class="home-section">
+      <div class="head"><h2>🗂 주제별</h2></div>
+      <div class="cat-grid">
+        ${topics.map(t => `
+          <div class="cat-tile" data-topic="${t.k}" data-kw="${esc(t.kw)}">
+            <div class="emoji">${t.emoji}</div>
+            <div class="name">${t.name}</div>
+            <div class="count">${topicCounts[t.k] || 0} 단어</div>
+          </div>
+        `).join('')}
+      </div>
+    </section>
+
+    <section class="home-section">
+      <div class="head"><h2>🕓 최근 본 단어</h2>${recentEntries.length > 0 ? '<span class="more" id="clearRecent">기록 비우기</span>' : ''}</div>
+      <div class="recent-list">
+        ${recentEntries.length === 0 ? '<span class="empty" style="color:var(--text-4);font-size:12px;">아직 본 단어가 없어요. 단어를 클릭하면 여기에 기록돼요.</span>' :
+          recentEntries.map(w => `<button class="recent-item" data-no="${w.no}">${esc(w.headword)} <span class="meaning">${esc(w.meaning).slice(0,18)}</span></button>`).join('')}
+      </div>
+    </section>
+  `;
+}
+
+function computeTopicCounts(topics) {
+  const counts = {};
+  for (const t of topics) {
+    const re = new RegExp(t.kw);
+    let n = 0;
+    for (const e of _data) {
+      const blob = (e.meaning || '') + ' ' + (e.coreKo || '') + ' ' + (e.translation || '');
+      if (re.test(blob)) n++;
+    }
+    counts[t.k] = n;
+  }
+  return counts;
+}
+
+function todayCardHTML(w) {
+  return `
+    <article class="today-card" data-no="${w.no}">
+      <div class="top">
+        <span class="cefr-pill ${w.cefr}">${w.cefr}</span>
+        <span class="pos-pill">${esc(w.corePos)}</span>
+      </div>
+      <div class="word">${esc(w.headword)}</div>
+      <div class="pron">${esc(w.pronunciation || '')}</div>
+      <div class="meaning">${esc(w.meaning || '')}</div>
+      <div class="ex">${esc(w.example || '')}<br><span style="color: var(--text-4); font-size: 11px;">${esc(w.translation || '')}</span></div>
+    </article>
+  `;
+}
+
+function wireHome() {
+  // Word cards (today + featured big)
+  document.querySelectorAll('.today-card[data-no], .featured-big[data-no]').forEach(c => c.addEventListener('click', () => openWord(parseInt(c.dataset.no))));
+  document.querySelectorAll('.recent-item[data-no]').forEach(c => c.addEventListener('click', () => openWord(parseInt(c.dataset.no))));
+
+  // CEFR tiles
+  document.querySelectorAll('.cat-tile[data-cefr]').forEach(c => c.addEventListener('click', () => {
+    state.cefrFilter.clear();
+    state.cefrFilter.add(c.dataset.cefr);
+    state.view = 'list';
+    renderRail(); renderBrowse();
+  }));
+
+  // Topic tiles — search by keyword regex (matches meaning/coreKo/translation)
+  document.querySelectorAll('.cat-tile[data-topic]').forEach(c => c.addEventListener('click', () => {
+    const kw = c.dataset.kw;
+    state.searchQuery = '';  // clear text search
+    state.topicFilter = { name: c.querySelector('.name').textContent, regex: new RegExp(kw) };
+    state.view = 'list';
+    renderRail(); renderBrowse();
+  }));
+
+  // Quick start actions
+  document.querySelectorAll('[data-action="go-flash"]').forEach(b => b.addEventListener('click', () => setMode('flashcard')));
+  document.querySelectorAll('[data-action="go-quiz"]').forEach(b => b.addEventListener('click', () => setMode('quiz')));
+  document.querySelectorAll('[data-action="go-random"]').forEach(b => b.addEventListener('click', () => {
+    const r = _data[Math.floor(Math.random() * _data.length)];
+    openWord(r.no);
+  }));
+
+  // Refresh featured
+  const refresh = $('refreshFeatured');
+  if (refresh) refresh.addEventListener('click', () => {
+    // shift seed
+    window._featuredShift = (window._featuredShift || 0) + 1;
+    renderBrowse();
+  });
+
+  // Clear recent
+  const cr = $('clearRecent');
+  if (cr) cr.addEventListener('click', () => {
+    recent.length = 0; lsSet('vocab.recent', recent);
+    renderBrowse();
+  });
+
+  const hs = $('homeSearch');
+  if (hs) {
+    hs.addEventListener('input', e => {
+      state.searchQuery = norm(e.target.value);
+      $('searchInput').value = e.target.value;
+      if (state.searchQuery) { state.view = 'list'; renderBrowse(); }
+    });
+    hs.addEventListener('keydown', e => { if (e.key === 'Enter') { state.view = 'list'; renderBrowse(); } });
+  }
+}
+
+function renderListHTML() {
+  const list = filteredEntries();
+  const total = list.length;
+  const filterChips = [];
+  if (state.searchQuery) filterChips.push({k:'search', label:`검색: "${esc(state.searchQuery)}"`});
+  state.cefrFilter.forEach(c => filterChips.push({k:'cefr-'+c, label:c}));
+  state.posFilter.forEach(p => filterChips.push({k:'pos-'+p, label:p}));
+  state.letterJump.forEach(L => filterChips.push({k:'letter-'+L, label:L+'으로 시작'}));
+  if (state.topicFilter) filterChips.push({k:'topic', label:'주제: '+state.topicFilter.name});
+  if (state.statusFilter) {
+    const labels = {fav:'⭐ 즐겨찾기', known:'✓ 외움', review:'🔄 재학습'};
+    filterChips.push({k:'status', label:labels[state.statusFilter]});
+  }
+  if (state.hideKnown && state.statusFilter !== 'known' && known.size > 0) {
+    filterChips.push({k:'hideKnown', label:`외운 단어 숨김 ${known.size.toLocaleString()}개`});
+  }
+  const emptyMessage = state.hideKnown && known.size > 0
+    ? '결과가 없어요. 외운 단어 숨김을 잠시 꺼 보세요.'
+    : '결과가 없어요. 필터를 풀어 보세요.';
+  return `
+    <div class="list-view">
+      <div class="list-head">
+        <h1>단어 목록</h1>
+        <span class="count">${total.toLocaleString()} 단어</span>
+        <div class="list-tools">
+          <button class="list-toggle ${state.hideKnown?'is-active':''}" id="hideKnownListToggle" type="button">
+            ${state.hideKnown ? `✓ 외운 단어 숨김${known.size ? ` · ${known.size.toLocaleString()}개` : ''}` : '외운 단어도 표시 중'}
+          </button>
+          <div class="active-filters">
+            ${filterChips.map(c => `<span class="filter-chip">${c.label}<span class="x" data-clear="${c.k}">×</span></span>`).join('')}
+          </div>
+        </div>
+      </div>
+      ${total === 0 ? `
+        <div class="empty-state">
+          <div class="icon">🔍</div>
+          <div class="msg">${emptyMessage}</div>
+        </div>
+      ` : `
+        <div class="cards-grid">
+          ${list.map(w => wordCardHTML(w)).join('')}
+        </div>
+      `}
+    </div>
+  `;
+}
+
+function wordCardHTML(w) {
+  return `
+    <article class="word-card" data-no="${w.no}">
+      <div class="top">
+        <span class="cefr-pill ${w.cefr}">${w.cefr}</span>
+        <span class="pos-pill">${esc(w.corePos)}</span>
+        <button class="star ${fav.has(w.lookup)?'is-fav':''}" data-fav="${w.lookup}" aria-label="즐겨찾기" title="즐겨찾기">${fav.has(w.lookup)?'★':'☆'}</button>
+      </div>
+      <div class="word">${esc(w.headword)}</div>
+      <div class="pron">${esc(w.pronunciation || '')}</div>
+      <div class="meaning">${esc(w.meaning || '')}</div>
+      <div class="ex">${esc(w.example || '')}</div>
+    </article>
+  `;
+}
+
+function wireList() {
+  document.querySelectorAll('.word-card[data-no]').forEach(c => c.addEventListener('click', e => {
+    if (e.target.closest('[data-fav]')) return;
+    openWord(parseInt(c.dataset.no));
+  }));
+  document.querySelectorAll('[data-fav]').forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation();
+    const lookup = b.dataset.fav;
+    if (fav.has(lookup)) fav.delete(lookup); else fav.add(lookup);
+    saveSets();
+    b.classList.toggle('is-fav');
+    b.textContent = fav.has(lookup) ? '★' : '☆';
+  }));
+  document.querySelectorAll('[data-clear]').forEach(b => b.addEventListener('click', () => {
+    const k = b.dataset.clear;
+    if (k === 'search') { state.searchQuery = ''; $('searchInput').value = ''; }
+    else if (k.startsWith('cefr-')) state.cefrFilter.delete(k.slice(5));
+    else if (k.startsWith('pos-')) state.posFilter.delete(k.slice(4));
+    else if (k.startsWith('letter-')) state.letterJump.delete(k.slice(7));
+    else if (k === 'topic') state.topicFilter = null;
+    else if (k === 'status') state.statusFilter = null;
+    else if (k === 'hideKnown') {
+      state.hideKnown = false;
+      lsSet('vocab.hideKnown', state.hideKnown);
+    }
+    if (!hasAnyFilter()) state.view = 'home';
+    renderRail(); renderBrowse();
+  }));
+  const hideToggle = $('hideKnownListToggle');
+  if (hideToggle) hideToggle.addEventListener('click', () => {
+    state.hideKnown = !state.hideKnown;
+    lsSet('vocab.hideKnown', state.hideKnown);
+    state.view = 'list';
+    renderRail(); renderBrowse();
+  });
+}
+
+function openWord(no) {
+  state.selectedNo = no;
+  pushRecent(no);
+  const w = _data.find(e => e.no === no);
+  if (!w) return;
+  $('modalBody').innerHTML = renderDetailHTML(w);
+  $('wordModal').classList.add('is-open');
+  document.body.style.overflow = 'hidden';
+  $('wordModal').scrollTop = 0;
+  wireDetail();
+  // If home was empty, refresh recent list once modal closes? defer.
+}
+function closeWordModal() {
+  $('wordModal').classList.remove('is-open');
+  document.body.style.overflow = '';
+  // Re-render home/list to reflect any state changes (fav/known/review/recent)
+  renderBrowse();
+}
+$('modalClose').addEventListener('click', closeWordModal);
+$('wordModal').addEventListener('click', e => { if (e.target === $('wordModal')) closeWordModal(); });
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && $('wordModal').classList.contains('is-open')) closeWordModal();
+});
+
+function renderDetailHTML(w) {
+  if (!w) return '<div class="empty-state"><div class="msg">단어를 찾을 수 없어요.</div></div>';
+  const audioBtn = `<button class="audio-btn" data-speak="${esc(w.headword)}" aria-label="발음 듣기" title="발음 듣기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg></button>`;
+  const senses = (w.senses || []).map((s, i) => `
+    <div class="sense-item">
+      <div class="sense-head">
+        <div class="sense-num">${i+1}</div>
+        <div class="sense-label">${esc(s.label)}</div>
+        <div class="sense-grammar">${esc(s.grammar)}</div>
+      </div>
+      <div class="sense-grid">
+        <div class="sense-ko">
+          <strong>${esc(s.meaningKo)}</strong>
+          <div class="desc">${esc(s.definitionEn)}</div>
+        </div>
+        <div class="sense-en">
+          <div class="ex">${esc(s.exampleEn)}</div>
+          <div class="tr">${esc(s.translationKo)}</div>
+        </div>
+      </div>
+      ${s.note ? `<div class="sense-note">📝 ${esc(s.note)}</div>` : ''}
+    </div>
+  `).join('');
+  const isFav = fav.has(w.lookup);
+  const isKnown = known.has(w.lookup);
+  const isReview = review.has(w.lookup);
+  return `
+    <div class="detail-view" style="padding:0;">
+      <article class="detail-card">
+        <div class="detail-head">
+          <div>
+            <h1 class="title">${esc(w.headword)} ${audioBtn}</h1>
+            ${w.pronunciation ? `<div class="pron">${esc(w.pronunciation)}</div>` : ''}
+            <div class="meta">
+              <span class="cefr-pill ${w.cefr}">${w.cefr}</span>
+              <span class="pos-pill">${esc(w.corePos)}</span>
+              <span class="dot">·</span>
+              <span>${esc(w.posCefr)}</span>
+              <span class="dot">·</span>
+              <span>GSL ${esc(w.gsl || 'N/A')}</span>
+            </div>
+          </div>
+          <div class="detail-actions">
+            <button class="btn ${isFav?'is-active':''}" data-action="fav" data-lookup="${w.lookup}">${isFav?'★ 즐겨찾기':'☆ 즐겨찾기'}</button>
+            <button class="btn ${isKnown?'success':''}" data-action="known" data-lookup="${w.lookup}">✓ 외움</button>
+            <button class="btn ${isReview?'is-active':''}" data-action="review" data-lookup="${w.lookup}">🔄 재학습</button>
+          </div>
+        </div>
+
+        <div class="detail-grid">
+          <div class="span2">
+            <div class="section-label">핵심 의미</div>
+            <div class="kor-meaning">${esc(w.meaning)}</div>
+            <div class="eng-def">${esc(w.english)}</div>
+          </div>
+          <div class="span2">
+            <div class="section-label">대표 예문</div>
+            <div class="dual-row">
+              <div class="ex">${esc(w.example)}</div>
+              <div class="tr">${esc(w.translation)}</div>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="section-label">패턴</div>
+            <div class="pattern-card">
+              <div class="pattern-text">${esc(w.pattern.text)}</div>
+              <div style="font-weight: 600; color: var(--text-1); margin-top: 4px; font-size: 13px;">${esc(w.pattern.example)}</div>
+              <div style="color: var(--text-2); font-size: 12px; margin-top: 4px;">${esc(w.pattern.translation)}</div>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="section-label">연습 문제</div>
+            <div class="practice-card">
+              <div class="practice-q">${esc(w.practice.question).replace(/____/g, '<span class="blank"></span>')}</div>
+              <div class="practice-a">정답: <strong>${esc(w.practice.answer)}</strong></div>
+              <div class="practice-h">${esc(w.practice.hint)}</div>
+            </div>
+          </div>
+        </div>
+
+        ${w.point ? `<div class="point-block"><strong>💡 학습 포인트</strong><br>${esc(w.point)}</div>` : ''}
+        ${w.koreanPitfall ? `<div class="pitfall-block"><strong>🇰🇷 한국 학습자 함정</strong><br>${esc(w.koreanPitfall)}</div>` : ''}
+
+        ${(w.synonyms?.length || w.antonyms?.length || w.wordFamily?.length) ? `
+        <div class="lex-section">
+          <div class="section-label">관련 어휘</div>
+          ${w.synonyms?.length ? `<div class="lex-row"><span class="label-inline">유의어</span>${w.synonyms.map(s => `<span class="lex-tag syn">${esc(s)}</span>`).join('')}</div>` : ''}
+          ${w.antonyms?.length ? `<div class="lex-row"><span class="label-inline">반의어</span>${w.antonyms.map(s => `<span class="lex-tag ant">${esc(s)}</span>`).join('')}</div>` : ''}
+          ${w.wordFamily?.length ? `<div class="lex-row"><span class="label-inline">파생어</span>${w.wordFamily.map(s => `<span class="lex-tag fam">${esc(s)}</span>`).join('')}</div>` : ''}
+        </div>` : ''}
+
+        ${senses ? `<div class="section-label" style="margin-top: var(--s-5);">의미별 풀이 (${(w.senses || []).length})</div><div class="sense-list">${senses}</div>` : ''}
+      </article>
+    </div>
+  `;
+}
+
+function wireDetail() {
+  // Action buttons (rerender modal content to update button states)
+  document.querySelectorAll('#modalBody [data-action]').forEach(b => b.addEventListener('click', () => {
+    const action = b.dataset.action;
+    const lookup = b.dataset.lookup;
+    if (action === 'fav') {
+      if (fav.has(lookup)) fav.delete(lookup); else fav.add(lookup);
+    } else if (action === 'known') {
+      if (known.has(lookup)) known.delete(lookup);
+      else { known.add(lookup); review.delete(lookup); }
+    } else if (action === 'review') {
+      if (review.has(lookup)) review.delete(lookup);
+      else { review.add(lookup); known.delete(lookup); }
+    }
+    saveSets();
+    renderRail();
+    if (action === 'known' && known.has(lookup) && state.hideKnown && state.statusFilter !== 'known') {
+      closeWordModal();
+      return;
+    }
+    // Re-render modal body with updated state
+    const w = _data.find(e => e.no === state.selectedNo);
+    if (w) { $('modalBody').innerHTML = renderDetailHTML(w); wireDetail(); }
+  }));
+  // Pronunciation
+  document.querySelectorAll('[data-speak]').forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation();
+    const text = b.dataset.speak;
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US'; u.rate = 0.95;
+      b.classList.add('is-playing');
+      u.onend = () => b.classList.remove('is-playing');
+      u.onerror = () => b.classList.remove('is-playing');
+      window.speechSynthesis.speak(u);
+    }
+  }));
+}
+
+// ============ Rail rendering ============
+function renderRail() {
+  // A-Z (multi-select)
+  const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  const nonempty = new Set();
+  for (const e of _data) nonempty.add(e.headword[0].toUpperCase());
+  $('alphaGrid').innerHTML = letters.split('').map(L => {
+    const isEmpty = !nonempty.has(L);
+    const isActive = state.letterJump.has(L);
+    return `<button class="letter ${isEmpty?'empty':''} ${isActive?'is-active':''}" data-letter="${L}">${L}</button>`;
+  }).join('');
+  document.querySelectorAll('[data-letter]').forEach(b => b.addEventListener('click', () => {
+    const L = b.dataset.letter;
+    if (state.letterJump.has(L)) state.letterJump.delete(L);
+    else state.letterJump.add(L);
+    state.view = 'list';
+    renderRail(); renderBrowse();
+  }));
+
+  // CEFR
+  const cefrCount = {A1:0,A2:0,B1:0,B2:0};
+  for (const e of _data) cefrCount[e.cefr]++;
+  $('cefrFilter').innerHTML = ['A1','A2','B1','B2'].map(c =>
+    `<button class="item ${c} ${state.cefrFilter.has(c)?'active':''}" data-cefr="${c}"><span class="dot"></span> ${c} <span class="count">${cefrCount[c]}</span></button>`
+  ).join('');
+  document.querySelectorAll('[data-cefr]').forEach(b => b.addEventListener('click', () => {
+    const c = b.dataset.cefr;
+    if (state.cefrFilter.has(c)) state.cefrFilter.delete(c);
+    else state.cefrFilter.add(c);
+    state.view = 'list';
+    renderRail(); renderBrowse();
+  }));
+
+  // POS
+  const posLabels = {verb:'동사', noun:'명사', adjective:'형용사', adverb:'부사', preposition:'전치사', conjunction:'접속사', pronoun:'대명사', determiner:'한정사', article:'관사', exclamation:'감탄사'};
+  const posTop = posTopList;
+  $('posFilter').innerHTML = posTop.map(p => {
+    const lbl = posLabels[p] || p;
+    return `<button class="item ${state.posFilter.has(p)?'active':''}" data-pos="${p}">${lbl} <span class="count">${posCount[p].toLocaleString()}</span></button>`;
+  }).join('');
+  document.querySelectorAll('[data-pos]').forEach(b => b.addEventListener('click', () => {
+    const p = b.dataset.pos;
+    if (state.posFilter.has(p)) state.posFilter.delete(p);
+    else state.posFilter.add(p);
+    state.view = 'list';
+    renderRail(); renderBrowse();
+  }));
+
+  // Status
+  const hideKnownBtn = $('hideKnownToggle');
+  if (hideKnownBtn) {
+    hideKnownBtn.classList.toggle('active', state.hideKnown);
+    const count = hideKnownBtn.querySelector('.count');
+    if (count) count.textContent = known.size.toLocaleString();
+    hideKnownBtn.onclick = () => {
+      state.hideKnown = !state.hideKnown;
+      lsSet('vocab.hideKnown', state.hideKnown);
+      state.view = 'list';
+      renderRail(); renderBrowse();
+    };
+  }
+
+  document.querySelectorAll('#statusFilter .item[data-status]').forEach(b => {
+    const s = b.dataset.status;
+    b.classList.toggle('active', state.statusFilter === s);
+    b.onclick = () => {
+      state.statusFilter = state.statusFilter === s ? null : s;
+      state.view = 'list';
+      renderRail(); renderBrowse();
+    };
+  });
+
+  // Clear filters button
+  $('clearFilters').hidden = !hasAnyFilter();
+}
+
+$('clearFilters').addEventListener('click', () => {
+  state.searchQuery = '';
+  state.cefrFilter.clear();
+  state.posFilter.clear();
+  state.statusFilter = null;
+  state.letterJump.clear();
+  state.topicFilter = null;
+  $('searchInput').value = '';
+  state.view = 'home';
+  renderRail(); renderBrowse();
+});
+
+// Search input
+$('searchInput').addEventListener('input', e => {
+  state.searchQuery = norm(e.target.value);
+  state.view = state.searchQuery ? 'list' : 'home';
+  renderRail(); renderBrowse();
+});
+
+// ============ Helper: pickRandom ============
+function pickRandom(arr, n, seed) {
+  const out = [];
+  const used = new Set();
+  let s = seed + (window._featuredShift || 0) * 7919;
+  while (out.length < n && used.size < arr.length) {
+    s = (s * 9301 + 49297) % 233280;
+    const idx = Math.floor((s / 233280) * arr.length);
+    if (!used.has(idx)) { used.add(idx); out.push(arr[idx]); }
+  }
+  return out;
+}
+function countByCefr(c) { return _data.filter(e => e.cefr === c).length; }
+
+// ============ Flashcard ============
+function deckList() {
+  const list = filteredEntries();
+  if (list.length > 0) return list;
+  return state.hideKnown && !state.statusFilter ? [] : _data;
+}
+function flashWord() {
+  const deck = deckList();
+  if (!deck.length) return null;
+  const ord = state.flashOrder || [...Array(deck.length).keys()];
+  return deck[ord[state.flashIdx % ord.length]];
+}
+function renderFlashcard() {
+  const deck = deckList();
+  if (!deck.length) {
+    $('deckInfo').textContent = '덱: 0';
+    $('flashCounter').textContent = '완료';
+    $('flashProgressFill').style.width = '100%';
+    $('flashcard').classList.remove('is-flipped');
+    $('flashcard').innerHTML = `
+      <div class="card-face card-front">
+        <div class="word-block">
+          <div class="word" style="font-size:32px;">외울 단어가 없어요</div>
+          <div class="word-pos">외운 단어 숨김을 끄거나 필터를 조정해 주세요.</div>
+        </div>
+      </div>
+    `;
+    $('flashActions').innerHTML = `<button class="btn" id="showKnownFromFlash">외운 단어도 보기</button>`;
+    $('showKnownFromFlash').addEventListener('click', () => {
+      state.hideKnown = false;
+      lsSet('vocab.hideKnown', state.hideKnown);
+      state.flashIdx = 0;
+      renderRail();
+      renderFlashcard();
+    });
+    return;
+  }
+  if (!state.flashOrder || state.flashOrder.length !== deck.length) state.flashOrder = [...Array(deck.length).keys()];
+  if (state.flashShuffled) {
+    state.flashOrder = state.flashOrder.slice().sort(() => Math.random() - 0.5);
+    state.flashShuffled = false;
+  }
+  state.flashIdx = Math.min(state.flashIdx, deck.length - 1);
+  $('deckInfo').textContent = `덱: ${deck.length}`;
+  $('flashCounter').textContent = `${state.flashIdx + 1} / ${deck.length}`;
+  $('flashProgressFill').style.width = `${((state.flashIdx + 1) / deck.length) * 100}%`;
+  const w = flashWord();
+  if (!w) return;
+  const card = $('flashcard');
+  card.classList.toggle('is-flipped', state.flashRevealed);
+  // First sense for quick context on back
+  const s0 = (w.senses && w.senses[0]) ? w.senses[0] : null;
+  card.innerHTML = `
+    <div class="card-face card-front">
+      <div class="meta-row">
+        <div style="display:flex;gap:4px;"><span class="cefr-pill ${w.cefr}">${w.cefr}</span><span class="pos-pill">${esc(w.corePos)}</span></div>
+        <div>${state.flashIdx + 1} / ${deck.length}</div>
+      </div>
+      <div class="word-block">
+        <div class="word">${esc(w.headword)} <button class="audio-btn" data-speak="${esc(w.headword)}" title="발음"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></div>
+        <div class="word-pos">${esc(w.posCefr)}</div>
+      </div>
+      <div class="reveal-hint">클릭 또는 <kbd>Space</kbd>로 답 보기</div>
+    </div>
+    <div class="card-face card-back">
+      <div class="meta-row">
+        <div style="display:flex;gap:4px;"><span class="cefr-pill ${w.cefr}">${w.cefr}</span><span class="pos-pill">${esc(w.corePos)}</span></div>
+        <div>${esc(w.headword)}</div>
+      </div>
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;padding:var(--s-3) 0;">
+        <div class="meaning">${esc(w.meaning)}</div>
+        <div class="ex-block">
+          <div class="ex">${esc(w.example)}</div>
+          <div class="tr">${esc(w.translation)}</div>
+        </div>
+        ${s0 ? `<div class="quick-sense">💡 ${esc(s0.meaningKo)}</div>` : ''}
+      </div>
+    </div>
+  `;
+  // Click anywhere on card to flip
+  card.onclick = (e) => {
+    if (e.target.closest('[data-speak]')) return;
+    state.flashRevealed = !state.flashRevealed;
+    renderFlashcard();
+  };
+  // Wire actions outside the flipper
+  $('flashActions').innerHTML = `
+    <button class="btn danger" data-act="unknown">✕ 모름</button>
+    ${!state.flashRevealed
+      ? `<button class="btn primary" data-act="reveal">답 보기</button>`
+      : `<div style="display:flex;gap:8px;"><button class="nav-btn" data-act="prev" title="이전 (←)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button><button class="nav-btn" data-act="next" title="다음 (→)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button></div>`}
+    <button class="btn success" data-act="known">✓ 앎</button>
+  `;
+  $('flashActions').querySelectorAll('[data-act]').forEach(b => b.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const act = b.dataset.act;
+    if (act === 'reveal') { state.flashRevealed = true; renderFlashcard(); }
+    else if (act === 'next') { state.flashIdx = Math.min(deck.length - 1, state.flashIdx + 1); state.flashRevealed = false; renderFlashcard(); }
+    else if (act === 'prev') { state.flashIdx = Math.max(0, state.flashIdx - 1); state.flashRevealed = false; renderFlashcard(); }
+    else if (act === 'known') { known.add(w.lookup); review.delete(w.lookup); saveSets(); state.flashIdx = Math.min(deckList().length - 1, state.flashIdx); state.flashRevealed = false; renderRail(); renderFlashcard(); }
+    else if (act === 'unknown') { review.add(w.lookup); known.delete(w.lookup); saveSets(); state.flashIdx = Math.min(deckList().length - 1, state.flashIdx + 1); state.flashRevealed = false; renderRail(); renderFlashcard(); }
+  }));
+  card.querySelectorAll('[data-speak]').forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation();
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(b.dataset.speak);
+      u.lang = 'en-US'; u.rate = 0.95;
+      b.classList.add('is-playing');
+      u.onend = () => b.classList.remove('is-playing');
+      window.speechSynthesis.speak(u);
+    }
+  }));
+}
+$('deckShuffle').addEventListener('click', () => {
+  state.flashShuffled = true;
+  state.flashIdx = 0;
+  state.flashRevealed = false;
+  renderFlashcard();
+});
+
+// ============ Quiz ============
+function startQuiz() {
+  const pool = filteredEntries();
+  if (pool.length < 4) {
+    $('quizCard').innerHTML = `<div class="empty-state"><div class="icon">🤔</div><div class="msg">퀴즈를 만들 단어가 부족해요. 필터를 조정해 주세요.</div></div>`;
+    return;
+  }
+  state.quizQ = 0;
+  state.quizQuestions = [];
+  state.quizAnswers = [];
+  // Generate 10 questions
+  const shuffled = pool.slice().sort(() => Math.random() - 0.5);
+  const N = Math.min(10, shuffled.length);
+  for (let i = 0; i < N; i++) {
+    const w = shuffled[i];
+    const type = ['cloze','meaning','english'][Math.floor(Math.random() * 3)];
+    state.quizQuestions.push({type, word: w});
+  }
+  renderQuiz();
+}
+function renderQuiz() {
+  if (state.quizQ >= state.quizQuestions.length) {
+    renderQuizResults();
+    return;
+  }
+  const q = state.quizQuestions[state.quizQ];
+  const w = q.word;
+  const card = $('quizCard');
+  card.classList.remove('is-correct', 'is-wrong');
+  const dots = state.quizQuestions.map((_, i) =>
+    `<div class="quiz-dot ${i < state.quizQ ? 'is-done' : i === state.quizQ ? 'is-current' : ''}"></div>`
+  ).join('');
+  let body = '';
+  if (q.type === 'cloze') {
+    const ex = w.example;
+    const blanked = ex.replace(new RegExp(escRe(w.headword), 'i'), '____').replace(new RegExp(escRe(w.lookup), 'i'), '____');
+    body = `
+      <div class="quiz-type-label">A · 빈칸 채우기</div>
+      <div class="quiz-question">${esc(blanked).replace(/____/g, '<span class="blank"></span>')}</div>
+      <div class="quiz-translation">${esc(w.translation)}</div>
+      <input type="text" class="quiz-answer-input" id="qInput" placeholder="답을 입력하세요…" autocomplete="off">
+      <div class="quiz-actions">
+        <button class="btn ghost" data-q="skip">건너뛰기</button>
+        <button class="btn primary" data-q="submit">제출 (Enter)</button>
+      </div>
+    `;
+  } else if (q.type === 'meaning') {
+    const distractors = randomDistractors(w, 3);
+    const opts = shuffleArr([w, ...distractors]);
+    body = `
+      <div class="quiz-type-label">B · 한국어 뜻과 맞는 단어</div>
+      <div class="quiz-question">"${esc(w.meaning)}"는 영어로?</div>
+      <div class="quiz-options">
+        ${opts.map((o, i) => `<button class="quiz-option" data-opt="${o.no}" data-correct="${o.no === w.no}"><span class="opt-letter">${'ABCD'[i]}</span>${esc(o.headword)}</button>`).join('')}
+      </div>
+    `;
+  } else {
+    const distractors = randomDistractors(w, 3);
+    const opts = shuffleArr([w, ...distractors]);
+    body = `
+      <div class="quiz-type-label">C · 영영 정의에 맞는 단어</div>
+      <div class="quiz-question">"${esc(w.english)}"</div>
+      <div class="quiz-options">
+        ${opts.map((o, i) => `<button class="quiz-option" data-opt="${o.no}" data-correct="${o.no === w.no}"><span class="opt-letter">${'ABCD'[i]}</span>${esc(o.headword)}</button>`).join('')}
+      </div>
+    `;
+  }
+  card.innerHTML = `
+    <div class="quiz-progress">
+      <span>${state.quizQ + 1} / ${state.quizQuestions.length}</span>
+      <div class="quiz-dots">${dots}</div>
+    </div>
+    ${body}
+  `;
+  // Wire up
+  if (q.type === 'cloze') {
+    card.querySelector('[data-q="submit"]').addEventListener('click', () => submitCloze(w));
+    card.querySelector('[data-q="skip"]').addEventListener('click', () => { state.quizAnswers.push({correct:false, skipped:true}); state.quizQ++; renderQuiz(); });
+    card.querySelector('#qInput').focus();
+    card.querySelector('#qInput').addEventListener('keydown', e => { if (e.key === 'Enter') submitCloze(w); });
+  } else {
+    card.querySelectorAll('.quiz-option').forEach(o => o.addEventListener('click', () => submitMCQ(o, w)));
+  }
+}
+function submitCloze(w) {
+  const ans = $('qInput').value.trim().toLowerCase();
+  const correct = ans === w.headword.toLowerCase() || ans === w.lookup.toLowerCase();
+  $('quizCard').classList.add(correct ? 'is-correct' : 'is-wrong');
+  state.quizAnswers.push({correct, word: w, given: ans});
+  setTimeout(() => { state.quizQ++; renderQuiz(); }, 1100);
+}
+function submitMCQ(opt, w) {
+  const correct = opt.dataset.correct === 'true';
+  $('quizCard').classList.add(correct ? 'is-correct' : 'is-wrong');
+  document.querySelectorAll('.quiz-option').forEach(o => {
+    if (o.dataset.correct === 'true') o.classList.add('is-correct');
+    else if (o === opt && !correct) o.classList.add('is-wrong');
+  });
+  state.quizAnswers.push({correct, word: w});
+  setTimeout(() => { state.quizQ++; renderQuiz(); }, 1100);
+}
+function randomDistractors(w, n) {
+  const pool = _data.filter(e => e.no !== w.no && e.cefr === w.cefr);
+  const shuffled = pool.slice().sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, n);
+}
+function shuffleArr(a) { return a.slice().sort(() => Math.random() - 0.5); }
+function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+function renderQuizResults() {
+  const correct = state.quizAnswers.filter(a => a.correct).length;
+  const total = state.quizAnswers.length;
+  const wrong = state.quizAnswers.filter(a => !a.correct);
+  $('quizCard').classList.remove('is-correct','is-wrong');
+  $('quizCard').innerHTML = `
+    <div class="score-row">
+      <div class="big-score">${correct}<span class="out-of"> / ${total}</span></div>
+    </div>
+    <div style="font-size:13px;color:var(--text-3);line-height:1.6;">정답률 ${Math.round(100*correct/total)}%</div>
+    ${wrong.length > 0 ? `
+      <div class="section-label" style="margin-top:var(--s-4);">틀린 문제 (${wrong.length})</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        ${wrong.map(a => `
+          <div style="padding:var(--s-3);border:1px solid var(--border);border-radius:var(--r-md);background:var(--surface-2);font-size:13px;">
+            <strong>${esc(a.word.headword)}</strong> · ${esc(a.word.meaning)}
+          </div>
+        `).join('')}
+      </div>
+    ` : ''}
+    <div style="display:flex;gap:8px;justify-content:center;margin-top:var(--s-5);">
+      <button class="btn primary" id="quizRestart">새 퀴즈</button>
+      <button class="btn" id="quizBack">Browse로</button>
+    </div>
+  `;
+  $('quizRestart').addEventListener('click', () => startQuiz());
+  $('quizBack').addEventListener('click', () => setMode('browse'));
+}
+
+// ============ Command palette ============
+const paletteOverlay = $('paletteOverlay');
+const paletteInput = $('paletteInput');
+const paletteResults = $('paletteResults');
+
+function openPalette() {
+  paletteOverlay.classList.add('is-open');
+  paletteInput.value = '';
+  state.paletteFocus = 0;
+  renderPalette('');
+  setTimeout(() => paletteInput.focus(), 50);
+}
+function closePalette() { paletteOverlay.classList.remove('is-open'); }
+function renderPalette(q) {
+  const qq = norm(q);
+  const matches = !qq ? _data.slice(0, 8) : _data.filter(w =>
+    norm(w.headword).includes(qq) || norm(w.meaning).includes(qq)
+  ).slice(0, 8);
+  if (state.paletteFocus >= matches.length) state.paletteFocus = 0;
+  paletteResults.innerHTML = matches.map((w, i) =>
+    `<button class="palette-row ${i === state.paletteFocus ? 'is-focused' : ''}" data-no="${w.no}">
+      <div class="pal-word">${esc(w.headword)} <span style="color: var(--text-3); font-weight: 500;">· ${esc(w.meaning)}</span></div>
+      <div class="pal-meta">${esc(w.posCefr)} · ${esc(w.cefr)}</div>
+    </button>`
+  ).join('') || `<div style="padding: 24px; text-align: center; color: var(--text-3); font-size: 13px;">결과 없음</div>`;
+  paletteResults.querySelectorAll('.palette-row').forEach(r => r.addEventListener('click', () => {
+    closePalette();
+    setMode('browse');
+    openWord(parseInt(r.dataset.no));
+  }));
+}
+$('paletteBtn').addEventListener('click', openPalette);
+paletteOverlay.addEventListener('click', e => { if (e.target === paletteOverlay) closePalette(); });
+paletteInput.addEventListener('input', e => renderPalette(e.target.value));
+paletteInput.addEventListener('keydown', e => {
+  const rows = paletteResults.querySelectorAll('.palette-row');
+  if (e.key === 'ArrowDown') { e.preventDefault(); state.paletteFocus = Math.min(rows.length - 1, state.paletteFocus + 1); renderPalette(paletteInput.value); }
+  else if (e.key === 'ArrowUp') { e.preventDefault(); state.paletteFocus = Math.max(0, state.paletteFocus - 1); renderPalette(paletteInput.value); }
+  else if (e.key === 'Enter') { rows[state.paletteFocus]?.click(); }
+  else if (e.key === 'Escape') { closePalette(); }
+});
+
+// ============ Keyboard ============
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openPalette(); return; }
+  if (e.key === '/' && !paletteOverlay.classList.contains('is-open')) { e.preventDefault(); openPalette(); return; }
+  if (e.key === '1') setMode('browse');
+  else if (e.key === '2') setMode('flashcard');
+  else if (e.key === '3') setMode('quiz');
+  if (state.mode === 'flashcard') {
+    if (e.code === 'Space') { e.preventDefault(); state.flashRevealed = !state.flashRevealed; renderFlashcard(); }
+    else if (e.key === 'ArrowRight') { state.flashIdx = Math.min(deckList().length - 1, state.flashIdx + 1); state.flashRevealed = false; renderFlashcard(); }
+    else if (e.key === 'ArrowLeft') { state.flashIdx = Math.max(0, state.flashIdx - 1); state.flashRevealed = false; renderFlashcard(); }
+    else if (e.key === 'j' || e.key === 'J') { const w = flashWord(); if (!w) return; known.add(w.lookup); review.delete(w.lookup); saveSets(); state.flashIdx = Math.min(deckList().length - 1, state.flashIdx); state.flashRevealed = false; renderRail(); renderFlashcard(); }
+    else if (e.key === 'f' || e.key === 'F') { const w = flashWord(); if (!w) return; review.add(w.lookup); known.delete(w.lookup); saveSets(); state.flashIdx = Math.min(deckList().length - 1, state.flashIdx + 1); state.flashRevealed = false; renderRail(); renderFlashcard(); }
+  }
+});
+
+// ============ Home button ============
+function goHome() {
+  // Clear all filters and search
+  state.searchQuery = '';
+  state.cefrFilter.clear();
+  state.posFilter.clear();
+  state.statusFilter = null;
+  state.letterJump.clear();
+  state.topicFilter = null;
+  state.view = 'home';
+  state.selectedNo = null;
+  $('searchInput').value = '';
+  // Close any open modal
+  $('wordModal').classList.remove('is-open');
+  document.body.style.overflow = '';
+  // Switch to browse mode
+  setMode('browse');
+  renderRail();
+  renderBrowse();
+  // Scroll back up
+  window.scrollTo({top: 0, behavior: 'smooth'});
+  $('paneBrowse').scrollTo({top: 0, behavior: 'smooth'});
+}
+$('goHome').addEventListener('click', goHome);
+
+// ============ Init ============
+renderRail();
+renderBrowse();
+</script>
+</body>
+</html>
