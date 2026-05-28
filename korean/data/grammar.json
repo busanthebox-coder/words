@@ -1,0 +1,1559 @@
+{
+  "grammarItems": [
+    {
+      "id": "grammar-foundation-hangul-blocks",
+      "type": "foundation",
+      "hangul": "한글 음절",
+      "romanization": "hangeul eumjeol",
+      "title": "Hangul syllable blocks",
+      "plainEnglish": "Korean is written in syllable blocks. Each block usually has an initial consonant, a vowel, and sometimes a final consonant.",
+      "whenToUse": "Study this before memorizing many words so you can read Korean from Hangul instead of depending on romanization.",
+      "attachmentRule": "Read each block left-to-right or top-to-bottom inside the square: 한 = ㅎ + ㅏ + ㄴ, 글 = ㄱ + ㅡ + ㄹ.",
+      "contrastWith": "Romanization is only a temporary pronunciation helper. It is not the real Korean spelling.",
+      "sentenceFrames": [
+        "한 = ㅎ + ㅏ + ㄴ",
+        "글 = ㄱ + ㅡ + ㄹ",
+        "먹어요 = 먹 + 어 + 요"
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "Tutor",
+          "ko": "한글을 읽어요.",
+          "romanization": "hangeureul ilgeoyo.",
+          "en": "Read Hangul."
+        },
+        {
+          "speaker": "Learner",
+          "ko": "천천히 말해 주세요.",
+          "romanization": "cheoncheonhi malhae juseyo.",
+          "en": "Please speak slowly."
+        },
+        {
+          "speaker": "Tutor",
+          "ko": "다시 들어요.",
+          "romanization": "dasi deureoyo.",
+          "en": "Listen again."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "한글",
+          "romanization": "hangeul",
+          "en": "Hangul / Korean writing"
+        },
+        {
+          "ko": "먹어요",
+          "romanization": "meogeoyo",
+          "en": "I eat."
+        },
+        {
+          "ko": "들어요",
+          "romanization": "deureoyo",
+          "en": "I listen."
+        }
+      ],
+      "commonMistakes": [
+        "Do not pronounce romanization as English spelling.",
+        "Do not pause between every syllable block when speaking."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "Break 한 into letters.",
+          "ko": "ㅎ + ㅏ + ㄴ",
+          "answer": "ㅎ + ㅏ + ㄴ"
+        },
+        {
+          "prompt": "Read 먹어요 from Hangul first.",
+          "ko": "먹어요",
+          "answer": "먹어요"
+        },
+        {
+          "prompt": "Ask someone to speak slowly.",
+          "ko": "천천히 말해 주세요.",
+          "answer": "천천히 말해 주세요"
+        }
+      ],
+      "beginnerExplanation": "For a beginner, the key is not memorizing every sound rule at once. The key is seeing that Korean is built from reusable letters inside syllable blocks. Read the block first, then listen.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-eun-neun",
+      "type": "particle",
+      "hangul": "은 / 는",
+      "romanization": "eun / neun",
+      "title": "Topic and contrast",
+      "plainEnglish": "Use this to say what the sentence is about: “as for...” or “when we talk about this...”",
+      "whenToUse": "Use 은/는 when introducing yourself, setting the topic, comparing two things, or changing the topic.",
+      "attachmentRule": "Use 은 after a final consonant and 는 after a vowel: 학생은, 저는.",
+      "contrastWith": "이/가 points to the subject or new information. 은/는 sets the topic or contrast.",
+      "sentenceFrames": [
+        "저는 ___이에요.",
+        "오늘은 ___해요.",
+        "이건 ___예요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "저는 하나예요.",
+          "romanization": "jeoneun hanayeyo.",
+          "en": "I am Hana."
+        },
+        {
+          "speaker": "B",
+          "ko": "저는 민수예요.",
+          "romanization": "jeoneun minsuyeyo.",
+          "en": "I am Minsu."
+        },
+        {
+          "speaker": "A",
+          "ko": "오늘은 공부해요.",
+          "romanization": "oneureun gongbuhaeyo.",
+          "en": "Today, I study."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 학생이에요.",
+          "romanization": "jeoneun haksaeng-ieyo.",
+          "en": "As for me, I am a student."
+        },
+        {
+          "ko": "오늘은 못 가요.",
+          "romanization": "oneureun mot gayo.",
+          "en": "As for today, I cannot go."
+        },
+        {
+          "ko": "이건 뭐예요?",
+          "romanization": "igeon mwoyeyo?",
+          "en": "What is this?"
+        }
+      ],
+      "commonMistakes": [
+        "Do not translate 은/는 every time. It often just marks the topic.",
+        "Do not stack 도 after 은/는 as 저는도; say 저도."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "I am a student.",
+          "ko": "저는 학생이에요.",
+          "answer": "는"
+        },
+        {
+          "prompt": "Today, I cannot go.",
+          "ko": "오늘은 못 가요.",
+          "answer": "은"
+        },
+        {
+          "prompt": "What is this?",
+          "ko": "이건 뭐예요?",
+          "answer": "은/는"
+        }
+      ],
+      "beginnerExplanation": "Think of 은/는 as putting a label on the sentence topic. It tells the listener, “This is what I am talking about now.” It often creates contrast, even when English does not show it.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-i-ga",
+      "type": "particle",
+      "hangul": "이 / 가",
+      "romanization": "i / ga",
+      "title": "Subject and new information",
+      "plainEnglish": "Use this to mark the subject that exists, appears, hurts, or is being identified.",
+      "whenToUse": "Use 이/가 with 있어요, 없어요, 아파요, 좋아요, and when the subject is new or important.",
+      "attachmentRule": "Use 이 after a final consonant and 가 after a vowel: 시간이, 친구가.",
+      "contrastWith": "은/는 is the topic. 이/가 points to the subject inside the sentence.",
+      "sentenceFrames": [
+        "___이/가 있어요.",
+        "___이/가 없어요.",
+        "___이/가 아파요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "시간이 있어요?",
+          "romanization": "sigani isseoyo?",
+          "en": "Do you have time?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 시간이 있어요.",
+          "romanization": "ne, sigani isseoyo.",
+          "en": "Yes, I have time."
+        },
+        {
+          "speaker": "A",
+          "ko": "친구가 와요.",
+          "romanization": "chinguga wayo.",
+          "en": "A friend is coming."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "시간이 있어요.",
+          "romanization": "sigani isseoyo.",
+          "en": "I have time. / There is time."
+        },
+        {
+          "ko": "친구가 와요.",
+          "romanization": "chinguga wayo.",
+          "en": "A friend is coming."
+        },
+        {
+          "ko": "머리가 아파요.",
+          "romanization": "meoriga apayo.",
+          "en": "My head hurts."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use 을/를 with 있어요 or 없어요 for the thing that exists.",
+        "Memorize common chunks first: 시간이 있어요, 문제가 없어요, 머리가 아파요."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "I have time.",
+          "ko": "시간이 있어요.",
+          "answer": "이"
+        },
+        {
+          "prompt": "My head hurts.",
+          "ko": "머리가 아파요.",
+          "answer": "가"
+        },
+        {
+          "prompt": "There is no problem.",
+          "ko": "문제가 없어요.",
+          "answer": "가"
+        }
+      ],
+      "beginnerExplanation": "Think of 이/가 as pointing to the subject that appears, exists, hurts, or is newly important. It often answers “who?” or “what?” inside the sentence.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-eul-reul",
+      "type": "particle",
+      "hangul": "을 / 를",
+      "romanization": "eul / reul",
+      "title": "Object marker",
+      "plainEnglish": "Use this after the thing that receives the action.",
+      "whenToUse": "Use 을/를 with verbs like eat, drink, buy, read, write, study, watch, and take.",
+      "attachmentRule": "Use 을 after a final consonant and 를 after a vowel: 밥을, 커피를.",
+      "contrastWith": "이/가 marks the subject. 을/를 marks the object of an action.",
+      "sentenceFrames": [
+        "___을/를 먹어요.",
+        "___을/를 마셔요.",
+        "___을/를 공부해요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "뭐 먹어요?",
+          "romanization": "mwo meogeoyo?",
+          "en": "What do you eat?"
+        },
+        {
+          "speaker": "B",
+          "ko": "밥을 먹어요.",
+          "romanization": "babeul meogeoyo.",
+          "en": "I eat a meal."
+        },
+        {
+          "speaker": "A",
+          "ko": "커피를 마셔요.",
+          "romanization": "keopireul masyeoyo.",
+          "en": "I drink coffee."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "밥을 먹어요.",
+          "romanization": "babeul meogeoyo.",
+          "en": "I eat rice / a meal."
+        },
+        {
+          "ko": "커피를 마셔요.",
+          "romanization": "keopireul masyeoyo.",
+          "en": "I drink coffee."
+        },
+        {
+          "ko": "한국어를 공부해요.",
+          "romanization": "hangugeoreul gongbuhaeyo.",
+          "en": "I study Korean."
+        }
+      ],
+      "commonMistakes": [
+        "Koreans often drop 을/를 in speech, but learners should understand it first.",
+        "Do not put 을/를 after places with 가요; say 학교에 가요."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "I eat a meal.",
+          "ko": "밥을 먹어요.",
+          "answer": "을"
+        },
+        {
+          "prompt": "I drink coffee.",
+          "ko": "커피를 마셔요.",
+          "answer": "를"
+        },
+        {
+          "prompt": "I study Korean.",
+          "ko": "한국어를 공부해요.",
+          "answer": "를"
+        }
+      ],
+      "beginnerExplanation": "을/를 marks the thing affected by an action. If you eat, drink, buy, read, write, or study something, that something often takes 을/를.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-e",
+      "type": "particle",
+      "hangul": "에",
+      "romanization": "e",
+      "title": "Time, destination, and existence place",
+      "plainEnglish": "Use this for “to,” “at,” “in,” or “on” when the noun is a destination, time, or place where something exists.",
+      "whenToUse": "Use 에 with 가요/와요 for destination, with times like 7시에, and with 있어요/없어요 for location.",
+      "attachmentRule": "Attach 에 directly after the noun: 학교에, 집에, 7시에.",
+      "contrastWith": "에서 is where an action happens. 에 is the destination or existence location.",
+      "sentenceFrames": [
+        "___에 가요.",
+        "___시에 일어나요.",
+        "___에 있어요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "어디에 가요?",
+          "romanization": "eodie gayo?",
+          "en": "Where are you going?"
+        },
+        {
+          "speaker": "B",
+          "ko": "학교에 가요.",
+          "romanization": "hakgyoe gayo.",
+          "en": "I go to school."
+        },
+        {
+          "speaker": "A",
+          "ko": "집에 있어요.",
+          "romanization": "jibe isseoyo.",
+          "en": "I am at home."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "학교에 가요.",
+          "romanization": "hakgyoe gayo.",
+          "en": "I go to school."
+        },
+        {
+          "ko": "7시에 일어나요.",
+          "romanization": "ilgopsie ireonayo.",
+          "en": "I wake up at seven."
+        },
+        {
+          "ko": "집에 있어요.",
+          "romanization": "jibe isseoyo.",
+          "en": "I am at home."
+        }
+      ],
+      "commonMistakes": [
+        "For destination, use 에: 학교에 가요.",
+        "For the place of an action, use 에서: 학교에서 공부해요."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "I go to school.",
+          "ko": "학교에 가요.",
+          "answer": "에"
+        },
+        {
+          "prompt": "I wake up at seven.",
+          "ko": "7시에 일어나요.",
+          "answer": "에"
+        },
+        {
+          "prompt": "I am at home.",
+          "ko": "집에 있어요.",
+          "answer": "에"
+        }
+      ],
+      "beginnerExplanation": "에 is a target marker: a destination, a time point, or the place where something exists. It does not usually mark where an active action happens.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-eseo",
+      "type": "particle",
+      "hangul": "에서",
+      "romanization": "eseo",
+      "title": "Action place and starting point",
+      "plainEnglish": "Use this for the place where an action happens, or the place something starts from.",
+      "whenToUse": "Use 에서 with study, work, eat, wait, buy, meet, and with came from.",
+      "attachmentRule": "Attach 에서 after the place: 학교에서, 회사에서, 서울에서.",
+      "contrastWith": "에 is destination or existence place. 에서 is action place.",
+      "sentenceFrames": [
+        "___에서 공부해요.",
+        "___에서 일해요.",
+        "___에서 왔어요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "어디에서 공부해요?",
+          "romanization": "eodieseo gongbuhaeyo?",
+          "en": "Where do you study?"
+        },
+        {
+          "speaker": "B",
+          "ko": "학교에서 공부해요.",
+          "romanization": "hakgyoeseo gongbuhaeyo.",
+          "en": "I study at school."
+        },
+        {
+          "speaker": "A",
+          "ko": "서울에서 왔어요.",
+          "romanization": "seoureseo wasseoyo.",
+          "en": "I came from Seoul."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "학교에서 공부해요.",
+          "romanization": "hakgyoeseo gongbuhaeyo.",
+          "en": "I study at school."
+        },
+        {
+          "ko": "회사에서 일해요.",
+          "romanization": "hoesaeseo ilhaeyo.",
+          "en": "I work at a company."
+        },
+        {
+          "ko": "서울에서 왔어요.",
+          "romanization": "seoureseo wasseoyo.",
+          "en": "I came from Seoul."
+        }
+      ],
+      "commonMistakes": [
+        "Do not say 학교에서 가요 for destination. Say 학교에 가요.",
+        "Use 에서 only when an action is happening there or something starts there."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "I study at school.",
+          "ko": "학교에서 공부해요.",
+          "answer": "에서"
+        },
+        {
+          "prompt": "I work at a company.",
+          "ko": "회사에서 일해요.",
+          "answer": "에서"
+        },
+        {
+          "prompt": "I came from Seoul.",
+          "ko": "서울에서 왔어요.",
+          "answer": "에서"
+        }
+      ],
+      "beginnerExplanation": "에서 is an action-place marker. If something happens at a place, use 에서. This is why 학교에서 공부해요 is different from 학교에 가요.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-ege-hante",
+      "type": "particle",
+      "hangul": "에게 / 한테",
+      "romanization": "ege / hante",
+      "title": "To a person",
+      "plainEnglish": "Use this when a person receives an item, message, action, or question.",
+      "whenToUse": "Use 에게 in neutral/written Korean, 한테 in everyday speech, and 께 for honorific speech.",
+      "attachmentRule": "Attach directly after the person: 친구에게, 저한테, 선생님께.",
+      "contrastWith": "Use 에 for places. Use 에게/한테 for people or animals.",
+      "sentenceFrames": [
+        "___에게 줘요.",
+        "___한테 말해요.",
+        "___께 물어봐요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "누구한테 줘요?",
+          "romanization": "nuguhante jwoyo?",
+          "en": "Who do I give it to?"
+        },
+        {
+          "speaker": "B",
+          "ko": "저한테 영수증 주세요.",
+          "romanization": "jeohante yeongsujeung juseyo.",
+          "en": "Please give me the receipt."
+        },
+        {
+          "speaker": "A",
+          "ko": "선생님께 물어봐요.",
+          "romanization": "seonsaengnimkke mureobwayo.",
+          "en": "I ask the teacher."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "친구에게 선물을 줘요.",
+          "romanization": "chingu-ege seonmureul jwoyo.",
+          "en": "I give a gift to a friend."
+        },
+        {
+          "ko": "저한테 영수증 주세요.",
+          "romanization": "jeohante yeongsujeung juseyo.",
+          "en": "Please give me the receipt."
+        },
+        {
+          "ko": "선생님께 물어봐요.",
+          "romanization": "seonsaengnimkke mureobwayo.",
+          "en": "I ask the teacher."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use 에게 for ordinary destinations. Say 학교에 가요, not 학교에게 가요.",
+        "Use 께 with respected people when you want honorific direction."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "Please give me the receipt.",
+          "ko": "저한테 영수증 주세요.",
+          "answer": "한테"
+        },
+        {
+          "prompt": "I give a gift to a friend.",
+          "ko": "친구에게 선물을 줘요.",
+          "answer": "에게"
+        },
+        {
+          "prompt": "I ask the teacher.",
+          "ko": "선생님께 물어봐요.",
+          "answer": "께"
+        }
+      ],
+      "beginnerExplanation": "Use 에게 or 한테 when the receiver is a person. This is about direction toward a person, not physical travel to a place.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-ro-euro",
+      "type": "particle",
+      "hangul": "로 / 으로",
+      "romanization": "ro / euro",
+      "title": "Method, direction, and language",
+      "plainEnglish": "Use this for by, with, toward, or in a language.",
+      "whenToUse": "Use 로/으로 for transportation, payment, tools, direction, and language.",
+      "attachmentRule": "Use 로 after a vowel or ㄹ ending. Use 으로 after most consonants: 카드로, 펜으로.",
+      "contrastWith": "을/를 marks the object. 로/으로 marks the method or tool.",
+      "sentenceFrames": [
+        "___로 가요.",
+        "___로 말해요.",
+        "___으로 써요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "카드로 결제할 수 있어요?",
+          "romanization": "kadeuro gyeoljehal su isseoyo?",
+          "en": "Can I pay by card?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 카드로 돼요.",
+          "romanization": "ne, kadeuro dwaeyo.",
+          "en": "Yes, card is okay."
+        },
+        {
+          "speaker": "A",
+          "ko": "한국어로 말해요.",
+          "romanization": "hangugeoro malhaeyo.",
+          "en": "I speak in Korean."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "카드로 결제할 수 있어요?",
+          "romanization": "kadeuro gyeoljehal su isseoyo?",
+          "en": "Can I pay by card?"
+        },
+        {
+          "ko": "한국어로 말해요.",
+          "romanization": "hangugeoro malhaeyo.",
+          "en": "I speak in Korean."
+        },
+        {
+          "ko": "지하철로 가요.",
+          "romanization": "jihacheollo gayo.",
+          "en": "I go by subway."
+        }
+      ],
+      "commonMistakes": [
+        "카드로 사요 means buy by card, not buy a card.",
+        "Do not use 로/으로 for “with a friend”; use 친구하고 or 친구랑 for that meaning.",
+        "Do not confuse 로/으로 with destination 에."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "I go by subway.",
+          "ko": "지하철로 가요.",
+          "answer": "로"
+        },
+        {
+          "prompt": "I write with a pen.",
+          "ko": "펜으로 써요.",
+          "answer": "으로"
+        },
+        {
+          "prompt": "I speak in Korean.",
+          "ko": "한국어로 말해요.",
+          "answer": "로"
+        }
+      ],
+      "beginnerExplanation": "로/으로 often answers “by what method?” or “with what tool?” It can also show direction or language. In shopping, 카드로 is “by card.”",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-do",
+      "type": "particle",
+      "hangul": "도",
+      "romanization": "do",
+      "title": "Also / too / even",
+      "plainEnglish": "Use this to add one more thing to the same idea.",
+      "whenToUse": "Use 도 for me too, this too, today too, and similar additions.",
+      "attachmentRule": "Attach 도 after the word you are adding: 저도, 이것도, 오늘도.",
+      "contrastWith": "도 often replaces 은/는, 이/가, or 을/를 in that position.",
+      "sentenceFrames": [
+        "저도 ___해요.",
+        "이것도 주세요.",
+        "오늘도 ___해요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "저는 가요.",
+          "romanization": "jeoneun gayo.",
+          "en": "I am going."
+        },
+        {
+          "speaker": "B",
+          "ko": "저도 가요.",
+          "romanization": "jeodo gayo.",
+          "en": "I am going too."
+        },
+        {
+          "speaker": "A",
+          "ko": "이것도 주세요.",
+          "romanization": "igeotdo juseyo.",
+          "en": "This too, please."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저도 가요.",
+          "romanization": "jeodo gayo.",
+          "en": "I am going too."
+        },
+        {
+          "ko": "이것도 주세요.",
+          "romanization": "igeotdo juseyo.",
+          "en": "This too, please."
+        },
+        {
+          "ko": "오늘도 공부해요.",
+          "romanization": "oneuldo gongbuhaeyo.",
+          "en": "I study today too."
+        }
+      ],
+      "commonMistakes": [
+        "Say 저도, not 저는도.",
+        "도 changes focus, so place it after the exact word you are adding."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "I am going too.",
+          "ko": "저도 가요.",
+          "answer": "도"
+        },
+        {
+          "prompt": "This too, please.",
+          "ko": "이것도 주세요.",
+          "answer": "도"
+        },
+        {
+          "prompt": "I study today too.",
+          "ko": "오늘도 공부해요.",
+          "answer": "도"
+        }
+      ],
+      "beginnerExplanation": "도 replaces the particle you might expect and means “also/too/even.” 저도 means “me too,” not 저는도.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-man",
+      "type": "particle",
+      "hangul": "만",
+      "romanization": "man",
+      "title": "Only / just",
+      "plainEnglish": "Use this to limit the sentence to one thing.",
+      "whenToUse": "Use 만 for only this, only water, only today, or just one thing.",
+      "attachmentRule": "Attach 만 after the word you want to limit: 물만, 오늘만, 이것만.",
+      "contrastWith": "도 adds another thing. 만 limits the sentence to one thing.",
+      "sentenceFrames": [
+        "___만 주세요.",
+        "___만 마셔요.",
+        "오늘만 ___해요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "뭐 드릴까요?",
+          "romanization": "mwo deurilkkayo?",
+          "en": "What can I get you?"
+        },
+        {
+          "speaker": "B",
+          "ko": "물만 주세요.",
+          "romanization": "mulman juseyo.",
+          "en": "Only water, please."
+        },
+        {
+          "speaker": "A",
+          "ko": "오늘만 쉬어요.",
+          "romanization": "oneulman swieoyo.",
+          "en": "I rest only today."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "물만 마셔요.",
+          "romanization": "mulman masyeoyo.",
+          "en": "I only drink water."
+        },
+        {
+          "ko": "오늘만 쉬어요.",
+          "romanization": "oneulman swieoyo.",
+          "en": "I rest only today."
+        },
+        {
+          "ko": "이것만 주세요.",
+          "romanization": "igeotman juseyo.",
+          "en": "Only this, please."
+        }
+      ],
+      "commonMistakes": [
+        "만 changes focus. 물만 마셔요 means only water, not only drinking.",
+        "Place 만 after the word you want to limit."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "Only this, please.",
+          "ko": "이것만 주세요.",
+          "answer": "만"
+        },
+        {
+          "prompt": "I only drink water.",
+          "ko": "물만 마셔요.",
+          "answer": "만"
+        },
+        {
+          "prompt": "I rest only today.",
+          "ko": "오늘만 쉬어요.",
+          "answer": "만"
+        }
+      ],
+      "beginnerExplanation": "만 narrows the sentence to “only this.” In shopping, 이것만 주세요 means you do not want the other items.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-particle-buteo-kkaji",
+      "type": "particle",
+      "hangul": "부터 / 까지",
+      "romanization": "buteo / kkaji",
+      "title": "From / until",
+      "plainEnglish": "Use these to mark the start and end of a time or place range.",
+      "whenToUse": "Use 부터/까지 with schedules, opening hours, travel routes, and time ranges.",
+      "attachmentRule": "Use 부터 for the start and 까지 for the end: 9시부터 6시까지.",
+      "contrastWith": "에 marks one time or place. 부터/까지 marks a range.",
+      "sentenceFrames": [
+        "___부터 ___까지 일해요.",
+        "___부터 ___까지 가요.",
+        "___까지 걸어요."
+      ],
+      "miniDialogue": [
+        {
+          "speaker": "A",
+          "ko": "몇 시부터 일해요?",
+          "romanization": "myeot ssibuteo ilhaeyo?",
+          "en": "From what time do you work?"
+        },
+        {
+          "speaker": "B",
+          "ko": "9시부터 6시까지 일해요.",
+          "romanization": "ahopssibuteo yeoseotssikkaji ilhaeyo.",
+          "en": "I work from 9 to 6."
+        },
+        {
+          "speaker": "A",
+          "ko": "여기부터 역까지 걸어요.",
+          "romanization": "yeogibuteo yeokkkaji georeoyo.",
+          "en": "I walk from here to the station."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "9시부터 6시까지 일해요.",
+          "romanization": "ahopssibuteo yeoseotssikkaji ilhaeyo.",
+          "en": "I work from 9 to 6."
+        },
+        {
+          "ko": "월요일부터 금요일까지 공부해요.",
+          "romanization": "woryoilbuteo geumyoilkkaji gongbuhaeyo.",
+          "en": "I study from Monday to Friday."
+        },
+        {
+          "ko": "여기부터 역까지 걸어요.",
+          "romanization": "yeogibuteo yeokkkaji georeoyo.",
+          "en": "I walk from here to the station."
+        }
+      ],
+      "commonMistakes": [
+        "까지 can mean until for time or as far as for place.",
+        "Do not use only 부터 if the ending point is important."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "I work from 9 to 6.",
+          "ko": "9시부터 6시까지 일해요.",
+          "answer": "부터/까지"
+        },
+        {
+          "prompt": "I study Monday to Friday.",
+          "ko": "월요일부터 금요일까지 공부해요.",
+          "answer": "부터/까지"
+        },
+        {
+          "prompt": "I walk from here to the station.",
+          "ko": "여기부터 역까지 걸어요.",
+          "answer": "부터/까지"
+        }
+      ],
+      "beginnerExplanation": "부터 and 까지 create a range. They are useful for schedules, routes, and opening hours before you can make complex sentences.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    }
+  ],
+  "endingItems": [
+    {
+      "id": "grammar-ending-want",
+      "hangul": "V고 싶어요",
+      "romanization": "V-go sipeoyo",
+      "title": "Want to do",
+      "plainEnglish": "Add 고 싶어요 to a verb stem to say what you want to do.",
+      "whenToUse": "Use it for your own wants: eating, going, resting, learning, buying, or trying something.",
+      "attachmentRule": "Remove 다 from the dictionary form, then add 고 싶어요: 먹다 → 먹고 싶어요.",
+      "contrastWith": "Use N 주세요 to ask for an item. Use V고 싶어요 to talk about your desire.",
+      "sentenceFrames": [
+        "먹고 싶어요.",
+        "가고 싶어요.",
+        "쉬고 싶어요."
+      ],
+      "examples": [
+        {
+          "ko": "커피를 마시고 싶어요.",
+          "romanization": "keopireul masigo sipeoyo.",
+          "en": "I want to drink coffee."
+        },
+        {
+          "ko": "집에 가고 싶어요.",
+          "romanization": "jibe gago sipeoyo.",
+          "en": "I want to go home."
+        },
+        {
+          "ko": "오늘은 쉬고 싶어요.",
+          "romanization": "oneureun swigo sipeoyo.",
+          "en": "I want to rest today."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use 고 싶어요 for adjectives like pretty or expensive.",
+        "For another person's wants, beginners can first quote or ask directly instead of overbuilding grammar."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "먹다 → want to eat",
+          "ko": "먹고 싶어요.",
+          "answer": "먹고 싶어요"
+        },
+        {
+          "prompt": "가다 → want to go",
+          "ko": "가고 싶어요.",
+          "answer": "가고 싶어요"
+        },
+        {
+          "prompt": "쉬다 → want to rest",
+          "ko": "쉬고 싶어요.",
+          "answer": "쉬고 싶어요"
+        }
+      ],
+      "beginnerExplanation": "고 싶어요 attaches to a verb stem and expresses the speaker’s desire. It is usually safer for “I want to do” than translating English word by word.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-ending-can",
+      "hangul": "Vㄹ/을 수 있어요",
+      "romanization": "V-l/eul su isseoyo",
+      "title": "Can do / possible",
+      "plainEnglish": "Use this to say an action is possible because of skill, time, permission-like possibility, or circumstances.",
+      "whenToUse": "Use it for ability and practical possibility: can go, can eat, can read, can pay by card.",
+      "attachmentRule": "Use ㄹ 수 있어요 after a vowel-ending stem and 을 수 있어요 after a consonant-ending stem.",
+      "contrastWith": "못 + verb is the shorter everyday way to say cannot.",
+      "sentenceFrames": [
+        "갈 수 있어요.",
+        "먹을 수 있어요.",
+        "읽을 수 있어요."
+      ],
+      "examples": [
+        {
+          "ko": "오늘 갈 수 있어요.",
+          "romanization": "oneul gal su isseoyo.",
+          "en": "I can go today."
+        },
+        {
+          "ko": "한글을 읽을 수 있어요.",
+          "romanization": "hangeureul ilgeul su isseoyo.",
+          "en": "I can read Hangul."
+        },
+        {
+          "ko": "카드로 결제할 수 있어요?",
+          "romanization": "kadeuro gyeoljehal su isseoyo?",
+          "en": "Can I pay by card?"
+        }
+      ],
+      "commonMistakes": [
+        "Do not use this for simple preference; use 고 싶어요 for want.",
+        "For quick speech, 카드 돼요? is a natural shortcut in stores."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "가다 → can go",
+          "ko": "갈 수 있어요.",
+          "answer": "갈 수 있어요"
+        },
+        {
+          "prompt": "먹다 → can eat",
+          "ko": "먹을 수 있어요.",
+          "answer": "먹을 수 있어요"
+        },
+        {
+          "prompt": "읽다 → can read",
+          "ko": "읽을 수 있어요.",
+          "answer": "읽을 수 있어요"
+        }
+      ],
+      "beginnerExplanation": "ㄹ/을 수 있어요 means the action is possible. The ㄹ/을 part depends on the verb stem ending, so memorize complete examples first.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-ending-mot",
+      "hangul": "못 + verb",
+      "romanization": "mot + verb",
+      "title": "Cannot / unable to",
+      "plainEnglish": "Put 못 before a verb to say you cannot do it because of ability, schedule, rules, health, or circumstances.",
+      "whenToUse": "Use it for real limits: schedule conflicts, food restrictions, language ability, health, rules, or practical impossibility.",
+      "attachmentRule": "For most verbs, put 못 before the normal polite verb. For 하다 verbs, use 못 해요 or noun + 못 해요.",
+      "contrastWith": "안 means you do not do something. 못 means you cannot do it.",
+      "sentenceFrames": [
+        "못 가요.",
+        "못 먹어요.",
+        "못 해요.",
+        "공부 못 해요."
+      ],
+      "examples": [
+        {
+          "ko": "오늘은 못 가요.",
+          "romanization": "oneureun mot gayo.",
+          "en": "I cannot go today."
+        },
+        {
+          "ko": "매운 음식은 못 먹어요.",
+          "romanization": "maeun eumsigeun mot meogeoyo.",
+          "en": "I cannot eat spicy food."
+        },
+        {
+          "ko": "한국어를 잘 못해요.",
+          "romanization": "hangugeoreul jal motaeyo.",
+          "en": "I cannot speak Korean well."
+        }
+      ],
+      "commonMistakes": [
+        "Say 못 가요, not 못 가해요.",
+        "For 하다 verbs, use 못 해요 or noun + 못 해요: 공부 못 해요."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "가다 → cannot go",
+          "ko": "못 가요.",
+          "answer": "못 가요"
+        },
+        {
+          "prompt": "먹다 → cannot eat",
+          "ko": "못 먹어요.",
+          "answer": "못 먹어요"
+        },
+        {
+          "prompt": "공부하다 → cannot study",
+          "ko": "공부 못 해요.",
+          "answer": "공부 못 해요"
+        }
+      ],
+      "beginnerExplanation": "못 is the inability negative. It says a real limit blocks the action. For most verbs, it simply goes before the verb: 못 가요, 못 먹어요.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-ending-must",
+      "hangul": "V아/어야 해요",
+      "romanization": "V-a/eoya haeyo",
+      "title": "Have to / must",
+      "plainEnglish": "Use this to say an action is necessary or required.",
+      "whenToUse": "Use it for schedules, rules, health needs, work, school, and personal obligations.",
+      "attachmentRule": "Use the 아/어 form of the verb, then add 야 해요: 가다 → 가야 해요, 먹다 → 먹어야 해요.",
+      "contrastWith": "V지 않아도 돼요 means the action is not necessary.",
+      "sentenceFrames": [
+        "가야 해요.",
+        "먹어야 해요.",
+        "공부해야 해요."
+      ],
+      "examples": [
+        {
+          "ko": "내일 일찍 가야 해요.",
+          "romanization": "naeil iljjik gaya haeyo.",
+          "en": "I have to go early tomorrow."
+        },
+        {
+          "ko": "약을 먹어야 해요.",
+          "romanization": "yageul meogeoya haeyo.",
+          "en": "I have to take medicine."
+        },
+        {
+          "ko": "시험이 있어서 공부해야 해요.",
+          "romanization": "siheomi isseoseo gongbuhaeya haeyo.",
+          "en": "I have a test, so I have to study."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use this for a simple future plan; it sounds like obligation.",
+        "하다 verbs become 해야 해요."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "가다 → have to go",
+          "ko": "가야 해요.",
+          "answer": "가야 해요"
+        },
+        {
+          "prompt": "먹다 → have to eat",
+          "ko": "먹어야 해요.",
+          "answer": "먹어야 해요"
+        },
+        {
+          "prompt": "공부하다 → have to study",
+          "ko": "공부해야 해요.",
+          "answer": "공부해야 해요"
+        }
+      ],
+      "beginnerExplanation": "아/어야 해요 creates obligation. It often sounds like “I have to,” not just “I will.” Use it for rules, health, schedules, and necessary tasks.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-ending-permission",
+      "hangul": "V아/어도 돼요?",
+      "romanization": "V-a/eodo dwaeyo",
+      "title": "May I / is it okay to do?",
+      "plainEnglish": "Use this to ask whether an action is allowed or okay.",
+      "whenToUse": "Use it before sitting, entering, taking photos, using a card, or doing anything where permission matters.",
+      "attachmentRule": "Use the 아/어 form of the verb, then add 도 돼요?",
+      "contrastWith": "V지 마세요 tells someone not to do something.",
+      "sentenceFrames": [
+        "앉아도 돼요?",
+        "사진 찍어도 돼요?",
+        "카드 써도 돼요?"
+      ],
+      "examples": [
+        {
+          "ko": "여기 앉아도 돼요?",
+          "romanization": "yeogi anjado dwaeyo?",
+          "en": "May I sit here?"
+        },
+        {
+          "ko": "사진 찍어도 돼요?",
+          "romanization": "sajin jjigeodo dwaeyo?",
+          "en": "May I take a photo?"
+        },
+        {
+          "ko": "카드 써도 돼요?",
+          "romanization": "kadeu sseodo dwaeyo?",
+          "en": "Can I use a card?"
+        }
+      ],
+      "commonMistakes": [
+        "Use a question intonation when asking permission.",
+        "Do not confuse 돼요 with 되어요 spelling; 돼요 is the common form."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "앉다 → may I sit?",
+          "ko": "앉아도 돼요?",
+          "answer": "앉아도 돼요?"
+        },
+        {
+          "prompt": "사진 찍다 → may I take a photo?",
+          "ko": "사진 찍어도 돼요?",
+          "answer": "사진 찍어도 돼요?"
+        },
+        {
+          "prompt": "카드 쓰다 → may I use a card?",
+          "ko": "카드 써도 돼요?",
+          "answer": "카드 써도 돼요?"
+        }
+      ],
+      "beginnerExplanation": "아/어도 돼요? asks whether doing an action is okay. This is essential in travel, classrooms, restaurants, and public places.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-ending-request",
+      "hangul": "V아/어 주세요",
+      "romanization": "V-a/eo juseyo",
+      "title": "Please do",
+      "plainEnglish": "Use this to politely ask someone to do an action.",
+      "whenToUse": "Use it for help, opening, repeating, taking a photo, checking something, or saying something again.",
+      "attachmentRule": "Use the 아/어 form of the verb, then add 주세요.",
+      "contrastWith": "N 주세요 asks for an item. V아/어 주세요 asks someone to do an action.",
+      "sentenceFrames": [
+        "도와주세요.",
+        "말해 주세요.",
+        "열어 주세요."
+      ],
+      "examples": [
+        {
+          "ko": "도와주세요.",
+          "romanization": "dowajuseyo.",
+          "en": "Please help me."
+        },
+        {
+          "ko": "다시 말해 주세요.",
+          "romanization": "dasi malhae juseyo.",
+          "en": "Please say it again."
+        },
+        {
+          "ko": "문을 열어 주세요.",
+          "romanization": "muneul yeoreo juseyo.",
+          "en": "Please open the door."
+        }
+      ],
+      "commonMistakes": [
+        "Do not use this for your own action; it asks someone else to act.",
+        "Add 좀 to soften many everyday requests."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "돕다 → please help",
+          "ko": "도와주세요.",
+          "answer": "도와주세요"
+        },
+        {
+          "prompt": "말하다 → please say",
+          "ko": "말해 주세요.",
+          "answer": "말해 주세요"
+        },
+        {
+          "prompt": "열다 → please open",
+          "ko": "열어 주세요.",
+          "answer": "열어 주세요"
+        }
+      ],
+      "beginnerExplanation": "아/어 주세요 asks someone else to do an action. It is different from N 주세요, which asks for an item.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-ending-prohibition",
+      "hangul": "V지 마세요",
+      "romanization": "V-ji maseyo",
+      "title": "Please do not",
+      "plainEnglish": "Use this for polite prohibitions, warnings, signs, and careful requests.",
+      "whenToUse": "Use it when telling someone not to go, not to take photos, not to open something, or not to worry.",
+      "attachmentRule": "Remove 다 from the dictionary form, then add 지 마세요.",
+      "contrastWith": "안 V해요 says someone does not do an action. V지 마세요 tells someone not to do it.",
+      "sentenceFrames": [
+        "가지 마세요.",
+        "사진 찍지 마세요.",
+        "걱정하지 마세요."
+      ],
+      "examples": [
+        {
+          "ko": "여기서 사진 찍지 마세요.",
+          "romanization": "yeogiseo sajin jjikji maseyo.",
+          "en": "Please do not take photos here."
+        },
+        {
+          "ko": "아직 가지 마세요.",
+          "romanization": "ajik gaji maseyo.",
+          "en": "Please do not go yet."
+        },
+        {
+          "ko": "걱정하지 마세요.",
+          "romanization": "geokjeonghaji maseyo.",
+          "en": "Please do not worry."
+        }
+      ],
+      "commonMistakes": [
+        "This can sound like an instruction, so use it carefully with people.",
+        "You will often read it on signs before you need to say it yourself."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "가다 → please do not go",
+          "ko": "가지 마세요.",
+          "answer": "가지 마세요"
+        },
+        {
+          "prompt": "사진 찍다 → please do not take photos",
+          "ko": "사진 찍지 마세요.",
+          "answer": "사진 찍지 마세요"
+        },
+        {
+          "prompt": "걱정하다 → please do not worry",
+          "ko": "걱정하지 마세요.",
+          "answer": "걱정하지 마세요"
+        }
+      ],
+      "beginnerExplanation": "지 마세요 tells someone not to do something. Beginners should first recognize it on signs and staff instructions.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-connector-because",
+      "hangul": "V아서/어서",
+      "romanization": "V-aseo/eoseo",
+      "title": "Because / so",
+      "plainEnglish": "Use this to connect a reason to a result.",
+      "whenToUse": "Use it for simple reasons: busy so cannot go, sick so rest, expensive so do not buy.",
+      "attachmentRule": "Use 아서 after many ㅏ/ㅗ stems and 어서 after many other stems. 하다 becomes 해서.",
+      "contrastWith": "고 simply connects ideas; 아서/어서 explains why.",
+      "sentenceFrames": [
+        "바빠서 못 가요.",
+        "아파서 쉬어요.",
+        "비싸서 안 사요."
+      ],
+      "examples": [
+        {
+          "ko": "바빠서 못 가요.",
+          "romanization": "bappaseo mot gayo.",
+          "en": "I am busy, so I cannot go."
+        },
+        {
+          "ko": "아파서 쉬어요.",
+          "romanization": "apaseo swieoyo.",
+          "en": "I am sick, so I rest."
+        },
+        {
+          "ko": "늦어서 죄송합니다.",
+          "romanization": "neujeoseo joesonghamnida.",
+          "en": "Sorry I am late."
+        }
+      ],
+      "commonMistakes": [
+        "Avoid using 아서/어서 before commands in careful textbook grammar.",
+        "Keep the first clause short as a beginner."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "busy + cannot go",
+          "ko": "바빠서 못 가요.",
+          "answer": "바빠서 못 가요"
+        },
+        {
+          "prompt": "sick + rest",
+          "ko": "아파서 쉬어요.",
+          "answer": "아파서 쉬어요"
+        },
+        {
+          "prompt": "late + sorry",
+          "ko": "늦어서 죄송합니다.",
+          "answer": "늦어서 죄송합니다"
+        }
+      ],
+      "beginnerExplanation": "아서/어서 joins a reason and a result. Start with short sentences like 바빠서 못 가요 before using it in longer speech.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-connector-and",
+      "hangul": "V고",
+      "romanization": "V-go",
+      "title": "And / and then",
+      "plainEnglish": "Use 고 to connect two actions or descriptions.",
+      "whenToUse": "Use it for sequence or listing: eat and go, study and work, cheap and good.",
+      "attachmentRule": "Remove 다 from the first verb or adjective, then add 고.",
+      "contrastWith": "아서/어서 gives a reason. 고 usually just connects.",
+      "sentenceFrames": [
+        "먹고 가요.",
+        "공부하고 일해요.",
+        "싸고 좋아요."
+      ],
+      "examples": [
+        {
+          "ko": "밥을 먹고 학교에 가요.",
+          "romanization": "babeul meokgo hakgyoe gayo.",
+          "en": "I eat and go to school."
+        },
+        {
+          "ko": "저는 공부하고 일해요.",
+          "romanization": "jeoneun gongbuhago ilhaeyo.",
+          "en": "I study and work."
+        },
+        {
+          "ko": "이 가방은 싸고 좋아요.",
+          "romanization": "i gabangeun ssago joayo.",
+          "en": "This bag is cheap and good."
+        }
+      ],
+      "commonMistakes": [
+        "고 does not always mean a strict time order; context decides.",
+        "Do not make beginner sentences too long."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "eat and go",
+          "ko": "먹고 가요.",
+          "answer": "먹고 가요"
+        },
+        {
+          "prompt": "study and work",
+          "ko": "공부하고 일해요.",
+          "answer": "공부하고 일해요"
+        },
+        {
+          "prompt": "cheap and good",
+          "ko": "싸고 좋아요.",
+          "answer": "싸고 좋아요"
+        }
+      ],
+      "beginnerExplanation": "고 connects actions or descriptions. It can mean “and” or “and then,” depending on context.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-connector-if",
+      "hangul": "V면",
+      "romanization": "V-myeon",
+      "title": "If / when",
+      "plainEnglish": "Use 면 to set a condition.",
+      "whenToUse": "Use it for time, price, health, permission, and simple advice.",
+      "attachmentRule": "Remove 다 from the verb or adjective, then add 면.",
+      "contrastWith": "아서/어서 gives a reason that already exists. 면 gives a condition.",
+      "sentenceFrames": [
+        "시간이 있으면 전화해 주세요.",
+        "비싸면 안 사요.",
+        "아프면 쉬세요."
+      ],
+      "examples": [
+        {
+          "ko": "시간이 있으면 전화해 주세요.",
+          "romanization": "sigani isseumyeon jeonhwahae juseyo.",
+          "en": "If you have time, please call."
+        },
+        {
+          "ko": "비싸면 안 사요.",
+          "romanization": "bissamyeon an sayo.",
+          "en": "If it is expensive, I do not buy it."
+        },
+        {
+          "ko": "아프면 쉬어야 해요.",
+          "romanization": "apeumyeon swieoya haeyo.",
+          "en": "If you are sick, you should rest."
+        }
+      ],
+      "commonMistakes": [
+        "Context can make 면 sound like if or when.",
+        "Keep the condition short at first."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "if you have time",
+          "ko": "시간이 있으면",
+          "answer": "시간이 있으면"
+        },
+        {
+          "prompt": "if it is expensive",
+          "ko": "비싸면",
+          "answer": "비싸면"
+        },
+        {
+          "prompt": "if you are sick",
+          "ko": "아프면",
+          "answer": "아프면"
+        }
+      ],
+      "beginnerExplanation": "면 creates a condition. Beginners can read it as “if,” but in real context it can also feel like “when.”",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    },
+    {
+      "id": "grammar-ending-promise",
+      "hangul": "Vㄹ/을게요",
+      "romanization": "V-l/eulgeyo",
+      "title": "I will / speaker promise",
+      "plainEnglish": "Use this when the speaker decides or promises what they will do.",
+      "whenToUse": "Use it when volunteering, responding to someone, leaving, waiting, or promising a call.",
+      "attachmentRule": "Use ㄹ게요 after a vowel-ending stem and 을게요 after a consonant-ending stem.",
+      "contrastWith": "ㄹ/을 거예요 is a future plan. ㄹ/을게요 is the speaker's decision in response to the situation.",
+      "sentenceFrames": [
+        "제가 할게요.",
+        "기다릴게요.",
+        "전화할게요."
+      ],
+      "examples": [
+        {
+          "ko": "제가 할게요.",
+          "romanization": "jega halgeyo.",
+          "en": "I will do it."
+        },
+        {
+          "ko": "여기서 기다릴게요.",
+          "romanization": "yeogiseo gidarilgeyo.",
+          "en": "I will wait here."
+        },
+        {
+          "ko": "나중에 전화할게요.",
+          "romanization": "najunge jeonhwahalgeyo.",
+          "en": "I will call later."
+        }
+      ],
+      "commonMistakes": [
+        "Use this only for what the speaker will do.",
+        "Do not use it to predict another person's action."
+      ],
+      "practiceItems": [
+        {
+          "prompt": "하다 → I will do it",
+          "ko": "제가 할게요.",
+          "answer": "제가 할게요"
+        },
+        {
+          "prompt": "기다리다 → I will wait",
+          "ko": "기다릴게요.",
+          "answer": "기다릴게요"
+        },
+        {
+          "prompt": "전화하다 → I will call",
+          "ko": "전화할게요.",
+          "answer": "전화할게요"
+        }
+      ],
+      "beginnerExplanation": "ㄹ/을게요 is the speaker’s decision or promise. It is common when responding to someone: 제가 할게요.",
+      "studyOrder": [
+        "Read the full example first.",
+        "Find the noun, verb stem, or adjective stem that changes.",
+        "Say the frame aloud with one substitution.",
+        "Check the common mistake before making a new sentence."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,951 @@
+{
+  "curriculumGuide": [
+    {
+      "title": "Before Unit 1: Hangul and sound",
+      "tag": "Foundation",
+      "goal": "Read Korean syllable blocks accurately before relying on romanization.",
+      "points": [
+        "Know that each block is built from initial consonant, vowel, and optional final consonant.",
+        "Practice final consonants because they affect the next syllable.",
+        "Use romanization as support, then move your eyes back to Hangul and audio."
+      ],
+      "task": "Read five phrases aloud, then play the audio and compare."
+    },
+    {
+      "title": "Every chapter: vocabulary, grammar, conversation",
+      "tag": "Study loop",
+      "goal": "Move from word to pattern to real exchange.",
+      "points": [
+        "Vocabulary: learn the chunk and one sentence frame.",
+        "Grammar: learn the particle or ending that makes the sentence work.",
+        "Conversation: say the item inside a mini dialogue, then change one word."
+      ],
+      "task": "Open one word card, one grammar item, and one expression before the final task."
+    },
+    {
+      "title": "Beginner functions to cover",
+      "tag": "Can-do map",
+      "goal": "Build survival communication, not only translation.",
+      "points": [
+        "Greeting and introducing yourself politely.",
+        "Ordering food, buying items, asking price, and paying.",
+        "Asking location, transportation, classroom help, and inviting."
+      ],
+      "task": "After each chapter, say one sentence you could use in Korea today."
+    },
+    {
+      "title": "Culture and politeness layer",
+      "tag": "Usage",
+      "goal": "Choose Korean that fits the person and situation.",
+      "points": [
+        "Default to 해요체 with adults, staff, teachers, and strangers.",
+        "Notice titles and honorific direction before casual speech.",
+        "Learn signs and staff instructions even if you do not use them often yourself."
+      ],
+      "task": "For each expression, decide whether it is casual, polite everyday, or formal/service speech."
+    }
+  ],
+  "functionTags": [
+    "Hangul reading",
+    "Basic particles",
+    "Polite endings",
+    "Greeting",
+    "Self-introduction",
+    "Ordering food",
+    "Shopping",
+    "Directions",
+    "Transportation",
+    "Phone/classroom help",
+    "Inviting",
+    "Culture and titles"
+  ],
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "number": 1,
+      "title": "Hangul, Syllable Blocks, And Sound",
+      "goal": "Understand how Hangul blocks work and use romanization only as a temporary helper.",
+      "scenario": "First self-study session before speaking.",
+      "dialogue": [
+        {
+          "speaker": "Tutor",
+          "ko": "한글은 소리 글자예요.",
+          "romanization": "hangeureun sori geuljayeyo.",
+          "en": "Hangul is a sound-based writing system."
+        },
+        {
+          "speaker": "Learner",
+          "ko": "천천히 말해 주세요.",
+          "romanization": "cheoncheonhi malhae juseyo.",
+          "en": "Please speak slowly."
+        },
+        {
+          "speaker": "Tutor",
+          "ko": "한글을 보고 다시 들어요.",
+          "romanization": "hangeureul bogo dasi deureoyo.",
+          "en": "Look at the Hangul and listen again."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-foundation-hangul-blocks"
+      ],
+      "linkedEntryIds": [
+        "expr-020",
+        "expr-021",
+        "expr-022",
+        "expr-026",
+        "word-verb-011",
+        "word-verb-012",
+        "word-verb-013",
+        "word-verb-014"
+      ],
+      "coreVocabularyIds": [
+        "word-verb-011",
+        "word-verb-012",
+        "word-verb-013",
+        "word-verb-014",
+        "expr-026"
+      ],
+      "patternIds": [
+        "pattern-015"
+      ],
+      "guidedPractice": "Break 한글 into blocks, read each block from Hangul, then check romanization only after you try.",
+      "realLifeTask": "Ask a Korean-speaking friend or tutor to say one phrase slowly and repeat it back.",
+      "friendPractice": "Friend says three phrases from this chapter. Learner points to the Hangul and repeats.",
+      "review": "Can you explain that 한 is ㅎ + ㅏ + ㄴ, read a simple block, and use romanization only as a helper?",
+      "beginnerGuide": [
+        {
+          "title": "What a complete beginner should notice",
+          "body": "Hangul is not an alphabet written in a line like English. Korean letters are grouped into square syllable blocks, so 한 is one spoken chunk made from ㅎ, ㅏ, and ㄴ."
+        },
+        {
+          "title": "How to study this chapter",
+          "body": "Look at the Hangul first, try to read it, then use romanization only to check. If you start from romanization, you will build English pronunciation habits that are hard to undo."
+        },
+        {
+          "title": "Minimum outcome",
+          "body": "You do not need perfect pronunciation yet. You should be able to point to a block, name its parts, and repeat a short phrase after listening."
+        }
+      ],
+      "checkpoints": [
+        "I can explain that 한 is ㅎ + ㅏ + ㄴ.",
+        "I can read a short phrase from Hangul before checking romanization.",
+        "I know romanization is a helper, not Korean spelling."
+      ]
+    },
+    {
+      "id": "chapter-02",
+      "number": 2,
+      "title": "Greetings And Self-Introduction",
+      "goal": "Greet, thank, apologize, answer yes/no, and introduce your name politely.",
+      "scenario": "First class, first meeting, store, or language exchange.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "안녕하세요.",
+          "romanization": "annyeonghaseyo.",
+          "en": "Hello."
+        },
+        {
+          "speaker": "B",
+          "ko": "안녕하세요. 저는 하나예요.",
+          "romanization": "annyeonghaseyo. jeoneun hanayeyo.",
+          "en": "Hello. I am Hana."
+        },
+        {
+          "speaker": "A",
+          "ko": "만나서 반가워요.",
+          "romanization": "mannaseo bangawoyo.",
+          "en": "Nice to meet you."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-particle-eun-neun"
+      ],
+      "linkedEntryIds": [
+        "expr-001",
+        "expr-002",
+        "expr-003",
+        "expr-004",
+        "expr-005",
+        "expr-006",
+        "expr-007",
+        "expr-008",
+        "expr-009",
+        "pattern-001"
+      ],
+      "coreVocabularyIds": [
+        "expr-001",
+        "expr-002",
+        "expr-003",
+        "expr-004",
+        "expr-005",
+        "expr-006"
+      ],
+      "patternIds": [
+        "pattern-001"
+      ],
+      "guidedPractice": "Replace the name in 저는 하나예요 with your own name, then add one greeting and one closing.",
+      "realLifeTask": "Introduce yourself in three polite sentences.",
+      "friendPractice": "Friend asks 이름이 뭐예요? Learner answers with 저는 ___예요.",
+      "review": "Can you greet, say your name, thank someone, and close the conversation politely?",
+      "beginnerGuide": [
+        {
+          "title": "Why greetings come before grammar",
+          "body": "A beginner needs phrases that work immediately. 안녕하세요, 감사합니다, 죄송합니다, 네, and 아니요 let you participate politely before you can build long sentences."
+        },
+        {
+          "title": "Politeness first",
+          "body": "Use polite everyday Korean until the other person clearly uses casual speech with you. This course treats 해요체 and polite chunks as your default safety zone."
+        },
+        {
+          "title": "Your first personal sentence",
+          "body": "저는 ___예요 is not just translation practice. It teaches 은/는 as “as for me,” which becomes the base for many later sentences."
+        }
+      ],
+      "checkpoints": [
+        "I can greet and thank someone without reading English.",
+        "I can say 저는 ___예요 with my own name.",
+        "I can choose 감사합니다 when I want to sound safer or more formal."
+      ]
+    },
+    {
+      "id": "chapter-03",
+      "number": 3,
+      "title": "Noun Sentences: N이에요/예요 And 은/는",
+      "goal": "Say what something is and set the topic with 은/는.",
+      "scenario": "Names, jobs, places, and basic identity.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "이건 뭐예요?",
+          "romanization": "igeon mwoyeyo?",
+          "en": "What is this?"
+        },
+        {
+          "speaker": "B",
+          "ko": "이건 메뉴예요.",
+          "romanization": "igeon menyuyeyo.",
+          "en": "This is a menu."
+        },
+        {
+          "speaker": "A",
+          "ko": "저는 학생이에요.",
+          "romanization": "jeoneun haksaeng-ieyo.",
+          "en": "I am a student."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-particle-eun-neun"
+      ],
+      "linkedEntryIds": [
+        "pattern-001",
+        "expr-001",
+        "expr-008",
+        "expr-009"
+      ],
+      "coreVocabularyIds": [
+        "expr-001",
+        "expr-008",
+        "expr-009"
+      ],
+      "patternIds": [
+        "pattern-001"
+      ],
+      "guidedPractice": "Make three N이에요/예요 sentences: your name, your role, and one object.",
+      "realLifeTask": "Point to two things around you and say what they are.",
+      "friendPractice": "Friend points to an object. Learner asks 이건 뭐예요? and repeats the answer.",
+      "review": "Can you choose 이에요 vs 예요 and use 저는 naturally?",
+      "beginnerGuide": [
+        {
+          "title": "The first sentence engine",
+          "body": "N이에요/예요 lets you say what something is. This is the noun-sentence engine for names, jobs, objects, places, and simple identity."
+        },
+        {
+          "title": "Topic marker in plain English",
+          "body": "은/는 marks what we are talking about. In 저는 학생이에요, Korean first says “as for me,” then gives the information."
+        },
+        {
+          "title": "Do not over-translate particles",
+          "body": "Particles often do not become separate English words. Learn the Korean frame and the sentence job, not a one-word English translation."
+        }
+      ],
+      "checkpoints": [
+        "I can choose 이에요 after a final consonant and 예요 after a vowel.",
+        "I can ask 이건 뭐예요?",
+        "I can explain 은/는 as topic or contrast."
+      ]
+    },
+    {
+      "id": "chapter-04",
+      "number": 4,
+      "title": "Existence And Possession: 있어요/없어요 And 이/가",
+      "goal": "Say what exists, what you have, and what is missing.",
+      "scenario": "Reservations, time, money, bathrooms, and problems.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "시간이 있어요?",
+          "romanization": "sigani isseoyo?",
+          "en": "Do you have time?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 시간이 있어요.",
+          "romanization": "ne, sigani isseoyo.",
+          "en": "Yes, I have time."
+        },
+        {
+          "speaker": "A",
+          "ko": "문제가 없어요.",
+          "romanization": "munjega eopseoyo.",
+          "en": "There is no problem."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-particle-i-ga"
+      ],
+      "linkedEntryIds": [
+        "pattern-002",
+        "pattern-003",
+        "expr-025",
+        "expr-028",
+        "word-verb-029"
+      ],
+      "coreVocabularyIds": [
+        "expr-025",
+        "expr-028",
+        "word-verb-029"
+      ],
+      "patternIds": [
+        "pattern-002",
+        "pattern-003"
+      ],
+      "guidedPractice": "Practice 시간이 있어요, 시간이 없어요, 예약이 있어요, 예약이 없어요.",
+      "realLifeTask": "Ask if there is a bathroom or reservation, then answer yes/no.",
+      "friendPractice": "Friend asks 시간이 있어요? Learner answers with 있어요 or 없어요 and one reason.",
+      "review": "Can you use 이/가 with 있어요 and 없어요?",
+      "beginnerGuide": [
+        {
+          "title": "Existence covers more than “there is”",
+          "body": "있어요 and 없어요 also mean “I have” and “I do not have.” 시간이 있어요 can mean “there is time” or “I have time.”"
+        },
+        {
+          "title": "Why 이/가 appears here",
+          "body": "The thing that exists, does not exist, hurts, or appears is usually marked with 이/가: 시간이 있어요, 문제가 없어요, 머리가 아파요."
+        },
+        {
+          "title": "Survival value",
+          "body": "This chapter gives you high-frequency travel and daily phrases: 예약이 있어요, 시간이 없어요, 화장실이 있어요?"
+        }
+      ],
+      "checkpoints": [
+        "I can say I have time and I do not have time.",
+        "I can ask whether something exists with 있어요?",
+        "I do not use 을/를 for the thing that exists."
+      ]
+    },
+    {
+      "id": "chapter-05",
+      "number": 5,
+      "title": "Daily Actions: Present Tense And 을/를",
+      "goal": "Say what you do every day and what object receives the action.",
+      "scenario": "Meals, study, work, reading, writing, and daily routine.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "아침을 먹어요?",
+          "romanization": "achimeul meogeoyo?",
+          "en": "Do you eat breakfast?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 아침을 먹어요.",
+          "romanization": "ne, achimeul meogeoyo.",
+          "en": "Yes, I eat breakfast."
+        },
+        {
+          "speaker": "A",
+          "ko": "한국어를 공부해요.",
+          "romanization": "hangugeoreul gongbuhaeyo.",
+          "en": "I study Korean."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-particle-eul-reul"
+      ],
+      "linkedEntryIds": [
+        "word-verb-001",
+        "word-verb-002",
+        "word-verb-005",
+        "word-verb-007",
+        "word-verb-008",
+        "word-verb-011",
+        "word-verb-012",
+        "word-verb-015",
+        "word-verb-016",
+        "pattern-009",
+        "pattern-010"
+      ],
+      "coreVocabularyIds": [
+        "word-verb-001",
+        "word-verb-002",
+        "word-verb-005",
+        "word-verb-007",
+        "word-verb-008",
+        "word-verb-011"
+      ],
+      "patternIds": [
+        "pattern-009",
+        "pattern-010"
+      ],
+      "guidedPractice": "Make three present-tense sentences with 을/를, then make one negative sentence.",
+      "realLifeTask": "Say three things you do today and one thing you do not do.",
+      "friendPractice": "Friend asks 뭐 해요? Learner answers with one object sentence.",
+      "review": "Can you use 먹어요, 마셔요, 공부해요, and 안 해요 naturally?",
+      "beginnerGuide": [
+        {
+          "title": "From words to actions",
+          "body": "This chapter turns verbs into simple sentences: 밥을 먹어요, 커피를 마셔요, 한국어를 공부해요. The object marker 을/를 shows what receives the action."
+        },
+        {
+          "title": "Particle dropping comes later",
+          "body": "Koreans often drop 을/를 in speech, but beginners should first understand the full frame. Once the structure is clear, natural short speech becomes easier."
+        },
+        {
+          "title": "Negatives start here",
+          "body": "안 먹어요 and 공부 안 해요 show the everyday short negative. This means “I do not do it,” not necessarily “I cannot.”"
+        }
+      ],
+      "checkpoints": [
+        "I can make a present-tense sentence with an object.",
+        "I can use 을 after a consonant and 를 after a vowel.",
+        "I can make a short negative with 안."
+      ]
+    },
+    {
+      "id": "chapter-06",
+      "number": 6,
+      "title": "Places And Time: 에 And 에서",
+      "goal": "Say where you go, where you are, where actions happen, and when things happen.",
+      "scenario": "School, work, home, appointments, and movement.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "어디에 가요?",
+          "romanization": "eodie gayo?",
+          "en": "Where are you going?"
+        },
+        {
+          "speaker": "B",
+          "ko": "학교에 가요.",
+          "romanization": "hakgyoe gayo.",
+          "en": "I go to school."
+        },
+        {
+          "speaker": "A",
+          "ko": "학교에서 공부해요.",
+          "romanization": "hakgyoeseo gongbuhaeyo.",
+          "en": "I study at school."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "linkedEntryIds": [
+        "word-verb-003",
+        "word-verb-004",
+        "word-verb-009",
+        "word-verb-016",
+        "word-verb-029",
+        "pattern-002"
+      ],
+      "coreVocabularyIds": [
+        "word-verb-003",
+        "word-verb-004",
+        "word-verb-009",
+        "word-verb-016",
+        "word-verb-029"
+      ],
+      "patternIds": [
+        "pattern-002"
+      ],
+      "guidedPractice": "Contrast 학교에 가요 with 학교에서 공부해요. Do not mix destination and action place.",
+      "realLifeTask": "Say where you are, where you go, and where you study or work.",
+      "friendPractice": "Friend asks 어디에 가요? and 어디에서 공부해요? Learner answers both.",
+      "review": "Can you choose 에 vs 에서 in simple sentences?",
+      "beginnerGuide": [
+        {
+          "title": "The 에 / 에서 split",
+          "body": "에 points to destination, time, or where something exists. 에서 marks where an action happens. 학교에 가요 and 학교에서 공부해요 are different for a reason."
+        },
+        {
+          "title": "Movement vs action",
+          "body": "If the verb is 가다 or 오다, think destination: 에. If the verb is 공부하다, 일하다, 먹다, 기다리다, or 사다, think action place: 에서."
+        },
+        {
+          "title": "Time also uses 에",
+          "body": "For clock time, use 에: 7시에 일어나요. Some time words like 오늘, 내일, 지금 usually do not need 에 at beginner level."
+        }
+      ],
+      "checkpoints": [
+        "I can say where I go with 에.",
+        "I can say where I do an action with 에서.",
+        "I do not say 학교에서 가요 for destination."
+      ]
+    },
+    {
+      "id": "chapter-07",
+      "number": 7,
+      "title": "Food And Shopping",
+      "goal": "Order items, ask price, pay, and explain simple restrictions.",
+      "scenario": "Cafe, restaurant, convenience store, and market.",
+      "dialogue": [
+        {
+          "speaker": "Staff",
+          "ko": "뭐 드릴까요?",
+          "romanization": "mwo deurilkkayo?",
+          "en": "What can I get you?"
+        },
+        {
+          "speaker": "Learner",
+          "ko": "물 주세요.",
+          "romanization": "mul juseyo.",
+          "en": "Water, please."
+        },
+        {
+          "speaker": "Learner",
+          "ko": "카드 돼요?",
+          "romanization": "kadeu dwaeyo?",
+          "en": "Is card payment okay?"
+        }
+      ],
+      "grammarFocus": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do"
+      ],
+      "linkedEntryIds": [
+        "pattern-004",
+        "pattern-007",
+        "pattern-008",
+        "pattern-013",
+        "word-verb-001",
+        "word-verb-002",
+        "word-verb-006",
+        "word-verb-028",
+        "expr-010",
+        "expr-011",
+        "expr-012",
+        "expr-013",
+        "expr-014",
+        "expr-015"
+      ],
+      "coreVocabularyIds": [
+        "expr-010",
+        "expr-011",
+        "expr-012",
+        "expr-013",
+        "expr-014"
+      ],
+      "patternIds": [
+        "pattern-004",
+        "pattern-007",
+        "pattern-013"
+      ],
+      "guidedPractice": "Practice N 주세요, 이것만 주세요, 이것도 주세요, 카드 돼요?, and 카드로 결제할 수 있어요?",
+      "realLifeTask": "Order one thing, ask the price, and ask whether card payment is possible.",
+      "friendPractice": "Friend plays staff. Learner orders, asks price, and chooses payment.",
+      "review": "Can you ask for an item and use 로/으로 for payment?",
+      "beginnerGuide": [
+        {
+          "title": "Ordering is chunk-based",
+          "body": "In a cafe or store, N 주세요 is more useful than a full English-style sentence. 물 주세요 and 이거 하나 주세요 are complete practical requests."
+        },
+        {
+          "title": "Payment language",
+          "body": "카드 돼요? is a common spoken shortcut. 카드로 결제할 수 있어요? is clearer and more textbook-complete. Both are useful, but they feel different."
+        },
+        {
+          "title": "Small particles, big meaning",
+          "body": "도 means also, 만 means only, and 로/으로 can show method such as payment or transportation. These small pieces change the shopping situation."
+        }
+      ],
+      "checkpoints": [
+        "I can order one item with N 주세요.",
+        "I can ask price with 얼마예요?",
+        "I can ask about card payment using 카드 돼요? or 카드로 결제할 수 있어요?"
+      ]
+    },
+    {
+      "id": "chapter-08",
+      "number": 8,
+      "title": "Want, Can, Cannot",
+      "goal": "Talk about desire, ability, possibility, and real limitations.",
+      "scenario": "Food choices, schedules, language ability, and travel limits.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "뭐 먹고 싶어요?",
+          "romanization": "mwo meokgo sipeoyo?",
+          "en": "What do you want to eat?"
+        },
+        {
+          "speaker": "B",
+          "ko": "커피를 마시고 싶어요.",
+          "romanization": "keopireul masigo sipeoyo.",
+          "en": "I want to drink coffee."
+        },
+        {
+          "speaker": "A",
+          "ko": "오늘 카페에 갈 수 있어요?",
+          "romanization": "oneul kape-e gal su isseoyo?",
+          "en": "Can you go to a cafe today?"
+        },
+        {
+          "speaker": "B",
+          "ko": "오늘은 못 가요.",
+          "romanization": "oneureun mot gayo.",
+          "en": "I cannot go today."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-ending-want",
+        "grammar-ending-can",
+        "grammar-ending-mot"
+      ],
+      "linkedEntryIds": [
+        "pattern-005",
+        "pattern-006",
+        "pattern-007",
+        "pattern-008",
+        "word-verb-001",
+        "word-verb-003",
+        "word-verb-014",
+        "word-verb-018",
+        "expr-020",
+        "expr-021",
+        "expr-022",
+        "expr-023"
+      ],
+      "coreVocabularyIds": [
+        "word-verb-001",
+        "word-verb-003",
+        "word-verb-014",
+        "word-verb-018"
+      ],
+      "patternIds": [
+        "pattern-005",
+        "pattern-006",
+        "pattern-007",
+        "pattern-008"
+      ],
+      "guidedPractice": "Transform 가다 into 가고 싶어요, 갈 수 있어요, 못 가요. Transform 먹다 into 먹고 싶어요, 먹을 수 있어요, 못 먹어요.",
+      "realLifeTask": "Say what you want to do, what you can do, and what you cannot do.",
+      "friendPractice": "Friend asks 갈 수 있어요? Learner answers with 갈 수 있어요 or 못 가요 and a reason.",
+      "review": "Can you explain why 못 가해요 is wrong and say 못 가요 instead?",
+      "beginnerGuide": [
+        {
+          "title": "Three different meanings",
+          "body": "고 싶어요 is desire, ㄹ/을 수 있어요 is ability or possibility, and 못 + verb is inability. They are not interchangeable."
+        },
+        {
+          "title": "The 못 rule beginners need",
+          "body": "For most verbs, put 못 before the normal verb: 못 가요, 못 먹어요. For 하다 verbs, use 못 해요 or noun 못 해요: 공부 못 해요. Do not make 못 가해요."
+        },
+        {
+          "title": "Why this chapter matters",
+          "body": "This is the chapter that lets you explain limits politely: I want to go, I can go, I cannot go, I cannot eat spicy food."
+        }
+      ],
+      "checkpoints": [
+        "I can say want to, can, and cannot with 가다 and 먹다.",
+        "I can explain 안 가요 vs 못 가요.",
+        "I know 못 가해요 is wrong."
+      ]
+    },
+    {
+      "id": "chapter-09",
+      "number": 9,
+      "title": "Requests, Permission, And Prohibition",
+      "goal": "Ask someone to do something, ask if something is okay, and understand rules.",
+      "scenario": "Restaurants, classrooms, museums, stores, and public spaces.",
+      "dialogue": [
+        {
+          "speaker": "Learner",
+          "ko": "도와주세요.",
+          "romanization": "dowajuseyo.",
+          "en": "Please help me."
+        },
+        {
+          "speaker": "Staff",
+          "ko": "네, 어떻게 도와드릴까요?",
+          "romanization": "ne, eotteoke dowadeurilkkayo?",
+          "en": "Sure, how can I help you?"
+        },
+        {
+          "speaker": "Learner",
+          "ko": "사진 찍어도 돼요?",
+          "romanization": "sajin jjigeodo dwaeyo?",
+          "en": "May I take a photo?"
+        },
+        {
+          "speaker": "Staff",
+          "ko": "죄송하지만 사진 찍지 마세요.",
+          "romanization": "joesonghajiman sajin jjikji maseyo.",
+          "en": "Sorry, but please do not take photos."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante"
+      ],
+      "linkedEntryIds": [
+        "pattern-011",
+        "pattern-012",
+        "pattern-013",
+        "pattern-014",
+        "pattern-015",
+        "pattern-016",
+        "expr-012",
+        "expr-014",
+        "expr-015",
+        "expr-016",
+        "expr-017",
+        "expr-018",
+        "expr-024",
+        "expr-029",
+        "word-verb-010",
+        "word-verb-022",
+        "word-verb-023",
+        "word-verb-024",
+        "word-verb-025",
+        "word-verb-030"
+      ],
+      "coreVocabularyIds": [
+        "expr-012",
+        "expr-014",
+        "expr-015",
+        "expr-016",
+        "expr-017",
+        "expr-029"
+      ],
+      "patternIds": [
+        "pattern-011",
+        "pattern-012",
+        "pattern-013",
+        "pattern-014",
+        "pattern-015",
+        "pattern-016"
+      ],
+      "guidedPractice": "Practice 도와주세요, 앉아도 돼요?, 가지 마세요, and 가야 해요.",
+      "realLifeTask": "Ask for help, ask permission, and understand one prohibition.",
+      "friendPractice": "Friend plays staff. Learner asks permission before taking a photo or sitting.",
+      "review": "Can you separate request, permission, obligation, and prohibition?",
+      "beginnerGuide": [
+        {
+          "title": "Requests and permission are different",
+          "body": "V아/어 주세요 asks someone to do something. V아/어도 돼요? asks if you may do something. 사진 찍어 주세요 and 사진 찍어도 돼요? are not the same."
+        },
+        {
+          "title": "Prohibition is mostly for understanding first",
+          "body": "지 마세요 appears on signs and from staff. You can use it, but it can sound like an instruction, so beginners should learn to understand it before using it broadly."
+        },
+        {
+          "title": "Make requests softer",
+          "body": "좀 often softens ordinary requests: 좀 도와주세요, 물 좀 주세요, 잠깐 기다려 주세요."
+        }
+      ],
+      "checkpoints": [
+        "I can ask for help with 도와주세요.",
+        "I can ask permission with 아/어도 돼요?",
+        "I can recognize 지 마세요 as “please do not.”"
+      ]
+    },
+    {
+      "id": "chapter-10",
+      "number": 10,
+      "title": "Travel And Classroom Help",
+      "goal": "Ask where things are, use transportation, ask for repetition, and explain confusion.",
+      "scenario": "Subway station, taxi, hotel, street, airport, or Korean class.",
+      "dialogue": [
+        {
+          "speaker": "Learner",
+          "ko": "화장실이 어디예요?",
+          "romanization": "hwajangsiri eodiyeyo?",
+          "en": "Where is the bathroom?"
+        },
+        {
+          "speaker": "Learner",
+          "ko": "다시 말해 주세요.",
+          "romanization": "dasi malhae juseyo.",
+          "en": "Please say it again."
+        },
+        {
+          "speaker": "Learner",
+          "ko": "잘 모르겠어요.",
+          "romanization": "jal moreugesseoyo.",
+          "en": "I am not sure."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "linkedEntryIds": [
+        "word-verb-003",
+        "word-verb-017",
+        "word-verb-019",
+        "word-verb-020",
+        "word-verb-021",
+        "word-verb-029",
+        "expr-016",
+        "expr-017",
+        "expr-018",
+        "expr-019",
+        "expr-020",
+        "expr-021",
+        "expr-022",
+        "expr-023",
+        "expr-024",
+        "expr-025",
+        "expr-026",
+        "pattern-002",
+        "pattern-003",
+        "pattern-011",
+        "pattern-013",
+        "pattern-015"
+      ],
+      "coreVocabularyIds": [
+        "expr-016",
+        "expr-017",
+        "expr-018",
+        "expr-019",
+        "expr-020",
+        "expr-026"
+      ],
+      "patternIds": [
+        "pattern-002",
+        "pattern-003",
+        "pattern-013",
+        "pattern-015"
+      ],
+      "guidedPractice": "Ask where something is, ask someone to repeat, and explain that you do not understand yet.",
+      "realLifeTask": "Ask where the bathroom or station is, then ask someone to say it again slowly.",
+      "friendPractice": "Friend gives a short direction. Learner asks 다시 말해 주세요 or 천천히 말해 주세요.",
+      "review": "Can you ask for location and classroom help without switching to English?",
+      "beginnerGuide": [
+        {
+          "title": "Travel Korean needs repair phrases",
+          "body": "When communication breaks down, phrases like 다시 말해 주세요, 천천히 말해 주세요, and 잘 모르겠어요 keep the conversation alive."
+        },
+        {
+          "title": "Ask short, useful questions",
+          "body": "화장실 어디예요? and 지하철역 어디예요? are natural spoken questions. Adding 이 makes them more complete, but the shorter form is common."
+        },
+        {
+          "title": "Range and route",
+          "body": "부터/까지 helps with time and route: 여기부터 역까지, 9시부터 6시까지."
+        }
+      ],
+      "checkpoints": [
+        "I can ask someone to repeat slowly.",
+        "I can ask where the bathroom or station is.",
+        "I can use 부터/까지 for from-to ranges."
+      ]
+    },
+    {
+      "id": "chapter-11",
+      "number": 11,
+      "title": "Connecting Ideas",
+      "goal": "Move beyond single sentences using because, and, if/when, and speaker promises.",
+      "scenario": "Explaining reasons, making plans, and connecting daily actions.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "왜 못 가요?",
+          "romanization": "wae mot gayo?",
+          "en": "Why can’t you go?"
+        },
+        {
+          "speaker": "B",
+          "ko": "바빠서 못 가요.",
+          "romanization": "bappaseo mot gayo.",
+          "en": "I am busy, so I cannot go."
+        },
+        {
+          "speaker": "A",
+          "ko": "나중에 전화할 수 있어요?",
+          "romanization": "najunge jeonhwahal su isseoyo?",
+          "en": "Can you call later?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네, 나중에 전화할게요.",
+          "romanization": "ne, najunge jeonhwahalgeyo.",
+          "en": "Yes, I will call later."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-connector-because",
+        "grammar-connector-and",
+        "grammar-connector-if",
+        "grammar-ending-promise"
+      ],
+      "linkedEntryIds": [
+        "pattern-017",
+        "pattern-018",
+        "pattern-019",
+        "pattern-020",
+        "word-verb-026",
+        "word-verb-027",
+        "word-verb-028",
+        "word-verb-029",
+        "word-verb-030",
+        "expr-027",
+        "expr-030"
+      ],
+      "coreVocabularyIds": [
+        "word-verb-026",
+        "word-verb-027",
+        "word-verb-028",
+        "word-verb-029",
+        "word-verb-030"
+      ],
+      "patternIds": [
+        "pattern-017",
+        "pattern-018",
+        "pattern-019",
+        "pattern-020"
+      ],
+      "guidedPractice": "Combine two ideas with 아서/어서, then make one promise with ㄹ/을게요.",
+      "realLifeTask": "Make one sentence with a reason and one sentence with a condition.",
+      "friendPractice": "Friend asks 왜요? Learner answers with one reason sentence.",
+      "review": "Can you connect two simple ideas without making a long confusing sentence?",
+      "beginnerGuide": [
+        {
+          "title": "Longer Korean starts with connectors",
+          "body": "아서/어서, 고, and 면 let you connect simple sentences. This is how beginner Korean stops sounding like isolated flashcards."
+        },
+        {
+          "title": "Reason, sequence, condition",
+          "body": "아서/어서 gives a reason, 고 connects actions or descriptions, and 면 gives a condition. 바빠서 못 가요, 먹고 가요, 시간이 있으면 전화해 주세요."
+        },
+        {
+          "title": "Promise form",
+          "body": "ㄹ/을게요 is for the speaker’s decision or promise: 제가 할게요, 기다릴게요, 전화할게요. Do not use it to predict someone else."
+        }
+      ],
+      "checkpoints": [
+        "I can connect a reason to a result with 아서/어서.",
+        "I can connect two actions with 고.",
+        "I can make a simple condition with 면."
+      ]
+    }
+  ]
+}

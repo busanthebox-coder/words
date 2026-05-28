@@ -1,0 +1,114 @@
+{
+  "chapterActivities": [
+    {
+      "chapterId": "chapter-01",
+      "items": [
+        {"type": "recognition", "prompt": "Choose the Hangul word for “Hangul / Korean writing.”", "answer": "한글", "choices": ["한글", "학교", "커피", "시간"]},
+        {"type": "fillBlank", "prompt": "한 = ㅎ + ㅏ + ____", "answer": "ㄴ", "hint": "Break the syllable block into letters."},
+        {"type": "particleChoice", "label": "Syllable choice", "prompt": "먹어요 has three written chunks: 먹 + ____ + 요.", "answer": "어", "choices": ["어", "을", "에", "도"]},
+        {"type": "formTransform", "label": "Hangul reading", "prompt": "Read from Hangul first: 먹어요", "answer": "먹어요"},
+        {"type": "sentenceBuild", "prompt": "Build: “Please speak slowly.”", "answer": "천천히 말해 주세요."}
+      ]
+    },
+    {
+      "chapterId": "chapter-02",
+      "items": [
+        {"type": "recognition", "prompt": "Choose the polite greeting.", "answer": "안녕하세요", "choices": ["안녕하세요", "못 가요", "먹어요", "공부해요"]},
+        {"type": "fillBlank", "prompt": "저__ 하나예요.", "answer": "는", "hint": "As for me, I am Hana."},
+        {"type": "particleChoice", "prompt": "저__ 학생이에요.", "answer": "는", "choices": ["는", "를", "에", "에서"]},
+        {"type": "formTransform", "prompt": "감사합니다 → everyday polite thanks", "answer": "고마워요"},
+        {"type": "sentenceBuild", "prompt": "Build: “Hello. I am Hana.”", "answer": "안녕하세요. 저는 하나예요."}
+      ]
+    },
+    {
+      "chapterId": "chapter-03",
+      "items": [
+        {"type": "recognition", "prompt": "Choose “This is a menu.”", "answer": "이건 메뉴예요.", "choices": ["이건 메뉴예요.", "메뉴를 먹어요.", "학교에 가요.", "못 가요."]},
+        {"type": "fillBlank", "prompt": "이__ 뭐예요?", "answer": "건", "hint": "What is this?"},
+        {"type": "particleChoice", "prompt": "저__ 학생이에요.", "answer": "는", "choices": ["는", "가", "를", "에서"]},
+        {"type": "formTransform", "prompt": "학생 + 이에요/예요", "answer": "학생이에요"},
+        {"type": "sentenceBuild", "prompt": "Build: “I am a student.”", "answer": "저는 학생이에요."}
+      ]
+    },
+    {
+      "chapterId": "chapter-04",
+      "items": [
+        {"type": "recognition", "prompt": "Choose “I have time.”", "answer": "시간이 있어요.", "choices": ["시간이 있어요.", "시간을 먹어요.", "학교에 가요.", "저는 학생이에요."]},
+        {"type": "fillBlank", "prompt": "문제__ 없어요.", "answer": "가", "hint": "There is no problem."},
+        {"type": "particleChoice", "prompt": "예약__ 있어요.", "answer": "이", "choices": ["이", "을", "에", "에서"]},
+        {"type": "formTransform", "prompt": "있어요 → absence", "answer": "없어요"},
+        {"type": "sentenceBuild", "prompt": "Build: “I do not have time.”", "answer": "시간이 없어요."}
+      ]
+    },
+    {
+      "chapterId": "chapter-05",
+      "items": [
+        {"type": "recognition", "prompt": "Choose “I eat breakfast.”", "answer": "아침을 먹어요.", "choices": ["아침을 먹어요.", "아침에 가요.", "시간이 있어요.", "저는 학생이에요."]},
+        {"type": "fillBlank", "prompt": "밥__ 먹어요.", "answer": "을", "hint": "I eat a meal."},
+        {"type": "particleChoice", "prompt": "커피__ 마셔요.", "answer": "를", "choices": ["를", "가", "에", "에서"]},
+        {"type": "formTransform", "prompt": "먹다 → polite present", "answer": "먹어요"},
+        {"type": "sentenceBuild", "prompt": "Build: “I study Korean.”", "answer": "한국어를 공부해요."}
+      ]
+    },
+    {
+      "chapterId": "chapter-06",
+      "items": [
+        {"type": "recognition", "prompt": "Choose the destination sentence.", "answer": "학교에 가요.", "choices": ["학교에 가요.", "학교에서 가요.", "밥을 먹어요.", "저도 가요."]},
+        {"type": "fillBlank", "prompt": "학교__ 공부해요.", "answer": "에서", "hint": "I study at school."},
+        {"type": "particleChoice", "prompt": "집__ 있어요.", "answer": "에", "choices": ["에", "에서", "을", "도"]},
+        {"type": "formTransform", "prompt": "가다 → polite present", "answer": "가요"},
+        {"type": "sentenceBuild", "prompt": "Build: “I work at a company.”", "answer": "회사에서 일해요."}
+      ]
+    },
+    {
+      "chapterId": "chapter-07",
+      "items": [
+        {"type": "recognition", "prompt": "Choose “Water, please.”", "answer": "물 주세요.", "choices": ["물 주세요.", "물에 가요.", "물을 있어요.", "못 물어요."]},
+        {"type": "fillBlank", "prompt": "카드__ 결제할 수 있어요?", "answer": "로", "hint": "Can I pay by card?"},
+        {"type": "particleChoice", "prompt": "이것__ 주세요. (only this)", "answer": "만", "choices": ["만", "도", "에", "을"]},
+        {"type": "formTransform", "prompt": "결제하다 → can pay", "answer": "결제할 수 있어요"},
+        {"type": "sentenceBuild", "prompt": "Build: “This too, please.”", "answer": "이것도 주세요."}
+      ]
+    },
+    {
+      "chapterId": "chapter-08",
+      "items": [
+        {"type": "recognition", "prompt": "Choose “I cannot go.”", "answer": "못 가요.", "choices": ["못 가요.", "못 가해요.", "가고 싶어요.", "가야 해요."]},
+        {"type": "fillBlank", "prompt": "오늘은 못 ____.", "answer": "가요", "hint": "I cannot go today."},
+        {"type": "particleChoice", "prompt": "매운 음식__ 못 먹어요.", "answer": "은", "choices": ["은", "을", "에", "에서"]},
+        {"type": "formTransform", "prompt": "가다 → cannot go", "answer": "못 가요"},
+        {"type": "sentenceBuild", "prompt": "Build: “I want to eat.”", "answer": "먹고 싶어요."}
+      ]
+    },
+    {
+      "chapterId": "chapter-09",
+      "items": [
+        {"type": "recognition", "prompt": "Choose “May I take a photo?”", "answer": "사진 찍어도 돼요?", "choices": ["사진 찍어도 돼요?", "사진 찍지 마세요.", "사진 찍고 싶어요.", "사진이 있어요."]},
+        {"type": "fillBlank", "prompt": "도와____.", "answer": "주세요", "hint": "Please help me."},
+        {"type": "particleChoice", "prompt": "저__ 주세요.", "answer": "한테", "choices": ["한테", "에", "에서", "을"]},
+        {"type": "formTransform", "prompt": "가다 → please do not go", "answer": "가지 마세요"},
+        {"type": "sentenceBuild", "prompt": "Build: “May I sit here?”", "answer": "여기 앉아도 돼요?"}
+      ]
+    },
+    {
+      "chapterId": "chapter-10",
+      "items": [
+        {"type": "recognition", "prompt": "Choose “Please say it again.”", "answer": "다시 말해 주세요.", "choices": ["다시 말해 주세요.", "물 주세요.", "저도 가요.", "학교에 가요."]},
+        {"type": "fillBlank", "prompt": "화장실__ 어디예요?", "answer": "이", "hint": "Where is the bathroom?"},
+        {"type": "particleChoice", "prompt": "여기__ 역까지 걸어요.", "answer": "부터", "choices": ["부터", "만", "도", "를"]},
+        {"type": "formTransform", "prompt": "말하다 → please say", "answer": "말해 주세요"},
+        {"type": "sentenceBuild", "prompt": "Build: “I am not sure yet.”", "answer": "아직 잘 모르겠어요."}
+      ]
+    },
+    {
+      "chapterId": "chapter-11",
+      "items": [
+        {"type": "recognition", "prompt": "Choose “I am busy, so I cannot go.”", "answer": "바빠서 못 가요.", "choices": ["바빠서 못 가요.", "바빠도 가요.", "바쁘지 마세요.", "바빠 주세요."]},
+        {"type": "fillBlank", "prompt": "나중에 전화할____.", "answer": "게요", "hint": "I will call later."},
+        {"type": "particleChoice", "prompt": "9시__ 6시까지 일해요.", "answer": "부터", "choices": ["부터", "에게", "를", "도"]},
+        {"type": "formTransform", "prompt": "전화하다 → I will call", "answer": "전화할게요"},
+        {"type": "sentenceBuild", "prompt": "Build: “If you have time, please call.”", "answer": "시간이 있으면 전화해 주세요."}
+      ]
+    }
+  ]
+}

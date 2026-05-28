@@ -1,0 +1,4973 @@
+{
+  "entries": [
+    {
+      "id": "expr-001",
+      "sort": 1001,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "english": "Hello.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "안녕하세요 is a practical expression meaning \"Hello.\".",
+      "explanation": "안녕하세요 means \"Hello.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 안녕하세요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in basic everyday communication. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "안녕하세요",
+          "romanization": "annyeonghaseyo",
+          "en": "Hello.",
+          "note": "Safe greeting."
+        },
+        {
+          "ko": "안녕하세요?",
+          "romanization": "annyeonghaseyo?",
+          "en": "Hello / how are you?",
+          "note": "Question-like greeting."
+        },
+        {
+          "ko": "선생님, 안녕하세요",
+          "romanization": "seonsaengnim, annyeonghaseyo",
+          "en": "Hello, teacher.",
+          "note": "Polite address."
+        },
+        {
+          "ko": "안녕하세요, 저는 민수예요",
+          "romanization": "annyeonghaseyo, jeoneun minsuyeyo",
+          "en": "Hello, I am Minsu.",
+          "note": "Self-introduction."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "안녕하세요.",
+          "romanization": "annyeonghaseyo.",
+          "en": "Hello.",
+          "note": "Basic greeting."
+        },
+        {
+          "ko": "안녕하세요, 처음 뵙겠습니다.",
+          "romanization": "annyeonghaseyo, cheoeum boepgetseupnida.",
+          "en": "Hello, nice to meet you.",
+          "note": "Formal first meeting."
+        },
+        {
+          "ko": "안녕하세요, 저는 하나예요.",
+          "romanization": "annyeonghaseyo, jeoneun hanayeyo.",
+          "en": "Hello, I am Hana.",
+          "note": "Introduction."
+        }
+      ],
+      "nuance": "Safe with almost everyone. It is more polite than 안녕.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 안녕하세요 naturally in basic everyday communication.",
+        "studyFlow": [
+          "Say 안녕하세요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 안녕하세요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: annyeonghaseyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "안녕하세요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 안녕하세요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 안녕하세요 fits.",
+          "Learner says 안녕하세요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "안녕하세요",
+            "romanization": "annyeonghaseyo",
+            "en": "Hello."
+          },
+          {
+            "speaker": "B",
+            "ko": "안녕하세요?",
+            "romanization": "annyeonghaseyo?",
+            "en": "Hello / how are you?"
+          },
+          {
+            "speaker": "A",
+            "ko": "안녕하세요.",
+            "romanization": "annyeonghaseyo.",
+            "en": "Hello."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "안녕하세요",
+            "romanization": "annyeonghaseyo",
+            "en": "Hello.",
+            "note": "Safe greeting."
+          },
+          {
+            "ko": "안녕하세요?",
+            "romanization": "annyeonghaseyo?",
+            "en": "Hello / how are you?",
+            "note": "Question-like greeting."
+          },
+          {
+            "ko": "선생님, 안녕하세요",
+            "romanization": "seonsaengnim, annyeonghaseyo",
+            "en": "Hello, teacher.",
+            "note": "Polite address."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 안녕하세요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-02",
+        "chapter-03"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-002",
+      "sort": 1002,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "감사합니다",
+      "romanization": "gamsahamnida",
+      "english": "Thank you.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "감사합니다 is a practical expression meaning \"Thank you.\".",
+      "explanation": "감사합니다 means \"Thank you.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 감사합니다 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in basic everyday communication. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "감사합니다",
+          "romanization": "gamsahapnida",
+          "en": "Thank you.",
+          "note": "Formal and safe."
+        },
+        {
+          "ko": "정말 감사합니다",
+          "romanization": "jeongmal gamsahapnida",
+          "en": "Thank you very much.",
+          "note": "Stronger thanks."
+        },
+        {
+          "ko": "도와주셔서 감사합니다",
+          "romanization": "dowajusyeoseo gamsahapnida",
+          "en": "Thank you for helping.",
+          "note": "Specific thanks."
+        },
+        {
+          "ko": "오늘 감사합니다",
+          "romanization": "oneul gamsahapnida",
+          "en": "Thank you for today.",
+          "note": "Common closing."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "감사합니다.",
+          "romanization": "gamsahapnida.",
+          "en": "Thank you.",
+          "note": "Basic."
+        },
+        {
+          "ko": "정말 감사합니다.",
+          "romanization": "jeongmal gamsahapnida.",
+          "en": "Thank you very much.",
+          "note": "Stronger."
+        },
+        {
+          "ko": "도와주셔서 감사합니다.",
+          "romanization": "dowajusyeoseo gamsahapnida.",
+          "en": "Thank you for helping me.",
+          "note": "Specific."
+        }
+      ],
+      "nuance": "Formal, polite, and safe. 고마워요 is warmer and a bit less formal.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 감사합니다 naturally in basic everyday communication.",
+        "studyFlow": [
+          "Say 감사합니다 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 감사합니다 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: gamsahamnida. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "감사합니다 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 감사합니다. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 감사합니다 fits.",
+          "Learner says 감사합니다, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "감사합니다",
+            "romanization": "gamsahapnida",
+            "en": "Thank you."
+          },
+          {
+            "speaker": "B",
+            "ko": "정말 감사합니다",
+            "romanization": "jeongmal gamsahapnida",
+            "en": "Thank you very much."
+          },
+          {
+            "speaker": "A",
+            "ko": "감사합니다.",
+            "romanization": "gamsahapnida.",
+            "en": "Thank you."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "감사합니다",
+            "romanization": "gamsahapnida",
+            "en": "Thank you.",
+            "note": "Formal and safe."
+          },
+          {
+            "ko": "정말 감사합니다",
+            "romanization": "jeongmal gamsahapnida",
+            "en": "Thank you very much.",
+            "note": "Stronger thanks."
+          },
+          {
+            "ko": "도와주셔서 감사합니다",
+            "romanization": "dowajusyeoseo gamsahapnida",
+            "en": "Thank you for helping.",
+            "note": "Specific thanks."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 감사합니다 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-02"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-003",
+      "sort": 1003,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "고마워요",
+      "romanization": "gomawoyo",
+      "english": "Thank you.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "고마워요 is a practical expression meaning \"Thank you.\".",
+      "explanation": "고마워요 means \"Thank you.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 고마워요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in basic everyday communication. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "고마워요",
+          "romanization": "gomawoyo",
+          "en": "Thank you.",
+          "note": "Polite but warm."
+        },
+        {
+          "ko": "정말 고마워요",
+          "romanization": "jeongmal gomawoyo",
+          "en": "Thank you so much.",
+          "note": "Warm thanks."
+        },
+        {
+          "ko": "도와줘서 고마워요",
+          "romanization": "dowajwoseo gomawoyo",
+          "en": "Thanks for helping.",
+          "note": "Friendly."
+        },
+        {
+          "ko": "오늘 고마워요",
+          "romanization": "oneul gomawoyo",
+          "en": "Thanks for today.",
+          "note": "Natural close."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "고마워요.",
+          "romanization": "gomawoyo.",
+          "en": "Thank you.",
+          "note": "Polite."
+        },
+        {
+          "ko": "정말 고마워요.",
+          "romanization": "jeongmal gomawoyo.",
+          "en": "Thank you so much.",
+          "note": "Warm."
+        },
+        {
+          "ko": "도와줘서 고마워요.",
+          "romanization": "dowajwoseo gomawoyo.",
+          "en": "Thanks for helping.",
+          "note": "Friendly."
+        }
+      ],
+      "nuance": "Polite enough for many situations, but 감사합니다 is safer in formal service or business contexts.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 고마워요 naturally in basic everyday communication.",
+        "studyFlow": [
+          "Say 고마워요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 고마워요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: gomawoyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "고마워요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 고마워요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 고마워요 fits.",
+          "Learner says 고마워요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "고마워요",
+            "romanization": "gomawoyo",
+            "en": "Thank you."
+          },
+          {
+            "speaker": "B",
+            "ko": "정말 고마워요",
+            "romanization": "jeongmal gomawoyo",
+            "en": "Thank you so much."
+          },
+          {
+            "speaker": "A",
+            "ko": "고마워요.",
+            "romanization": "gomawoyo.",
+            "en": "Thank you."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "고마워요",
+            "romanization": "gomawoyo",
+            "en": "Thank you.",
+            "note": "Polite but warm."
+          },
+          {
+            "ko": "정말 고마워요",
+            "romanization": "jeongmal gomawoyo",
+            "en": "Thank you so much.",
+            "note": "Warm thanks."
+          },
+          {
+            "ko": "도와줘서 고마워요",
+            "romanization": "dowajwoseo gomawoyo",
+            "en": "Thanks for helping.",
+            "note": "Friendly."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 고마워요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-02"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-004",
+      "sort": 1004,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "죄송합니다",
+      "romanization": "joesonghamnida",
+      "english": "I am sorry.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "죄송합니다 is a practical expression meaning \"I am sorry.\".",
+      "explanation": "죄송합니다 means \"I am sorry.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 죄송합니다 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in basic everyday communication. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "죄송합니다",
+          "romanization": "joesonghapnida",
+          "en": "I am sorry.",
+          "note": "Formal apology."
+        },
+        {
+          "ko": "정말 죄송합니다",
+          "romanization": "jeongmal joesonghapnida",
+          "en": "I am very sorry.",
+          "note": "Stronger apology."
+        },
+        {
+          "ko": "늦어서 죄송합니다",
+          "romanization": "neujeoseo joesonghapnida",
+          "en": "Sorry I am late.",
+          "note": "Reason + apology."
+        },
+        {
+          "ko": "방해해서 죄송합니다",
+          "romanization": "banghaehaeseo joesonghapnida",
+          "en": "Sorry to interrupt.",
+          "note": "Formal interruption."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "죄송합니다.",
+          "romanization": "joesonghapnida.",
+          "en": "I am sorry.",
+          "note": "Basic apology."
+        },
+        {
+          "ko": "늦어서 죄송합니다.",
+          "romanization": "neujeoseo joesonghapnida.",
+          "en": "Sorry I am late.",
+          "note": "Specific apology."
+        },
+        {
+          "ko": "잠시 방해해서 죄송합니다.",
+          "romanization": "jamsi banghaehaeseo joesonghapnida.",
+          "en": "Sorry to interrupt for a moment.",
+          "note": "Polite."
+        }
+      ],
+      "nuance": "Use this when you need to sound respectful. 미안해요 is softer and less formal.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 죄송합니다 naturally in basic everyday communication.",
+        "studyFlow": [
+          "Say 죄송합니다 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 죄송합니다 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: joesonghamnida. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "죄송합니다 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 죄송합니다. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 죄송합니다 fits.",
+          "Learner says 죄송합니다, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "죄송합니다",
+            "romanization": "joesonghapnida",
+            "en": "I am sorry."
+          },
+          {
+            "speaker": "B",
+            "ko": "정말 죄송합니다",
+            "romanization": "jeongmal joesonghapnida",
+            "en": "I am very sorry."
+          },
+          {
+            "speaker": "A",
+            "ko": "죄송합니다.",
+            "romanization": "joesonghapnida.",
+            "en": "I am sorry."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "죄송합니다",
+            "romanization": "joesonghapnida",
+            "en": "I am sorry.",
+            "note": "Formal apology."
+          },
+          {
+            "ko": "정말 죄송합니다",
+            "romanization": "jeongmal joesonghapnida",
+            "en": "I am very sorry.",
+            "note": "Stronger apology."
+          },
+          {
+            "ko": "늦어서 죄송합니다",
+            "romanization": "neujeoseo joesonghapnida",
+            "en": "Sorry I am late.",
+            "note": "Reason + apology."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 죄송합니다 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-02"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-005",
+      "sort": 1005,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "괜찮아요",
+      "romanization": "gwaenchanayo",
+      "english": "It is okay.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "괜찮아요 is a practical expression meaning \"It is okay.\".",
+      "explanation": "괜찮아요 means \"It is okay.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 괜찮아요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in basic everyday communication. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "괜찮아요",
+          "romanization": "gwaenchanayo",
+          "en": "It is okay.",
+          "note": "Reassurance."
+        },
+        {
+          "ko": "저는 괜찮아요",
+          "romanization": "jeoneun gwaenchanayo",
+          "en": "I am okay.",
+          "note": "About yourself."
+        },
+        {
+          "ko": "괜찮아요?",
+          "romanization": "gwaenchanayo?",
+          "en": "Are you okay?",
+          "note": "Checking."
+        },
+        {
+          "ko": "네, 괜찮아요",
+          "romanization": "ne, gwaenchanayo",
+          "en": "Yes, it is okay.",
+          "note": "Response."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "괜찮아요.",
+          "romanization": "gwaenchanayo.",
+          "en": "It is okay.",
+          "note": "Basic."
+        },
+        {
+          "ko": "저는 괜찮아요.",
+          "romanization": "jeoneun gwaenchanayo.",
+          "en": "I am okay.",
+          "note": "Self."
+        },
+        {
+          "ko": "여기 앉아도 괜찮아요?",
+          "romanization": "yeogi anjado gwaenchanayo?",
+          "en": "Is it okay if I sit here?",
+          "note": "Permission."
+        }
+      ],
+      "nuance": "Can mean “I am okay,” “it is okay,” or “no problem” depending on context.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 괜찮아요 naturally in basic everyday communication.",
+        "studyFlow": [
+          "Say 괜찮아요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 괜찮아요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: gwaenchanayo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "괜찮아요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 괜찮아요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 괜찮아요 fits.",
+          "Learner says 괜찮아요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "괜찮아요",
+            "romanization": "gwaenchanayo",
+            "en": "It is okay."
+          },
+          {
+            "speaker": "B",
+            "ko": "저는 괜찮아요",
+            "romanization": "jeoneun gwaenchanayo",
+            "en": "I am okay."
+          },
+          {
+            "speaker": "A",
+            "ko": "괜찮아요.",
+            "romanization": "gwaenchanayo.",
+            "en": "It is okay."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "괜찮아요",
+            "romanization": "gwaenchanayo",
+            "en": "It is okay.",
+            "note": "Reassurance."
+          },
+          {
+            "ko": "저는 괜찮아요",
+            "romanization": "jeoneun gwaenchanayo",
+            "en": "I am okay.",
+            "note": "About yourself."
+          },
+          {
+            "ko": "괜찮아요?",
+            "romanization": "gwaenchanayo?",
+            "en": "Are you okay?",
+            "note": "Checking."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 괜찮아요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-02"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-006",
+      "sort": 1006,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "네",
+      "romanization": "ne",
+      "english": "Yes.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "네 is a practical expression meaning \"Yes.\".",
+      "explanation": "네 means \"Yes.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 네 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in basic everyday communication. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "네",
+          "romanization": "ne",
+          "en": "Yes.",
+          "note": "Polite yes."
+        },
+        {
+          "ko": "네, 맞아요",
+          "romanization": "ne, majayo",
+          "en": "Yes, that is right.",
+          "note": "Agreement."
+        },
+        {
+          "ko": "네, 알겠어요",
+          "romanization": "ne, algesseoyo",
+          "en": "Yes, I understand.",
+          "note": "Acknowledgment."
+        },
+        {
+          "ko": "네, 괜찮아요",
+          "romanization": "ne, gwaenchanayo",
+          "en": "Yes, it is okay.",
+          "note": "Reassurance."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "네.",
+          "romanization": "ne.",
+          "en": "Yes.",
+          "note": "Basic."
+        },
+        {
+          "ko": "네, 맞아요.",
+          "romanization": "ne, majayo.",
+          "en": "Yes, that is right.",
+          "note": "Agreement."
+        },
+        {
+          "ko": "네, 알겠습니다.",
+          "romanization": "ne, algetseupnida.",
+          "en": "Yes, I understand.",
+          "note": "Formal."
+        }
+      ],
+      "nuance": "네 can also mean “I hear you” or “okay” while listening, not only yes.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 네 naturally in basic everyday communication.",
+        "studyFlow": [
+          "Say 네 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 네 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: ne. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "네 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 네. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 네 fits.",
+          "Learner says 네, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "네",
+            "romanization": "ne",
+            "en": "Yes."
+          },
+          {
+            "speaker": "B",
+            "ko": "네, 맞아요",
+            "romanization": "ne, majayo",
+            "en": "Yes, that is right."
+          },
+          {
+            "speaker": "A",
+            "ko": "네.",
+            "romanization": "ne.",
+            "en": "Yes."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "네",
+            "romanization": "ne",
+            "en": "Yes.",
+            "note": "Polite yes."
+          },
+          {
+            "ko": "네, 맞아요",
+            "romanization": "ne, majayo",
+            "en": "Yes, that is right.",
+            "note": "Agreement."
+          },
+          {
+            "ko": "네, 알겠어요",
+            "romanization": "ne, algesseoyo",
+            "en": "Yes, I understand.",
+            "note": "Acknowledgment."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 네 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-02"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-007",
+      "sort": 1007,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "아니요",
+      "romanization": "aniyo",
+      "english": "No.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "아니요 is a practical expression meaning \"No.\".",
+      "explanation": "아니요 means \"No.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 아니요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in basic everyday communication. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "아니요",
+          "romanization": "aniyo",
+          "en": "No.",
+          "note": "Polite no."
+        },
+        {
+          "ko": "아니요, 괜찮아요",
+          "romanization": "aniyo, gwaenchanayo",
+          "en": "No, it is okay.",
+          "note": "Declining politely."
+        },
+        {
+          "ko": "아니요, 몰라요",
+          "romanization": "aniyo, molrayo",
+          "en": "No, I do not know.",
+          "note": "Answer."
+        },
+        {
+          "ko": "아니요, 안 가요",
+          "romanization": "aniyo, an gayo",
+          "en": "No, I am not going.",
+          "note": "Negative answer."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "아니요.",
+          "romanization": "aniyo.",
+          "en": "No.",
+          "note": "Basic."
+        },
+        {
+          "ko": "아니요, 괜찮아요.",
+          "romanization": "aniyo, gwaenchanayo.",
+          "en": "No, it is okay.",
+          "note": "Polite decline."
+        },
+        {
+          "ko": "아니요, 저는 안 가요.",
+          "romanization": "aniyo, jeoneun an gayo.",
+          "en": "No, I am not going.",
+          "note": "Clarifying."
+        }
+      ],
+      "nuance": "Use 아니요 as a polite no. 아니 is casual, and 아니요 often sounds softer when followed by a short explanation like 괜찮아요 or 몰라요.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 아니요 naturally in basic everyday communication.",
+        "studyFlow": [
+          "Say 아니요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 아니요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: aniyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "아니요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 아니요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 아니요 fits.",
+          "Learner says 아니요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "아니요",
+            "romanization": "aniyo",
+            "en": "No."
+          },
+          {
+            "speaker": "B",
+            "ko": "아니요, 괜찮아요",
+            "romanization": "aniyo, gwaenchanayo",
+            "en": "No, it is okay."
+          },
+          {
+            "speaker": "A",
+            "ko": "아니요.",
+            "romanization": "aniyo.",
+            "en": "No."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "아니요",
+            "romanization": "aniyo",
+            "en": "No.",
+            "note": "Polite no."
+          },
+          {
+            "ko": "아니요, 괜찮아요",
+            "romanization": "aniyo, gwaenchanayo",
+            "en": "No, it is okay.",
+            "note": "Declining politely."
+          },
+          {
+            "ko": "아니요, 몰라요",
+            "romanization": "aniyo, molrayo",
+            "en": "No, I do not know.",
+            "note": "Answer."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 아니요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-02"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-008",
+      "sort": 1008,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "잠시만요",
+      "romanization": "jamsimanyo",
+      "english": "One moment, please.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "잠시만요 is a practical expression meaning \"One moment, please.\".",
+      "explanation": "잠시만요 means \"One moment, please.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 잠시만요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in basic everyday communication. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "잠시만요",
+          "romanization": "jamsimanyo",
+          "en": "One moment, please.",
+          "note": "Polite pause."
+        },
+        {
+          "ko": "잠시만 기다려 주세요",
+          "romanization": "jamsiman gidaryeo juseyo",
+          "en": "Please wait a moment.",
+          "note": "Request."
+        },
+        {
+          "ko": "잠시만요, 지나갈게요",
+          "romanization": "jamsimanyo, jinagalgeyo",
+          "en": "Excuse me, I will pass.",
+          "note": "Moving through."
+        },
+        {
+          "ko": "잠시만 확인할게요",
+          "romanization": "jamsiman hwaginhalgeyo",
+          "en": "I will check for a moment.",
+          "note": "Service/work."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "잠시만요.",
+          "romanization": "jamsimanyo.",
+          "en": "One moment, please.",
+          "note": "Basic."
+        },
+        {
+          "ko": "잠시만 기다려 주세요.",
+          "romanization": "jamsiman gidaryeo juseyo.",
+          "en": "Please wait a moment.",
+          "note": "Polite request."
+        },
+        {
+          "ko": "잠시만 확인할게요.",
+          "romanization": "jamsiman hwaginhalgeyo.",
+          "en": "I will check for a moment.",
+          "note": "Work/service."
+        }
+      ],
+      "nuance": "More polite than 잠깐만요. Very useful in stores, offices, and classrooms.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 잠시만요 naturally in basic everyday communication.",
+        "studyFlow": [
+          "Say 잠시만요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 잠시만요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: jamsimanyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "잠시만요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 잠시만요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 잠시만요 fits.",
+          "Learner says 잠시만요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "잠시만요",
+            "romanization": "jamsimanyo",
+            "en": "One moment, please."
+          },
+          {
+            "speaker": "B",
+            "ko": "잠시만 기다려 주세요",
+            "romanization": "jamsiman gidaryeo juseyo",
+            "en": "Please wait a moment."
+          },
+          {
+            "speaker": "A",
+            "ko": "잠시만요.",
+            "romanization": "jamsimanyo.",
+            "en": "One moment, please."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "잠시만요",
+            "romanization": "jamsimanyo",
+            "en": "One moment, please.",
+            "note": "Polite pause."
+          },
+          {
+            "ko": "잠시만 기다려 주세요",
+            "romanization": "jamsiman gidaryeo juseyo",
+            "en": "Please wait a moment.",
+            "note": "Request."
+          },
+          {
+            "ko": "잠시만요, 지나갈게요",
+            "romanization": "jamsimanyo, jinagalgeyo",
+            "en": "Excuse me, I will pass.",
+            "note": "Moving through."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 잠시만요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004"
+      ],
+      "chapterIds": [
+        "chapter-02",
+        "chapter-03"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-009",
+      "sort": 1009,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "travel"
+      ],
+      "hangul": "실례합니다",
+      "romanization": "sillyehamnida",
+      "english": "Excuse me.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "실례합니다 is a practical expression meaning \"Excuse me.\".",
+      "explanation": "실례합니다 means \"Excuse me.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 실례합니다 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in getting around, reservations, directions, photos, and emergency help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "실례합니다",
+          "romanization": "silryehapnida",
+          "en": "Excuse me.",
+          "note": "Formal attention."
+        },
+        {
+          "ko": "실례합니다, 지나갈게요",
+          "romanization": "silryehapnida, jinagalgeyo",
+          "en": "Excuse me, I will pass.",
+          "note": "Crowded place."
+        },
+        {
+          "ko": "실례합니다, 화장실 어디예요?",
+          "romanization": "silryehapnida, hwajangsil eodiyeyo?",
+          "en": "Excuse me, where is the bathroom?",
+          "note": "Question starter."
+        },
+        {
+          "ko": "실례합니다, 잠시만요",
+          "romanization": "silryehapnida, jamsimanyo",
+          "en": "Excuse me, one moment.",
+          "note": "Polite interruption."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "실례합니다.",
+          "romanization": "silryehapnida.",
+          "en": "Excuse me.",
+          "note": "Basic."
+        },
+        {
+          "ko": "실례합니다, 지하철역 어디예요?",
+          "romanization": "silryehapnida, jihacheoryeok eodiyeyo?",
+          "en": "Excuse me, where is the subway station?",
+          "note": "Travel."
+        },
+        {
+          "ko": "실례합니다, 지나갈게요.",
+          "romanization": "silryehapnida, jinagalgeyo.",
+          "en": "Excuse me, I will pass.",
+          "note": "Crowded place."
+        }
+      ],
+      "nuance": "Use before asking strangers a question or passing through.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 실례합니다 naturally in getting around, reservations, directions, photos, and emergency help.",
+        "studyFlow": [
+          "Say 실례합니다 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 실례합니다 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: sillyehamnida. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "실례합니다 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 실례합니다. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 실례합니다 fits.",
+          "Learner says 실례합니다, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "실례합니다",
+            "romanization": "silryehapnida",
+            "en": "Excuse me."
+          },
+          {
+            "speaker": "B",
+            "ko": "실례합니다, 지나갈게요",
+            "romanization": "silryehapnida, jinagalgeyo",
+            "en": "Excuse me, I will pass."
+          },
+          {
+            "speaker": "A",
+            "ko": "실례합니다.",
+            "romanization": "silryehapnida.",
+            "en": "Excuse me."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "실례합니다",
+            "romanization": "silryehapnida",
+            "en": "Excuse me.",
+            "note": "Formal attention."
+          },
+          {
+            "ko": "실례합니다, 지나갈게요",
+            "romanization": "silryehapnida, jinagalgeyo",
+            "en": "Excuse me, I will pass.",
+            "note": "Crowded place."
+          },
+          {
+            "ko": "실례합니다, 화장실 어디예요?",
+            "romanization": "silryehapnida, hwajangsil eodiyeyo?",
+            "en": "Excuse me, where is the bathroom?",
+            "note": "Question starter."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 실례합니다 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-02",
+        "chapter-03"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-010",
+      "sort": 1010,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "food"
+      ],
+      "hangul": "여기요",
+      "romanization": "yeogiyo",
+      "english": "Excuse me / over here.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "여기요 is a practical expression meaning \"Excuse me / over here.\".",
+      "explanation": "여기요 means \"Excuse me / over here.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 여기요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in ordering food, explaining food restrictions, and asking what to eat together. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "여기요",
+          "romanization": "yeogiyo",
+          "en": "Excuse me / over here.",
+          "note": "Calling staff."
+        },
+        {
+          "ko": "여기요, 주문할게요",
+          "romanization": "yeogiyo, jumunhalgeyo",
+          "en": "Excuse me, we will order.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "여기요, 물 주세요",
+          "romanization": "yeogiyo, mul juseyo",
+          "en": "Excuse me, water please.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "여기요, 계산해 주세요",
+          "romanization": "yeogiyo, gyesanhae juseyo",
+          "en": "Excuse me, check please.",
+          "note": "Restaurant."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "여기요.",
+          "romanization": "yeogiyo.",
+          "en": "Excuse me.",
+          "note": "Calling staff."
+        },
+        {
+          "ko": "여기요, 물 주세요.",
+          "romanization": "yeogiyo, mul juseyo.",
+          "en": "Excuse me, water please.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "여기요, 계산해 주세요.",
+          "romanization": "yeogiyo, gyesanhae juseyo.",
+          "en": "Excuse me, check please.",
+          "note": "Restaurant."
+        }
+      ],
+      "nuance": "Common in restaurants. Do not use it like “here” in all contexts.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 여기요 naturally in ordering food, explaining food restrictions, and asking what to eat together.",
+        "studyFlow": [
+          "Say 여기요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 여기요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: yeogiyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "여기요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 여기요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 여기요 fits.",
+          "Learner says 여기요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "여기요",
+            "romanization": "yeogiyo",
+            "en": "Excuse me / over here."
+          },
+          {
+            "speaker": "B",
+            "ko": "여기요, 주문할게요",
+            "romanization": "yeogiyo, jumunhalgeyo",
+            "en": "Excuse me, we will order."
+          },
+          {
+            "speaker": "A",
+            "ko": "여기요.",
+            "romanization": "yeogiyo.",
+            "en": "Excuse me."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "여기요",
+            "romanization": "yeogiyo",
+            "en": "Excuse me / over here.",
+            "note": "Calling staff."
+          },
+          {
+            "ko": "여기요, 주문할게요",
+            "romanization": "yeogiyo, jumunhalgeyo",
+            "en": "Excuse me, we will order.",
+            "note": "Restaurant."
+          },
+          {
+            "ko": "여기요, 물 주세요",
+            "romanization": "yeogiyo, mul juseyo",
+            "en": "Excuse me, water please.",
+            "note": "Restaurant."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 여기요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004"
+      ],
+      "chapterIds": [
+        "chapter-07"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-011",
+      "sort": 1011,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "shopping"
+      ],
+      "hangul": "이거 주세요",
+      "romanization": "igeo juseyo",
+      "english": "This one, please.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "이거 주세요 is a practical expression meaning \"This one, please.\".",
+      "explanation": "이거 주세요 means \"This one, please.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 이거 주세요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in buying things, checking prices, quantities, and payment options. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "이거 주세요",
+          "romanization": "igeo juseyo",
+          "en": "This one, please.",
+          "note": "Pointing and buying."
+        },
+        {
+          "ko": "이거 하나 주세요",
+          "romanization": "igeo hana juseyo",
+          "en": "One of these, please.",
+          "note": "Quantity."
+        },
+        {
+          "ko": "이거 두 개 주세요",
+          "romanization": "igeo du gae juseyo",
+          "en": "Two of these, please.",
+          "note": "Quantity."
+        },
+        {
+          "ko": "이거 포장해 주세요",
+          "romanization": "igeo pojanghae juseyo",
+          "en": "Please wrap / pack this.",
+          "note": "Shopping/food."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이거 주세요.",
+          "romanization": "igeo juseyo.",
+          "en": "This one, please.",
+          "note": "Shopping."
+        },
+        {
+          "ko": "이거 하나 주세요.",
+          "romanization": "igeo hana juseyo.",
+          "en": "One of these, please.",
+          "note": "Quantity."
+        },
+        {
+          "ko": "이거 카드로 살 수 있어요?",
+          "romanization": "igeo kadeuro sal su isseoyo?",
+          "en": "Can I buy this by card?",
+          "note": "Payment."
+        }
+      ],
+      "nuance": "이거 is casual spoken “this thing.” 이것 is a little more dictionary-like.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 이거 주세요 naturally in buying things, checking prices, quantities, and payment options.",
+        "studyFlow": [
+          "Say 이거 주세요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 이거 주세요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: igeo juseyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "이거 주세요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 이거 주세요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 이거 주세요 fits.",
+          "Learner says 이거 주세요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "이거 주세요",
+            "romanization": "igeo juseyo",
+            "en": "This one, please."
+          },
+          {
+            "speaker": "B",
+            "ko": "이거 하나 주세요",
+            "romanization": "igeo hana juseyo",
+            "en": "One of these, please."
+          },
+          {
+            "speaker": "A",
+            "ko": "이거 주세요.",
+            "romanization": "igeo juseyo.",
+            "en": "This one, please."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "이거 주세요",
+            "romanization": "igeo juseyo",
+            "en": "This one, please.",
+            "note": "Pointing and buying."
+          },
+          {
+            "ko": "이거 하나 주세요",
+            "romanization": "igeo hana juseyo",
+            "en": "One of these, please.",
+            "note": "Quantity."
+          },
+          {
+            "ko": "이거 두 개 주세요",
+            "romanization": "igeo du gae juseyo",
+            "en": "Two of these, please.",
+            "note": "Quantity."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 이거 주세요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004"
+      ],
+      "chapterIds": [
+        "chapter-07"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-012",
+      "sort": 1012,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "food"
+      ],
+      "hangul": "물 주세요",
+      "romanization": "mul juseyo",
+      "english": "Water, please.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "물 주세요 is a practical expression meaning \"Water, please.\".",
+      "explanation": "물 주세요 means \"Water, please.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 물 주세요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in ordering food, explaining food restrictions, and asking what to eat together. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "물 주세요",
+          "romanization": "mul juseyo",
+          "en": "Water, please.",
+          "note": "Basic request."
+        },
+        {
+          "ko": "찬물 주세요",
+          "romanization": "chanmul juseyo",
+          "en": "Cold water, please.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "물 한 잔 주세요",
+          "romanization": "mul han jan juseyo",
+          "en": "One glass of water, please.",
+          "note": "Quantity."
+        },
+        {
+          "ko": "물 좀 주세요",
+          "romanization": "mul jom juseyo",
+          "en": "Some water, please.",
+          "note": "Softened request."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "물 주세요.",
+          "romanization": "mul juseyo.",
+          "en": "Water, please.",
+          "note": "Basic."
+        },
+        {
+          "ko": "찬물 한 잔 주세요.",
+          "romanization": "chanmul han jan juseyo.",
+          "en": "One glass of cold water, please.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "물 좀 더 주세요.",
+          "romanization": "mul jom deo juseyo.",
+          "en": "Please give me a little more water.",
+          "note": "More."
+        }
+      ],
+      "nuance": "좀 softens a request. 물 좀 주세요 sounds natural and polite enough in restaurants.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 물 주세요 naturally in ordering food, explaining food restrictions, and asking what to eat together.",
+        "studyFlow": [
+          "Say 물 주세요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 물 주세요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: mul juseyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "물 주세요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 물 주세요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 물 주세요 fits.",
+          "Learner says 물 주세요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "물 주세요",
+            "romanization": "mul juseyo",
+            "en": "Water, please."
+          },
+          {
+            "speaker": "B",
+            "ko": "찬물 주세요",
+            "romanization": "chanmul juseyo",
+            "en": "Cold water, please."
+          },
+          {
+            "speaker": "A",
+            "ko": "물 주세요.",
+            "romanization": "mul juseyo.",
+            "en": "Water, please."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "물 주세요",
+            "romanization": "mul juseyo",
+            "en": "Water, please.",
+            "note": "Basic request."
+          },
+          {
+            "ko": "찬물 주세요",
+            "romanization": "chanmul juseyo",
+            "en": "Cold water, please.",
+            "note": "Restaurant."
+          },
+          {
+            "ko": "물 한 잔 주세요",
+            "romanization": "mul han jan juseyo",
+            "en": "One glass of water, please.",
+            "note": "Quantity."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 물 주세요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004"
+      ],
+      "chapterIds": [
+        "chapter-07",
+        "chapter-09"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do",
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-013",
+      "sort": 1013,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "food"
+      ],
+      "hangul": "계산해 주세요",
+      "romanization": "gyesanhae juseyo",
+      "english": "Check, please.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "계산해 주세요 is a practical expression meaning \"Check, please.\".",
+      "explanation": "계산해 주세요 means \"Check, please.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 계산해 주세요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in ordering food, explaining food restrictions, and asking what to eat together. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "계산해 주세요",
+          "romanization": "gyesanhae juseyo",
+          "en": "Check, please.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "따로 계산해 주세요",
+          "romanization": "ttaro gyesanhae juseyo",
+          "en": "Please split the bill.",
+          "note": "Payment."
+        },
+        {
+          "ko": "같이 계산해 주세요",
+          "romanization": "gati gyesanhae juseyo",
+          "en": "Please put it together.",
+          "note": "Payment."
+        },
+        {
+          "ko": "카드로 계산할게요",
+          "romanization": "kadeuro gyesanhalgeyo",
+          "en": "I will pay by card.",
+          "note": "Payment."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "계산해 주세요.",
+          "romanization": "gyesanhae juseyo.",
+          "en": "Check, please.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "카드로 계산할게요.",
+          "romanization": "kadeuro gyesanhalgeyo.",
+          "en": "I will pay by card.",
+          "note": "Payment."
+        },
+        {
+          "ko": "따로 계산할 수 있어요?",
+          "romanization": "ttaro gyesanhal su isseoyo?",
+          "en": "Can we pay separately?",
+          "note": "Question."
+        }
+      ],
+      "nuance": "계산하다 means calculate or pay/check out. In restaurants it means paying the bill.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 계산해 주세요 naturally in ordering food, explaining food restrictions, and asking what to eat together.",
+        "studyFlow": [
+          "Say 계산해 주세요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 계산해 주세요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: gyesanhae juseyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "계산해 주세요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 계산해 주세요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 계산해 주세요 fits.",
+          "Learner says 계산해 주세요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "계산해 주세요",
+            "romanization": "gyesanhae juseyo",
+            "en": "Check, please."
+          },
+          {
+            "speaker": "B",
+            "ko": "따로 계산해 주세요",
+            "romanization": "ttaro gyesanhae juseyo",
+            "en": "Please split the bill."
+          },
+          {
+            "speaker": "A",
+            "ko": "계산해 주세요.",
+            "romanization": "gyesanhae juseyo.",
+            "en": "Check, please."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "계산해 주세요",
+            "romanization": "gyesanhae juseyo",
+            "en": "Check, please.",
+            "note": "Restaurant."
+          },
+          {
+            "ko": "따로 계산해 주세요",
+            "romanization": "ttaro gyesanhae juseyo",
+            "en": "Please split the bill.",
+            "note": "Payment."
+          },
+          {
+            "ko": "같이 계산해 주세요",
+            "romanization": "gati gyesanhae juseyo",
+            "en": "Please put it together.",
+            "note": "Payment."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 계산해 주세요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004",
+        "pattern-007"
+      ],
+      "chapterIds": [
+        "chapter-07"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-014",
+      "sort": 1014,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "food"
+      ],
+      "hangul": "포장해 주세요",
+      "romanization": "pojanghae juseyo",
+      "english": "Please make it to go.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "포장해 주세요 is a practical expression meaning \"Please make it to go.\".",
+      "explanation": "포장해 주세요 means \"Please make it to go.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 포장해 주세요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in ordering food, explaining food restrictions, and asking what to eat together. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "포장해 주세요",
+          "romanization": "pojanghae juseyo",
+          "en": "Please make it to go.",
+          "note": "Food/shopping."
+        },
+        {
+          "ko": "이거 포장해 주세요",
+          "romanization": "igeo pojanghae juseyo",
+          "en": "Please pack this.",
+          "note": "Pointing."
+        },
+        {
+          "ko": "남은 거 포장해 주세요",
+          "romanization": "nameun geo pojanghae juseyo",
+          "en": "Please pack the leftovers.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "포장 가능해요?",
+          "romanization": "pojang ganeunghaeyo?",
+          "en": "Is takeout possible?",
+          "note": "Question."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "포장해 주세요.",
+          "romanization": "pojanghae juseyo.",
+          "en": "Please make it to go.",
+          "note": "Basic."
+        },
+        {
+          "ko": "남은 거 포장해 주세요.",
+          "romanization": "nameun geo pojanghae juseyo.",
+          "en": "Please pack the leftovers.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "이거 포장 가능해요?",
+          "romanization": "igeo pojang ganeunghaeyo?",
+          "en": "Can this be packed to go?",
+          "note": "Question."
+        }
+      ],
+      "nuance": "For food, 포장 means takeout or packing leftovers.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 포장해 주세요 naturally in ordering food, explaining food restrictions, and asking what to eat together.",
+        "studyFlow": [
+          "Say 포장해 주세요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 포장해 주세요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: pojanghae juseyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "포장해 주세요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 포장해 주세요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 포장해 주세요 fits.",
+          "Learner says 포장해 주세요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "포장해 주세요",
+            "romanization": "pojanghae juseyo",
+            "en": "Please make it to go."
+          },
+          {
+            "speaker": "B",
+            "ko": "이거 포장해 주세요",
+            "romanization": "igeo pojanghae juseyo",
+            "en": "Please pack this."
+          },
+          {
+            "speaker": "A",
+            "ko": "포장해 주세요.",
+            "romanization": "pojanghae juseyo.",
+            "en": "Please make it to go."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "포장해 주세요",
+            "romanization": "pojanghae juseyo",
+            "en": "Please make it to go.",
+            "note": "Food/shopping."
+          },
+          {
+            "ko": "이거 포장해 주세요",
+            "romanization": "igeo pojanghae juseyo",
+            "en": "Please pack this.",
+            "note": "Pointing."
+          },
+          {
+            "ko": "남은 거 포장해 주세요",
+            "romanization": "nameun geo pojanghae juseyo",
+            "en": "Please pack the leftovers.",
+            "note": "Restaurant."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 포장해 주세요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004"
+      ],
+      "chapterIds": [
+        "chapter-07",
+        "chapter-09"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do",
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-015",
+      "sort": 1015,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "shopping"
+      ],
+      "hangul": "얼마예요?",
+      "romanization": "eolmayeyo",
+      "english": "How much is it?",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "얼마예요? is a practical expression meaning \"How much is it?\".",
+      "explanation": "얼마예요? means \"How much is it?\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 얼마예요? with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in buying things, checking prices, quantities, and payment options. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "얼마예요?",
+          "romanization": "eolmayeyo?",
+          "en": "How much is it?",
+          "note": "Price question."
+        },
+        {
+          "ko": "이거 얼마예요?",
+          "romanization": "igeo eolmayeyo?",
+          "en": "How much is this?",
+          "note": "Shopping."
+        },
+        {
+          "ko": "전부 얼마예요?",
+          "romanization": "jeonbu eolmayeyo?",
+          "en": "How much is everything?",
+          "note": "Total."
+        },
+        {
+          "ko": "하나에 얼마예요?",
+          "romanization": "hanae eolmayeyo?",
+          "en": "How much for one?",
+          "note": "Per item."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이거 얼마예요?",
+          "romanization": "igeo eolmayeyo?",
+          "en": "How much is this?",
+          "note": "Shopping."
+        },
+        {
+          "ko": "전부 얼마예요?",
+          "romanization": "jeonbu eolmayeyo?",
+          "en": "How much is everything?",
+          "note": "Total."
+        },
+        {
+          "ko": "하나에 얼마예요?",
+          "romanization": "hanae eolmayeyo?",
+          "en": "How much for one?",
+          "note": "Per item."
+        }
+      ],
+      "nuance": "Use with pointing. 이거 얼마예요? is one of the most useful shopping questions.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 얼마예요? naturally in buying things, checking prices, quantities, and payment options.",
+        "studyFlow": [
+          "Say 얼마예요? as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 얼마예요? as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: eolmayeyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "얼마예요? is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 얼마예요?. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 얼마예요? fits.",
+          "Learner says 얼마예요?, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "얼마예요?",
+            "romanization": "eolmayeyo?",
+            "en": "How much is it?"
+          },
+          {
+            "speaker": "B",
+            "ko": "이거 얼마예요?",
+            "romanization": "igeo eolmayeyo?",
+            "en": "How much is this?"
+          },
+          {
+            "speaker": "A",
+            "ko": "이거 얼마예요?",
+            "romanization": "igeo eolmayeyo?",
+            "en": "How much is this?"
+          }
+        ],
+        "drills": [
+          {
+            "ko": "얼마예요?",
+            "romanization": "eolmayeyo?",
+            "en": "How much is it?",
+            "note": "Price question."
+          },
+          {
+            "ko": "이거 얼마예요?",
+            "romanization": "igeo eolmayeyo?",
+            "en": "How much is this?",
+            "note": "Shopping."
+          },
+          {
+            "ko": "전부 얼마예요?",
+            "romanization": "jeonbu eolmayeyo?",
+            "en": "How much is everything?",
+            "note": "Total."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 얼마예요? without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-07",
+        "chapter-09"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do",
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-016",
+      "sort": 1016,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "shopping"
+      ],
+      "hangul": "카드 돼요?",
+      "romanization": "kadeu dwaeyo",
+      "english": "Can I pay by card?",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "카드 돼요? is a practical expression meaning \"Can I pay by card?\".",
+      "explanation": "카드 돼요? means \"Can I pay by card?\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 카드 돼요? with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in buying things, checking prices, quantities, and payment options. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "카드 돼요?",
+          "romanization": "kadeu dwaeyo?",
+          "en": "Can I pay by card?",
+          "note": "Spoken shortcut."
+        },
+        {
+          "ko": "카드 결제 돼요?",
+          "romanization": "kadeu gyeolje dwaeyo?",
+          "en": "Is card payment possible?",
+          "note": "Clearer."
+        },
+        {
+          "ko": "현금만 돼요?",
+          "romanization": "hyeongeumman dwaeyo?",
+          "en": "Is it cash only?",
+          "note": "Question."
+        },
+        {
+          "ko": "카드로 할게요",
+          "romanization": "kadeuro halgeyo",
+          "en": "I will pay by card.",
+          "note": "Payment."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "카드 돼요?",
+          "romanization": "kadeu dwaeyo?",
+          "en": "Can I pay by card?",
+          "note": "Short spoken."
+        },
+        {
+          "ko": "카드 결제 돼요?",
+          "romanization": "kadeu gyeolje dwaeyo?",
+          "en": "Is card payment possible?",
+          "note": "Clear."
+        },
+        {
+          "ko": "그럼 현금으로 할게요.",
+          "romanization": "geureom hyeongeumeuro halgeyo.",
+          "en": "Then I will pay in cash.",
+          "note": "Fallback."
+        }
+      ],
+      "nuance": "카드 돼요? is casual but common in stores. 카드 결제 돼요? is clearer and more polite.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 카드 돼요? naturally in buying things, checking prices, quantities, and payment options.",
+        "studyFlow": [
+          "Say 카드 돼요? as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 카드 돼요? as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: kadeu dwaeyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "카드 돼요? is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 카드 돼요?. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 카드 돼요? fits.",
+          "Learner says 카드 돼요?, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "카드 돼요?",
+            "romanization": "kadeu dwaeyo?",
+            "en": "Can I pay by card?"
+          },
+          {
+            "speaker": "B",
+            "ko": "카드 결제 돼요?",
+            "romanization": "kadeu gyeolje dwaeyo?",
+            "en": "Is card payment possible?"
+          },
+          {
+            "speaker": "A",
+            "ko": "카드 돼요?",
+            "romanization": "kadeu dwaeyo?",
+            "en": "Can I pay by card?"
+          }
+        ],
+        "drills": [
+          {
+            "ko": "카드 돼요?",
+            "romanization": "kadeu dwaeyo?",
+            "en": "Can I pay by card?",
+            "note": "Spoken shortcut."
+          },
+          {
+            "ko": "카드 결제 돼요?",
+            "romanization": "kadeu gyeolje dwaeyo?",
+            "en": "Is card payment possible?",
+            "note": "Clearer."
+          },
+          {
+            "ko": "현금만 돼요?",
+            "romanization": "hyeongeumman dwaeyo?",
+            "en": "Is it cash only?",
+            "note": "Question."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 카드 돼요? without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-09",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-017",
+      "sort": 1017,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "travel"
+      ],
+      "hangul": "화장실 어디예요?",
+      "romanization": "hwajangsil eodiyeyo",
+      "english": "Where is the bathroom?",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "화장실 어디예요? is a practical expression meaning \"Where is the bathroom?\".",
+      "explanation": "화장실 어디예요? means \"Where is the bathroom?\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 화장실 어디예요? with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in getting around, reservations, directions, photos, and emergency help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "화장실 어디예요?",
+          "romanization": "hwajangsil eodiyeyo?",
+          "en": "Where is the bathroom?",
+          "note": "Direct question."
+        },
+        {
+          "ko": "화장실이 어디예요?",
+          "romanization": "hwajangsiri eodiyeyo?",
+          "en": "Where is the bathroom?",
+          "note": "More complete."
+        },
+        {
+          "ko": "저쪽이에요",
+          "romanization": "jeojjogieyo",
+          "en": "It is over there.",
+          "note": "Likely answer."
+        },
+        {
+          "ko": "여기 화장실 있어요?",
+          "romanization": "yeogi hwajangsil isseoyo?",
+          "en": "Is there a bathroom here?",
+          "note": "Existence question."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "화장실 어디예요?",
+          "romanization": "hwajangsil eodiyeyo?",
+          "en": "Where is the bathroom?",
+          "note": "Travel."
+        },
+        {
+          "ko": "실례합니다, 화장실이 어디예요?",
+          "romanization": "silryehapnida, hwajangsiri eodiyeyo?",
+          "en": "Excuse me, where is the bathroom?",
+          "note": "Polite."
+        },
+        {
+          "ko": "여기 화장실 있어요?",
+          "romanization": "yeogi hwajangsil isseoyo?",
+          "en": "Is there a bathroom here?",
+          "note": "Alternative."
+        }
+      ],
+      "nuance": "Dropping 이 is common in speech: 화장실 어디예요? is natural.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 화장실 어디예요? naturally in getting around, reservations, directions, photos, and emergency help.",
+        "studyFlow": [
+          "Say 화장실 어디예요? as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 화장실 어디예요? as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: hwajangsil eodiyeyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "화장실 어디예요? is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 화장실 어디예요?. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 화장실 어디예요? fits.",
+          "Learner says 화장실 어디예요?, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "화장실 어디예요?",
+            "romanization": "hwajangsil eodiyeyo?",
+            "en": "Where is the bathroom?"
+          },
+          {
+            "speaker": "B",
+            "ko": "화장실이 어디예요?",
+            "romanization": "hwajangsiri eodiyeyo?",
+            "en": "Where is the bathroom?"
+          },
+          {
+            "speaker": "A",
+            "ko": "화장실 어디예요?",
+            "romanization": "hwajangsil eodiyeyo?",
+            "en": "Where is the bathroom?"
+          }
+        ],
+        "drills": [
+          {
+            "ko": "화장실 어디예요?",
+            "romanization": "hwajangsil eodiyeyo?",
+            "en": "Where is the bathroom?",
+            "note": "Direct question."
+          },
+          {
+            "ko": "화장실이 어디예요?",
+            "romanization": "hwajangsiri eodiyeyo?",
+            "en": "Where is the bathroom?",
+            "note": "More complete."
+          },
+          {
+            "ko": "저쪽이에요",
+            "romanization": "jeojjogieyo",
+            "en": "It is over there.",
+            "note": "Likely answer."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 화장실 어디예요? without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-09",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-018",
+      "sort": 1018,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "transportation"
+      ],
+      "hangul": "지하철역 어디예요?",
+      "romanization": "jihacheollyeok eodiyeyo",
+      "english": "Where is the subway station?",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "지하철역 어디예요? is a practical expression meaning \"Where is the subway station?\".",
+      "explanation": "지하철역 어디예요? means \"Where is the subway station?\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 지하철역 어디예요? with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in using buses, subways, taxis, and asking where to get on or off. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "지하철역 어디예요?",
+          "romanization": "jihacheoryeok eodiyeyo?",
+          "en": "Where is the subway station?",
+          "note": "Travel."
+        },
+        {
+          "ko": "지하철역이 어디예요?",
+          "romanization": "jihacheoryeogi eodiyeyo?",
+          "en": "Where is the subway station?",
+          "note": "More complete."
+        },
+        {
+          "ko": "가까운 역 어디예요?",
+          "romanization": "gakkaun yeok eodiyeyo?",
+          "en": "Where is the nearest station?",
+          "note": "Useful."
+        },
+        {
+          "ko": "몇 호선이에요?",
+          "romanization": "myeot hoseonieyo?",
+          "en": "Which line is it?",
+          "note": "Follow-up."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "지하철역 어디예요?",
+          "romanization": "jihacheoryeok eodiyeyo?",
+          "en": "Where is the subway station?",
+          "note": "Direct."
+        },
+        {
+          "ko": "가까운 지하철역이 어디예요?",
+          "romanization": "gakkaun jihacheoryeogi eodiyeyo?",
+          "en": "Where is the nearest subway station?",
+          "note": "Travel."
+        },
+        {
+          "ko": "몇 호선이에요?",
+          "romanization": "myeot hoseonieyo?",
+          "en": "Which subway line is it?",
+          "note": "Follow-up."
+        }
+      ],
+      "nuance": "역 means station; 지하철역 specifically means subway station.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 지하철역 어디예요? naturally in using buses, subways, taxis, and asking where to get on or off.",
+        "studyFlow": [
+          "Say 지하철역 어디예요? as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 지하철역 어디예요? as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: jihacheollyeok eodiyeyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "지하철역 어디예요? is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 지하철역 어디예요?. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 지하철역 어디예요? fits.",
+          "Learner says 지하철역 어디예요?, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "지하철역 어디예요?",
+            "romanization": "jihacheoryeok eodiyeyo?",
+            "en": "Where is the subway station?"
+          },
+          {
+            "speaker": "B",
+            "ko": "지하철역이 어디예요?",
+            "romanization": "jihacheoryeogi eodiyeyo?",
+            "en": "Where is the subway station?"
+          },
+          {
+            "speaker": "A",
+            "ko": "지하철역 어디예요?",
+            "romanization": "jihacheoryeok eodiyeyo?",
+            "en": "Where is the subway station?"
+          }
+        ],
+        "drills": [
+          {
+            "ko": "지하철역 어디예요?",
+            "romanization": "jihacheoryeok eodiyeyo?",
+            "en": "Where is the subway station?",
+            "note": "Travel."
+          },
+          {
+            "ko": "지하철역이 어디예요?",
+            "romanization": "jihacheoryeogi eodiyeyo?",
+            "en": "Where is the subway station?",
+            "note": "More complete."
+          },
+          {
+            "ko": "가까운 역 어디예요?",
+            "romanization": "gakkaun yeok eodiyeyo?",
+            "en": "Where is the nearest station?",
+            "note": "Useful."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 지하철역 어디예요? without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-09",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-019",
+      "sort": 1019,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "travel"
+      ],
+      "hangul": "길을 잃었어요",
+      "romanization": "gireul ireosseoyo",
+      "english": "I am lost.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "길을 잃었어요 is a practical expression meaning \"I am lost.\".",
+      "explanation": "길을 잃었어요 means \"I am lost.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 길을 잃었어요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in getting around, reservations, directions, photos, and emergency help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "길을 잃었어요",
+          "romanization": "gireul ileosseoyo",
+          "en": "I am lost.",
+          "note": "Travel emergency."
+        },
+        {
+          "ko": "제가 길을 잃었어요",
+          "romanization": "jega gireul ileosseoyo",
+          "en": "I am lost.",
+          "note": "Clear subject."
+        },
+        {
+          "ko": "도와주세요",
+          "romanization": "dowajuseyo",
+          "en": "Please help me.",
+          "note": "Follow-up."
+        },
+        {
+          "ko": "여기가 어디예요?",
+          "romanization": "yeogiga eodiyeyo?",
+          "en": "Where is this place?",
+          "note": "Follow-up."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "길을 잃었어요.",
+          "romanization": "gireul ileosseoyo.",
+          "en": "I am lost.",
+          "note": "Basic."
+        },
+        {
+          "ko": "죄송하지만 길을 잃었어요.",
+          "romanization": "joesonghajiman gireul ileosseoyo.",
+          "en": "Sorry, but I am lost.",
+          "note": "Polite."
+        },
+        {
+          "ko": "여기가 어디예요?",
+          "romanization": "yeogiga eodiyeyo?",
+          "en": "Where am I / where is this?",
+          "note": "Follow-up."
+        }
+      ],
+      "nuance": "Use this when you genuinely need help finding your way.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 길을 잃었어요 naturally in getting around, reservations, directions, photos, and emergency help.",
+        "studyFlow": [
+          "Say 길을 잃었어요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 길을 잃었어요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: gireul ireosseoyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "길을 잃었어요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 길을 잃었어요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 길을 잃었어요 fits.",
+          "Learner says 길을 잃었어요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "길을 잃었어요",
+            "romanization": "gireul ileosseoyo",
+            "en": "I am lost."
+          },
+          {
+            "speaker": "B",
+            "ko": "제가 길을 잃었어요",
+            "romanization": "jega gireul ileosseoyo",
+            "en": "I am lost."
+          },
+          {
+            "speaker": "A",
+            "ko": "길을 잃었어요.",
+            "romanization": "gireul ileosseoyo.",
+            "en": "I am lost."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "길을 잃었어요",
+            "romanization": "gireul ileosseoyo",
+            "en": "I am lost.",
+            "note": "Travel emergency."
+          },
+          {
+            "ko": "제가 길을 잃었어요",
+            "romanization": "jega gireul ileosseoyo",
+            "en": "I am lost.",
+            "note": "Clear subject."
+          },
+          {
+            "ko": "도와주세요",
+            "romanization": "dowajuseyo",
+            "en": "Please help me.",
+            "note": "Follow-up."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 길을 잃었어요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015"
+      ],
+      "chapterIds": [
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-020",
+      "sort": 1020,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "travel"
+      ],
+      "hangul": "도와주세요",
+      "romanization": "dowajuseyo",
+      "english": "Please help me.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "도와주세요 is a practical expression meaning \"Please help me.\".",
+      "explanation": "도와주세요 means \"Please help me.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 도와주세요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in getting around, reservations, directions, photos, and emergency help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "도와주세요",
+          "romanization": "dowajuseyo",
+          "en": "Please help me.",
+          "note": "Urgent or normal help."
+        },
+        {
+          "ko": "좀 도와주세요",
+          "romanization": "jom dowajuseyo",
+          "en": "Please help me a little.",
+          "note": "Softer."
+        },
+        {
+          "ko": "한국어를 잘 못해요",
+          "romanization": "hangugeoreul jal mothaeyo",
+          "en": "I cannot speak Korean well.",
+          "note": "Useful follow-up."
+        },
+        {
+          "ko": "길을 잃었어요",
+          "romanization": "gireul ileosseoyo",
+          "en": "I am lost.",
+          "note": "Travel follow-up."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "도와주세요.",
+          "romanization": "dowajuseyo.",
+          "en": "Please help me.",
+          "note": "Basic."
+        },
+        {
+          "ko": "죄송하지만 좀 도와주세요.",
+          "romanization": "joesonghajiman jom dowajuseyo.",
+          "en": "Sorry, but please help me.",
+          "note": "Polite."
+        },
+        {
+          "ko": "한국어를 잘 못해요. 도와주세요.",
+          "romanization": "hangugeoreul jal mothaeyo. dowajuseyo.",
+          "en": "I cannot speak Korean well. Please help me.",
+          "note": "Survival."
+        }
+      ],
+      "nuance": "Can be urgent or ordinary depending on tone. Add 좀 to soften a normal request.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 도와주세요 naturally in getting around, reservations, directions, photos, and emergency help.",
+        "studyFlow": [
+          "Say 도와주세요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 도와주세요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: dowajuseyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "도와주세요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 도와주세요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 도와주세요 fits.",
+          "Learner says 도와주세요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "도와주세요",
+            "romanization": "dowajuseyo",
+            "en": "Please help me."
+          },
+          {
+            "speaker": "B",
+            "ko": "좀 도와주세요",
+            "romanization": "jom dowajuseyo",
+            "en": "Please help me a little."
+          },
+          {
+            "speaker": "A",
+            "ko": "도와주세요.",
+            "romanization": "dowajuseyo.",
+            "en": "Please help me."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "도와주세요",
+            "romanization": "dowajuseyo",
+            "en": "Please help me.",
+            "note": "Urgent or normal help."
+          },
+          {
+            "ko": "좀 도와주세요",
+            "romanization": "jom dowajuseyo",
+            "en": "Please help me a little.",
+            "note": "Softer."
+          },
+          {
+            "ko": "한국어를 잘 못해요",
+            "romanization": "hangugeoreul jal mothaeyo",
+            "en": "I cannot speak Korean well.",
+            "note": "Useful follow-up."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 도와주세요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-008"
+      ],
+      "chapterIds": [
+        "chapter-01",
+        "chapter-08",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-foundation-hangul-blocks",
+        "grammar-ending-want",
+        "grammar-ending-can",
+        "grammar-ending-mot",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-021",
+      "sort": 1021,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "school"
+      ],
+      "hangul": "천천히 말해 주세요",
+      "romanization": "cheoncheonhi malhae juseyo",
+      "english": "Please speak slowly.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "천천히 말해 주세요 is a practical expression meaning \"Please speak slowly.\".",
+      "explanation": "천천히 말해 주세요 means \"Please speak slowly.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 천천히 말해 주세요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in classroom communication, study plans, and asking for repetition or help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "천천히 말해 주세요",
+          "romanization": "cheoncheonhi malhae juseyo",
+          "en": "Please speak slowly.",
+          "note": "Survival phrase."
+        },
+        {
+          "ko": "조금 천천히 말해 주세요",
+          "romanization": "jogeum cheoncheonhi malhae juseyo",
+          "en": "Please speak a little slowly.",
+          "note": "Softer."
+        },
+        {
+          "ko": "다시 말해 주세요",
+          "romanization": "dasi malhae juseyo",
+          "en": "Please say it again.",
+          "note": "Related."
+        },
+        {
+          "ko": "잘 못 들었어요",
+          "romanization": "jal mot deureosseoyo",
+          "en": "I did not hear well.",
+          "note": "Follow-up."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "천천히 말해 주세요.",
+          "romanization": "cheoncheonhi malhae juseyo.",
+          "en": "Please speak slowly.",
+          "note": "Basic."
+        },
+        {
+          "ko": "죄송하지만 조금 천천히 말해 주세요.",
+          "romanization": "joesonghajiman jogeum cheoncheonhi malhae juseyo.",
+          "en": "Sorry, but please speak a little slowly.",
+          "note": "Polite."
+        },
+        {
+          "ko": "잘 못 들었어요. 다시 말해 주세요.",
+          "romanization": "jal mot deureosseoyo. dasi malhae juseyo.",
+          "en": "I did not hear well. Please say it again.",
+          "note": "Follow-up."
+        }
+      ],
+      "nuance": "Very useful for learners. It is polite and clear.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 천천히 말해 주세요 naturally in classroom communication, study plans, and asking for repetition or help.",
+        "studyFlow": [
+          "Say 천천히 말해 주세요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 천천히 말해 주세요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: cheoncheonhi malhae juseyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "천천히 말해 주세요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 천천히 말해 주세요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 천천히 말해 주세요 fits.",
+          "Learner says 천천히 말해 주세요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "천천히 말해 주세요",
+            "romanization": "cheoncheonhi malhae juseyo",
+            "en": "Please speak slowly."
+          },
+          {
+            "speaker": "B",
+            "ko": "조금 천천히 말해 주세요",
+            "romanization": "jogeum cheoncheonhi malhae juseyo",
+            "en": "Please speak a little slowly."
+          },
+          {
+            "speaker": "A",
+            "ko": "천천히 말해 주세요.",
+            "romanization": "cheoncheonhi malhae juseyo.",
+            "en": "Please speak slowly."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "천천히 말해 주세요",
+            "romanization": "cheoncheonhi malhae juseyo",
+            "en": "Please speak slowly.",
+            "note": "Survival phrase."
+          },
+          {
+            "ko": "조금 천천히 말해 주세요",
+            "romanization": "jogeum cheoncheonhi malhae juseyo",
+            "en": "Please speak a little slowly.",
+            "note": "Softer."
+          },
+          {
+            "ko": "다시 말해 주세요",
+            "romanization": "dasi malhae juseyo",
+            "en": "Please say it again.",
+            "note": "Related."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 천천히 말해 주세요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004",
+        "pattern-008"
+      ],
+      "chapterIds": [
+        "chapter-01",
+        "chapter-08",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-foundation-hangul-blocks",
+        "grammar-ending-want",
+        "grammar-ending-can",
+        "grammar-ending-mot",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-022",
+      "sort": 1022,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "school"
+      ],
+      "hangul": "다시 말해 주세요",
+      "romanization": "dasi malhae juseyo",
+      "english": "Please say it again.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "다시 말해 주세요 is a practical expression meaning \"Please say it again.\".",
+      "explanation": "다시 말해 주세요 means \"Please say it again.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 다시 말해 주세요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in classroom communication, study plans, and asking for repetition or help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "다시 말해 주세요",
+          "romanization": "dasi malhae juseyo",
+          "en": "Please say it again.",
+          "note": "Request."
+        },
+        {
+          "ko": "한 번 더 말해 주세요",
+          "romanization": "han beon deo malhae juseyo",
+          "en": "Please say it one more time.",
+          "note": "Natural."
+        },
+        {
+          "ko": "잘 못 들었어요",
+          "romanization": "jal mot deureosseoyo",
+          "en": "I did not hear well.",
+          "note": "Reason."
+        },
+        {
+          "ko": "천천히 말해 주세요",
+          "romanization": "cheoncheonhi malhae juseyo",
+          "en": "Please speak slowly.",
+          "note": "Related."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "다시 말해 주세요.",
+          "romanization": "dasi malhae juseyo.",
+          "en": "Please say it again.",
+          "note": "Basic."
+        },
+        {
+          "ko": "한 번 더 말해 주세요.",
+          "romanization": "han beon deo malhae juseyo.",
+          "en": "Please say it one more time.",
+          "note": "Natural."
+        },
+        {
+          "ko": "잘 못 들었어요. 다시 말해 주세요.",
+          "romanization": "jal mot deureosseoyo. dasi malhae juseyo.",
+          "en": "I did not hear well. Please say it again.",
+          "note": "Reason."
+        }
+      ],
+      "nuance": "다시 means again. 한 번 더 is also very natural for “one more time.”",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 다시 말해 주세요 naturally in classroom communication, study plans, and asking for repetition or help.",
+        "studyFlow": [
+          "Say 다시 말해 주세요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 다시 말해 주세요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: dasi malhae juseyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "다시 말해 주세요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 다시 말해 주세요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 다시 말해 주세요 fits.",
+          "Learner says 다시 말해 주세요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "다시 말해 주세요",
+            "romanization": "dasi malhae juseyo",
+            "en": "Please say it again."
+          },
+          {
+            "speaker": "B",
+            "ko": "한 번 더 말해 주세요",
+            "romanization": "han beon deo malhae juseyo",
+            "en": "Please say it one more time."
+          },
+          {
+            "speaker": "A",
+            "ko": "다시 말해 주세요.",
+            "romanization": "dasi malhae juseyo.",
+            "en": "Please say it again."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "다시 말해 주세요",
+            "romanization": "dasi malhae juseyo",
+            "en": "Please say it again.",
+            "note": "Request."
+          },
+          {
+            "ko": "한 번 더 말해 주세요",
+            "romanization": "han beon deo malhae juseyo",
+            "en": "Please say it one more time.",
+            "note": "Natural."
+          },
+          {
+            "ko": "잘 못 들었어요",
+            "romanization": "jal mot deureosseoyo",
+            "en": "I did not hear well.",
+            "note": "Reason."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 다시 말해 주세요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004",
+        "pattern-008"
+      ],
+      "chapterIds": [
+        "chapter-01",
+        "chapter-08",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-foundation-hangul-blocks",
+        "grammar-ending-want",
+        "grammar-ending-can",
+        "grammar-ending-mot",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-023",
+      "sort": 1023,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "school"
+      ],
+      "hangul": "한국어를 조금 해요",
+      "romanization": "hangugeoreul jogeum haeyo",
+      "english": "I speak a little Korean.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "한국어를 조금 해요 is a practical expression meaning \"I speak a little Korean.\".",
+      "explanation": "한국어를 조금 해요 means \"I speak a little Korean.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 한국어를 조금 해요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in classroom communication, study plans, and asking for repetition or help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "한국어를 조금 해요",
+          "romanization": "hangugeoreul jogeum haeyo",
+          "en": "I speak a little Korean.",
+          "note": "Modest statement."
+        },
+        {
+          "ko": "한국어를 잘 못해요",
+          "romanization": "hangugeoreul jal mothaeyo",
+          "en": "I cannot speak Korean well.",
+          "note": "More useful for beginners."
+        },
+        {
+          "ko": "조금만 알아요",
+          "romanization": "jogeumman arayo",
+          "en": "I only know a little.",
+          "note": "Humble."
+        },
+        {
+          "ko": "천천히 말해 주세요",
+          "romanization": "cheoncheonhi malhae juseyo",
+          "en": "Please speak slowly.",
+          "note": "Follow-up."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "한국어를 조금 해요.",
+          "romanization": "hangugeoreul jogeum haeyo.",
+          "en": "I speak a little Korean.",
+          "note": "Basic."
+        },
+        {
+          "ko": "한국어를 잘 못해요.",
+          "romanization": "hangugeoreul jal mothaeyo.",
+          "en": "I cannot speak Korean well.",
+          "note": "Often more natural."
+        },
+        {
+          "ko": "천천히 말해 주세요.",
+          "romanization": "cheoncheonhi malhae juseyo.",
+          "en": "Please speak slowly.",
+          "note": "Follow-up."
+        }
+      ],
+      "nuance": "잘 못해요 is often more honest and useful than 조금 해요 for beginners.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 한국어를 조금 해요 naturally in classroom communication, study plans, and asking for repetition or help.",
+        "studyFlow": [
+          "Say 한국어를 조금 해요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 한국어를 조금 해요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: hangugeoreul jogeum haeyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "한국어를 조금 해요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 한국어를 조금 해요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 한국어를 조금 해요 fits.",
+          "Learner says 한국어를 조금 해요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "한국어를 조금 해요",
+            "romanization": "hangugeoreul jogeum haeyo",
+            "en": "I speak a little Korean."
+          },
+          {
+            "speaker": "B",
+            "ko": "한국어를 잘 못해요",
+            "romanization": "hangugeoreul jal mothaeyo",
+            "en": "I cannot speak Korean well."
+          },
+          {
+            "speaker": "A",
+            "ko": "한국어를 조금 해요.",
+            "romanization": "hangugeoreul jogeum haeyo.",
+            "en": "I speak a little Korean."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "한국어를 조금 해요",
+            "romanization": "hangugeoreul jogeum haeyo",
+            "en": "I speak a little Korean.",
+            "note": "Modest statement."
+          },
+          {
+            "ko": "한국어를 잘 못해요",
+            "romanization": "hangugeoreul jal mothaeyo",
+            "en": "I cannot speak Korean well.",
+            "note": "More useful for beginners."
+          },
+          {
+            "ko": "조금만 알아요",
+            "romanization": "jogeumman arayo",
+            "en": "I only know a little.",
+            "note": "Humble."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 한국어를 조금 해요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004",
+        "pattern-008"
+      ],
+      "chapterIds": [
+        "chapter-08",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-ending-want",
+        "grammar-ending-can",
+        "grammar-ending-mot",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-024",
+      "sort": 1024,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "travel"
+      ],
+      "hangul": "영어 할 수 있어요?",
+      "romanization": "yeongeo hal su isseoyo",
+      "english": "Can you speak English?",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "영어 할 수 있어요? is a practical expression meaning \"Can you speak English?\".",
+      "explanation": "영어 할 수 있어요? means \"Can you speak English?\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 영어 할 수 있어요? with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in getting around, reservations, directions, photos, and emergency help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "영어 할 수 있어요?",
+          "romanization": "yeongeo hal su isseoyo?",
+          "en": "Can you speak English?",
+          "note": "Short spoken."
+        },
+        {
+          "ko": "영어로 말해도 돼요?",
+          "romanization": "yeongeoro malhaedo dwaeyo?",
+          "en": "May I speak in English?",
+          "note": "Polite alternative."
+        },
+        {
+          "ko": "한국어를 잘 못해요",
+          "romanization": "hangugeoreul jal mothaeyo",
+          "en": "I cannot speak Korean well.",
+          "note": "Explanation."
+        },
+        {
+          "ko": "천천히 말해 주세요",
+          "romanization": "cheoncheonhi malhae juseyo",
+          "en": "Please speak slowly.",
+          "note": "Fallback."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "영어 할 수 있어요?",
+          "romanization": "yeongeo hal su isseoyo?",
+          "en": "Can you speak English?",
+          "note": "Direct."
+        },
+        {
+          "ko": "영어로 말해도 돼요?",
+          "romanization": "yeongeoro malhaedo dwaeyo?",
+          "en": "May I speak in English?",
+          "note": "Polite."
+        },
+        {
+          "ko": "한국어를 잘 못해요.",
+          "romanization": "hangugeoreul jal mothaeyo.",
+          "en": "I cannot speak Korean well.",
+          "note": "Explanation."
+        }
+      ],
+      "nuance": "영어 하세요? is also common, but 영어 할 수 있어요? is clearer for learners.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 영어 할 수 있어요? naturally in getting around, reservations, directions, photos, and emergency help.",
+        "studyFlow": [
+          "Say 영어 할 수 있어요? as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 영어 할 수 있어요? as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: yeongeo hal su isseoyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "영어 할 수 있어요? is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 영어 할 수 있어요?. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 영어 할 수 있어요? fits.",
+          "Learner says 영어 할 수 있어요?, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "영어 할 수 있어요?",
+            "romanization": "yeongeo hal su isseoyo?",
+            "en": "Can you speak English?"
+          },
+          {
+            "speaker": "B",
+            "ko": "영어로 말해도 돼요?",
+            "romanization": "yeongeoro malhaedo dwaeyo?",
+            "en": "May I speak in English?"
+          },
+          {
+            "speaker": "A",
+            "ko": "영어 할 수 있어요?",
+            "romanization": "yeongeo hal su isseoyo?",
+            "en": "Can you speak English?"
+          }
+        ],
+        "drills": [
+          {
+            "ko": "영어 할 수 있어요?",
+            "romanization": "yeongeo hal su isseoyo?",
+            "en": "Can you speak English?",
+            "note": "Short spoken."
+          },
+          {
+            "ko": "영어로 말해도 돼요?",
+            "romanization": "yeongeoro malhaedo dwaeyo?",
+            "en": "May I speak in English?",
+            "note": "Polite alternative."
+          },
+          {
+            "ko": "한국어를 잘 못해요",
+            "romanization": "hangugeoreul jal mothaeyo",
+            "en": "I cannot speak Korean well.",
+            "note": "Explanation."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 영어 할 수 있어요? without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004",
+        "pattern-013",
+        "pattern-007",
+        "pattern-008"
+      ],
+      "chapterIds": [
+        "chapter-09",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-025",
+      "sort": 1025,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "school"
+      ],
+      "hangul": "잘 모르겠어요",
+      "romanization": "jal moreugesseoyo",
+      "english": "I am not sure / I do not really know.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "잘 모르겠어요 is a practical expression meaning \"I am not sure / I do not really know.\".",
+      "explanation": "잘 모르겠어요 means \"I am not sure / I do not really know.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 잘 모르겠어요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in classroom communication, study plans, and asking for repetition or help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "잘 모르겠어요",
+          "romanization": "jal moreugesseoyo",
+          "en": "I am not sure.",
+          "note": "Soft unknown."
+        },
+        {
+          "ko": "모르겠어요",
+          "romanization": "moreugesseoyo",
+          "en": "I do not know.",
+          "note": "Neutral."
+        },
+        {
+          "ko": "아직 잘 모르겠어요",
+          "romanization": "ajik jal moreugesseoyo",
+          "en": "I am not sure yet.",
+          "note": "With 아직."
+        },
+        {
+          "ko": "다시 설명해 주세요",
+          "romanization": "dasi seolmyeonghae juseyo",
+          "en": "Please explain again.",
+          "note": "Follow-up."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "잘 모르겠어요.",
+          "romanization": "jal moreugesseoyo.",
+          "en": "I am not sure.",
+          "note": "Basic."
+        },
+        {
+          "ko": "아직 잘 모르겠어요.",
+          "romanization": "ajik jal moreugesseoyo.",
+          "en": "I am not sure yet.",
+          "note": "Soft."
+        },
+        {
+          "ko": "다시 설명해 주세요.",
+          "romanization": "dasi seolmyeonghae juseyo.",
+          "en": "Please explain again.",
+          "note": "Classroom."
+        }
+      ],
+      "nuance": "모르겠어요 is softer than 몰라요 in many adult situations.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 잘 모르겠어요 naturally in classroom communication, study plans, and asking for repetition or help.",
+        "studyFlow": [
+          "Say 잘 모르겠어요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 잘 모르겠어요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: jal moreugesseoyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "잘 모르겠어요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 잘 모르겠어요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 잘 모르겠어요 fits.",
+          "Learner says 잘 모르겠어요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "잘 모르겠어요",
+            "romanization": "jal moreugesseoyo",
+            "en": "I am not sure."
+          },
+          {
+            "speaker": "B",
+            "ko": "모르겠어요",
+            "romanization": "moreugesseoyo",
+            "en": "I do not know."
+          },
+          {
+            "speaker": "A",
+            "ko": "잘 모르겠어요.",
+            "romanization": "jal moreugesseoyo.",
+            "en": "I am not sure."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "잘 모르겠어요",
+            "romanization": "jal moreugesseoyo",
+            "en": "I am not sure.",
+            "note": "Soft unknown."
+          },
+          {
+            "ko": "모르겠어요",
+            "romanization": "moreugesseoyo",
+            "en": "I do not know.",
+            "note": "Neutral."
+          },
+          {
+            "ko": "아직 잘 모르겠어요",
+            "romanization": "ajik jal moreugesseoyo",
+            "en": "I am not sure yet.",
+            "note": "With 아직."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 잘 모르겠어요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004"
+      ],
+      "chapterIds": [
+        "chapter-04",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-particle-i-ga",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-026",
+      "sort": 1026,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "school"
+      ],
+      "hangul": "알겠어요",
+      "romanization": "algesseoyo",
+      "english": "I understand / okay.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "알겠어요 is a practical expression meaning \"I understand / okay.\".",
+      "explanation": "알겠어요 means \"I understand / okay.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 알겠어요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in classroom communication, study plans, and asking for repetition or help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "알겠어요",
+          "romanization": "algesseoyo",
+          "en": "I understand / okay.",
+          "note": "Polite."
+        },
+        {
+          "ko": "네, 알겠어요",
+          "romanization": "ne, algesseoyo",
+          "en": "Yes, I understand.",
+          "note": "Response."
+        },
+        {
+          "ko": "잘 알겠어요",
+          "romanization": "jal algesseoyo",
+          "en": "I understand well.",
+          "note": "Stronger."
+        },
+        {
+          "ko": "알겠습니다",
+          "romanization": "algetseupnida",
+          "en": "I understand.",
+          "note": "Formal."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "알겠어요.",
+          "romanization": "algesseoyo.",
+          "en": "I understand.",
+          "note": "Basic."
+        },
+        {
+          "ko": "네, 알겠습니다.",
+          "romanization": "ne, algetseupnida.",
+          "en": "Yes, I understand.",
+          "note": "Formal."
+        },
+        {
+          "ko": "이제 알겠어요.",
+          "romanization": "ije algesseoyo.",
+          "en": "Now I understand.",
+          "note": "Learning."
+        }
+      ],
+      "nuance": "알겠어요 often means “okay, I got it,” not only intellectual understanding.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 알겠어요 naturally in classroom communication, study plans, and asking for repetition or help.",
+        "studyFlow": [
+          "Say 알겠어요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 알겠어요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: algesseoyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "알겠어요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 알겠어요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 알겠어요 fits.",
+          "Learner says 알겠어요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "알겠어요",
+            "romanization": "algesseoyo",
+            "en": "I understand / okay."
+          },
+          {
+            "speaker": "B",
+            "ko": "네, 알겠어요",
+            "romanization": "ne, algesseoyo",
+            "en": "Yes, I understand."
+          },
+          {
+            "speaker": "A",
+            "ko": "알겠어요.",
+            "romanization": "algesseoyo.",
+            "en": "I understand."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "알겠어요",
+            "romanization": "algesseoyo",
+            "en": "I understand / okay.",
+            "note": "Polite."
+          },
+          {
+            "ko": "네, 알겠어요",
+            "romanization": "ne, algesseoyo",
+            "en": "Yes, I understand.",
+            "note": "Response."
+          },
+          {
+            "ko": "잘 알겠어요",
+            "romanization": "jal algesseoyo",
+            "en": "I understand well.",
+            "note": "Stronger."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 알겠어요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-01",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-foundation-hangul-blocks",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-027",
+      "sort": 1027,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "travel"
+      ],
+      "hangul": "사진 찍어도 돼요?",
+      "romanization": "sajin jjigeodo dwaeyo",
+      "english": "May I take a photo?",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "사진 찍어도 돼요? is a practical expression meaning \"May I take a photo?\".",
+      "explanation": "사진 찍어도 돼요? means \"May I take a photo?\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 사진 찍어도 돼요? with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in getting around, reservations, directions, photos, and emergency help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "사진 찍어도 돼요?",
+          "romanization": "sajin jjigeodo dwaeyo?",
+          "en": "May I take a photo?",
+          "note": "Permission."
+        },
+        {
+          "ko": "여기서 사진 찍어도 돼요?",
+          "romanization": "yeogiseo sajin jjigeodo dwaeyo?",
+          "en": "May I take a photo here?",
+          "note": "Place."
+        },
+        {
+          "ko": "사진 찍지 마세요",
+          "romanization": "sajin jjikji maseyo",
+          "en": "Please do not take photos.",
+          "note": "Likely sign."
+        },
+        {
+          "ko": "사진 찍어 주세요",
+          "romanization": "sajin jjigeo juseyo",
+          "en": "Please take a photo.",
+          "note": "Request."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "사진 찍어도 돼요?",
+          "romanization": "sajin jjigeodo dwaeyo?",
+          "en": "May I take a photo?",
+          "note": "Basic."
+        },
+        {
+          "ko": "여기서 사진 찍어도 돼요?",
+          "romanization": "yeogiseo sajin jjigeodo dwaeyo?",
+          "en": "May I take a photo here?",
+          "note": "Travel."
+        },
+        {
+          "ko": "죄송하지만 사진 찍어 주세요.",
+          "romanization": "joesonghajiman sajin jjigeo juseyo.",
+          "en": "Sorry, but please take a photo.",
+          "note": "Request."
+        }
+      ],
+      "nuance": "Use this before taking photos in museums, shops, or private spaces.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 사진 찍어도 돼요? naturally in getting around, reservations, directions, photos, and emergency help.",
+        "studyFlow": [
+          "Say 사진 찍어도 돼요? as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 사진 찍어도 돼요? as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: sajin jjigeodo dwaeyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "사진 찍어도 돼요? is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 사진 찍어도 돼요?. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 사진 찍어도 돼요? fits.",
+          "Learner says 사진 찍어도 돼요?, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "사진 찍어도 돼요?",
+            "romanization": "sajin jjigeodo dwaeyo?",
+            "en": "May I take a photo?"
+          },
+          {
+            "speaker": "B",
+            "ko": "여기서 사진 찍어도 돼요?",
+            "romanization": "yeogiseo sajin jjigeodo dwaeyo?",
+            "en": "May I take a photo here?"
+          },
+          {
+            "speaker": "A",
+            "ko": "사진 찍어도 돼요?",
+            "romanization": "sajin jjigeodo dwaeyo?",
+            "en": "May I take a photo?"
+          }
+        ],
+        "drills": [
+          {
+            "ko": "사진 찍어도 돼요?",
+            "romanization": "sajin jjigeodo dwaeyo?",
+            "en": "May I take a photo?",
+            "note": "Permission."
+          },
+          {
+            "ko": "여기서 사진 찍어도 돼요?",
+            "romanization": "yeogiseo sajin jjigeodo dwaeyo?",
+            "en": "May I take a photo here?",
+            "note": "Place."
+          },
+          {
+            "ko": "사진 찍지 마세요",
+            "romanization": "sajin jjikji maseyo",
+            "en": "Please do not take photos.",
+            "note": "Likely sign."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 사진 찍어도 돼요? without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004",
+        "pattern-013",
+        "pattern-014"
+      ],
+      "chapterIds": [
+        "chapter-11"
+      ],
+      "grammarIds": [
+        "grammar-connector-because",
+        "grammar-connector-and",
+        "grammar-connector-if",
+        "grammar-ending-promise"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-028",
+      "sort": 1028,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "travel"
+      ],
+      "hangul": "예약했어요",
+      "romanization": "yeyakhaesseoyo",
+      "english": "I made a reservation.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "예약했어요 is a practical expression meaning \"I made a reservation.\".",
+      "explanation": "예약했어요 means \"I made a reservation.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 예약했어요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in getting around, reservations, directions, photos, and emergency help. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "예약했어요",
+          "romanization": "yeyakhaesseoyo",
+          "en": "I made a reservation.",
+          "note": "Check-in."
+        },
+        {
+          "ko": "예약하고 싶어요",
+          "romanization": "yeyakhago sipeoyo",
+          "en": "I want to make a reservation.",
+          "note": "Before booking."
+        },
+        {
+          "ko": "예약 확인해 주세요",
+          "romanization": "yeyak hwaginhae juseyo",
+          "en": "Please check my reservation.",
+          "note": "Hotel/restaurant."
+        },
+        {
+          "ko": "이름은 하나예요",
+          "romanization": "ireumeun hanayeyo",
+          "en": "The name is Hana.",
+          "note": "Follow-up."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "예약했어요.",
+          "romanization": "yeyakhaesseoyo.",
+          "en": "I made a reservation.",
+          "note": "Basic."
+        },
+        {
+          "ko": "예약 확인해 주세요.",
+          "romanization": "yeyak hwaginhae juseyo.",
+          "en": "Please check my reservation.",
+          "note": "Check-in."
+        },
+        {
+          "ko": "제 이름은 하나예요.",
+          "romanization": "je ireumeun hanayeyo.",
+          "en": "My name is Hana.",
+          "note": "Follow-up."
+        }
+      ],
+      "nuance": "Use at hotels, restaurants, clinics, and ticket counters.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 예약했어요 naturally in getting around, reservations, directions, photos, and emergency help.",
+        "studyFlow": [
+          "Say 예약했어요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 예약했어요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: yeyakhaesseoyo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "예약했어요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 예약했어요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 예약했어요 fits.",
+          "Learner says 예약했어요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "예약했어요",
+            "romanization": "yeyakhaesseoyo",
+            "en": "I made a reservation."
+          },
+          {
+            "speaker": "B",
+            "ko": "예약하고 싶어요",
+            "romanization": "yeyakhago sipeoyo",
+            "en": "I want to make a reservation."
+          },
+          {
+            "speaker": "A",
+            "ko": "예약했어요.",
+            "romanization": "yeyakhaesseoyo.",
+            "en": "I made a reservation."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "예약했어요",
+            "romanization": "yeyakhaesseoyo",
+            "en": "I made a reservation.",
+            "note": "Check-in."
+          },
+          {
+            "ko": "예약하고 싶어요",
+            "romanization": "yeyakhago sipeoyo",
+            "en": "I want to make a reservation.",
+            "note": "Before booking."
+          },
+          {
+            "ko": "예약 확인해 주세요",
+            "romanization": "yeyak hwaginhae juseyo",
+            "en": "Please check my reservation.",
+            "note": "Hotel/restaurant."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 예약했어요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [
+        "pattern-015",
+        "pattern-004",
+        "pattern-017"
+      ],
+      "chapterIds": [
+        "chapter-04"
+      ],
+      "grammarIds": [
+        "grammar-particle-i-ga"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-029",
+      "sort": 1029,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "health"
+      ],
+      "hangul": "아파요",
+      "romanization": "apayo",
+      "english": "It hurts / I am sick.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "아파요 is a practical expression meaning \"It hurts / I am sick.\".",
+      "explanation": "아파요 means \"It hurts / I am sick.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 아파요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in saying what hurts, asking for rest, and explaining basic health needs. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "아파요",
+          "romanization": "apayo",
+          "en": "It hurts / I am sick.",
+          "note": "Basic."
+        },
+        {
+          "ko": "머리가 아파요",
+          "romanization": "meoriga apayo",
+          "en": "My head hurts.",
+          "note": "Body part."
+        },
+        {
+          "ko": "배가 아파요",
+          "romanization": "baega apayo",
+          "en": "My stomach hurts.",
+          "note": "Body part."
+        },
+        {
+          "ko": "병원에 가야 해요",
+          "romanization": "byeongwone gaya haeyo",
+          "en": "I have to go to the hospital.",
+          "note": "Follow-up."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "아파요.",
+          "romanization": "apayo.",
+          "en": "I am sick / it hurts.",
+          "note": "Basic."
+        },
+        {
+          "ko": "머리가 아파요.",
+          "romanization": "meoriga apayo.",
+          "en": "My head hurts.",
+          "note": "Specific."
+        },
+        {
+          "ko": "병원에 가야 해요.",
+          "romanization": "byeongwone gaya haeyo.",
+          "en": "I have to go to the hospital.",
+          "note": "Follow-up."
+        }
+      ],
+      "nuance": "Use body part + 이/가 아파요: 머리가 아파요, 배가 아파요.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 아파요 naturally in saying what hurts, asking for rest, and explaining basic health needs.",
+        "studyFlow": [
+          "Say 아파요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 아파요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: apayo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "아파요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 아파요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 아파요 fits.",
+          "Learner says 아파요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "아파요",
+            "romanization": "apayo",
+            "en": "It hurts / I am sick."
+          },
+          {
+            "speaker": "B",
+            "ko": "머리가 아파요",
+            "romanization": "meoriga apayo",
+            "en": "My head hurts."
+          },
+          {
+            "speaker": "A",
+            "ko": "아파요.",
+            "romanization": "apayo.",
+            "en": "I am sick / it hurts."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "아파요",
+            "romanization": "apayo",
+            "en": "It hurts / I am sick.",
+            "note": "Basic."
+          },
+          {
+            "ko": "머리가 아파요",
+            "romanization": "meoriga apayo",
+            "en": "My head hurts.",
+            "note": "Body part."
+          },
+          {
+            "ko": "배가 아파요",
+            "romanization": "baega apayo",
+            "en": "My stomach hurts.",
+            "note": "Body part."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 아파요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-09"
+      ],
+      "grammarIds": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "expr-030",
+      "sort": 1030,
+      "type": "expression",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "내일 봐요",
+      "romanization": "naeil bwayo",
+      "english": "See you tomorrow.",
+      "partOfSpeech": "expression",
+      "irregular": null,
+      "shortExplanation": "내일 봐요 is a practical expression meaning \"See you tomorrow.\".",
+      "explanation": "내일 봐요 means \"See you tomorrow.\". Learn it as a complete spoken chunk first, then study the grammar behind it later. A beginner should know three things before using an expression: the exact situation, how polite it sounds, and what sentence naturally comes before or after it.",
+      "learnerPriority": "Memorize 내일 봐요 with one situation and one follow-up phrase. Do not translate it word by word while speaking.",
+      "contextHint": "Use this expression in basic everyday communication. Check the examples to see whether it fits staff, strangers, teachers, friends, or emergencies.",
+      "speechLevels": null,
+      "usagePhrases": [
+        {
+          "ko": "내일 봐요",
+          "romanization": "naeil bwayo",
+          "en": "See you tomorrow.",
+          "note": "Polite casual goodbye."
+        },
+        {
+          "ko": "나중에 봐요",
+          "romanization": "najunge bwayo",
+          "en": "See you later.",
+          "note": "General."
+        },
+        {
+          "ko": "다음에 봐요",
+          "romanization": "daeume bwayo",
+          "en": "See you next time.",
+          "note": "General."
+        },
+        {
+          "ko": "조심히 가세요",
+          "romanization": "josimhi gaseyo",
+          "en": "Get home safely.",
+          "note": "Polite goodbye."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "내일 봐요.",
+          "romanization": "naeil bwayo.",
+          "en": "See you tomorrow.",
+          "note": "Basic."
+        },
+        {
+          "ko": "그럼 내일 봐요.",
+          "romanization": "geureom naeil bwayo.",
+          "en": "Then see you tomorrow.",
+          "note": "Natural closing."
+        },
+        {
+          "ko": "조심히 가세요.",
+          "romanization": "josimhi gaseyo.",
+          "en": "Get home safely.",
+          "note": "Goodbye."
+        }
+      ],
+      "nuance": "봐요 here means “see.” It is a friendly polite goodbye.",
+      "commonMistakes": [
+        "Do not add another polite ending to a phrase that is already complete.",
+        "Use the whole expression in the situation shown by the examples."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 내일 봐요 naturally in basic everyday communication.",
+        "studyFlow": [
+          "Say 내일 봐요 as one complete chunk.",
+          "Read the first example aloud three times. Then hide the English and say the Korean again.",
+          "Choose one follow-up sentence from the usage phrases so it becomes a short exchange.",
+          "Check whether the expression is safe with strangers, staff, teachers, or only friendly situations."
+        ],
+        "teacherNote": "Expressions are not built word by word at first. Learn 내일 봐요 as a ready-to-say sentence, then notice the grammar later through related pattern links.",
+        "pronunciationTip": "Say it as one smooth phrase: naeil bwayo. Do not pause between every Korean syllable block.",
+        "beginnerPath": [
+          {
+            "title": "1. Learn it as one chunk",
+            "body": "내일 봐요 is already a complete expression. Say the whole phrase smoothly before analyzing the grammar."
+          },
+          {
+            "title": "2. Know the social situation",
+            "body": "Use it in the situation shown in the examples. Korean expressions often depend on who you are talking to, not only on the English translation."
+          },
+          {
+            "title": "3. Add one follow-up",
+            "body": "A real conversation usually needs one more sentence after 내일 봐요. Practice the mini dialogue so it does not stay as a single memorized line."
+          }
+        ],
+        "classroomScript": [
+          "Teacher gives a situation. Learner chooses whether 내일 봐요 fits.",
+          "Learner says 내일 봐요, then adds one follow-up phrase.",
+          "Teacher changes the role: staff, friend, teacher, stranger. Learner decides whether the expression is still natural."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "내일 봐요",
+            "romanization": "naeil bwayo",
+            "en": "See you tomorrow."
+          },
+          {
+            "speaker": "B",
+            "ko": "나중에 봐요",
+            "romanization": "najunge bwayo",
+            "en": "See you later."
+          },
+          {
+            "speaker": "A",
+            "ko": "내일 봐요.",
+            "romanization": "naeil bwayo.",
+            "en": "See you tomorrow."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "내일 봐요",
+            "romanization": "naeil bwayo",
+            "en": "See you tomorrow.",
+            "note": "Polite casual goodbye."
+          },
+          {
+            "ko": "나중에 봐요",
+            "romanization": "najunge bwayo",
+            "en": "See you later.",
+            "note": "General."
+          },
+          {
+            "ko": "다음에 봐요",
+            "romanization": "daeume bwayo",
+            "en": "See you next time.",
+            "note": "General."
+          }
+        ],
+        "selfCheck": [
+          "Can you say 내일 봐요 without reading the English?",
+          "Can you choose when this expression is polite enough?",
+          "Can you use it with one follow-up sentence?"
+        ]
+      },
+      "relatedPatternIds": [],
+      "chapterIds": [
+        "chapter-11"
+      ],
+      "grammarIds": [
+        "grammar-connector-because",
+        "grammar-connector-and",
+        "grammar-connector-if",
+        "grammar-ending-promise"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    }
+  ]
+}

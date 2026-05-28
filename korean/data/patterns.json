@@ -1,0 +1,4280 @@
+{
+  "entries": [
+    {
+      "id": "pattern-001",
+      "sort": 2001,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "N이에요 / 예요",
+      "romanization": "N-ieyo / yeyo",
+      "english": "to be / am / is / are",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "N이에요 / 예요 means \"to be / am / is / are\" as a reusable Korean sentence pattern.",
+      "explanation": "N이에요 / 예요 means \"to be / am / is / are\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use this for identity, names, jobs, places, and simple “it is...” sentences. It does not describe actions.",
+      "patternInfo": {
+        "meaning": "to be / am / is / are",
+        "usableWith": [
+          "noun"
+        ],
+        "formNote": "Use 이에요 after a final consonant and 예요 after a vowel.",
+        "speechLevelTabs": {
+          "casual": "N이야 / 야",
+          "polite": "N이에요 / 예요",
+          "formal": "N입니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Noun sentences",
+        "howToBuild": [
+          "Choose a noun.",
+          "Use 이에요 after a final consonant and 예요 after a vowel.",
+          "Use 입니다 when the situation is very formal."
+        ],
+        "whenToUse": "Use this for identity, names, jobs, places, and simple “it is...” sentences. It does not describe actions.",
+        "learnerPath": "After this, study 있어요 and 없어요 so you can say what something is and whether it exists.",
+        "linkedWordIds": [
+          "word-verb-007"
+        ],
+        "relatedPatternIds": [
+          "pattern-002",
+          "pattern-003"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-007"
+      ],
+      "relatedPatternIds": [
+        "pattern-002",
+        "pattern-003"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "학생이에요",
+          "romanization": "haksaengieyo",
+          "en": "I am a student.",
+          "note": "Consonant ending."
+        },
+        {
+          "ko": "친구예요",
+          "romanization": "chinguyeyo",
+          "en": "It is a friend.",
+          "note": "Vowel ending."
+        },
+        {
+          "ko": "저는 하나예요",
+          "romanization": "jeoneun hanayeyo",
+          "en": "I am Hana.",
+          "note": "Name."
+        },
+        {
+          "ko": "회사원입니다",
+          "romanization": "hoesawonipnida",
+          "en": "I am an office worker.",
+          "note": "Formal."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 학생이에요.",
+          "romanization": "jeoneun haksaengieyo.",
+          "en": "I am a student.",
+          "note": "Introduction."
+        },
+        {
+          "ko": "여기는 학교예요.",
+          "romanization": "yeogineun hakgyoyeyo.",
+          "en": "This place is a school.",
+          "note": "Place."
+        },
+        {
+          "ko": "제 이름은 하나입니다.",
+          "romanization": "je ireumeun hanaipnida.",
+          "en": "My name is Hana.",
+          "note": "Formal."
+        }
+      ],
+      "nuance": "Use 이에요 after a final consonant and 예요 after a vowel.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use N이에요 / 예요 to express “to be / am / is / are” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "After this, study 있어요 and 없어요 so you can say what something is and whether it exists.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 학생이에요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Choose a noun. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 학생이에요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use this for identity, names, jobs, places, and simple “it is...” sentences. It does not describe actions."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "학생이에요",
+            "romanization": "haksaengieyo",
+            "en": "I am a student."
+          },
+          {
+            "speaker": "B",
+            "ko": "친구예요",
+            "romanization": "chinguyeyo",
+            "en": "It is a friend."
+          },
+          {
+            "speaker": "A",
+            "ko": "저는 학생이에요.",
+            "romanization": "jeoneun haksaengieyo.",
+            "en": "I am a student."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "학생이에요",
+            "romanization": "haksaengieyo",
+            "en": "I am a student.",
+            "note": "Consonant ending."
+          },
+          {
+            "ko": "친구예요",
+            "romanization": "chinguyeyo",
+            "en": "It is a friend.",
+            "note": "Vowel ending."
+          },
+          {
+            "ko": "저는 하나예요",
+            "romanization": "jeoneun hanayeyo",
+            "en": "I am Hana.",
+            "note": "Name."
+          },
+          {
+            "ko": "회사원입니다",
+            "romanization": "hoesawonipnida",
+            "en": "I am an office worker.",
+            "note": "Formal."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-02",
+        "chapter-03"
+      ],
+      "grammarIds": [
+        "grammar-particle-eun-neun"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-002",
+      "sort": 2002,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "N이/가 있어요",
+      "romanization": "N-i/ga isseoyo",
+      "english": "there is / have",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "N이/가 있어요 means \"there is / have\" as a reusable Korean sentence pattern.",
+      "explanation": "N이/가 있어요 means \"there is / have\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for having time, money, reservations, friends, or for asking whether something exists in a place.",
+      "patternInfo": {
+        "meaning": "there is / have",
+        "usableWith": [
+          "noun"
+        ],
+        "formNote": "Use for existence or possession. 이 follows consonants; 가 follows vowels.",
+        "speechLevelTabs": {
+          "casual": "N이/가 있어",
+          "polite": "N이/가 있어요",
+          "formal": "N이/가 있습니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Existence and possession",
+        "howToBuild": [
+          "Put the thing before 이/가.",
+          "Use 이 after a consonant and 가 after a vowel.",
+          "Add 있어요 for “there is” or “I have.”"
+        ],
+        "whenToUse": "Use it for having time, money, reservations, friends, or for asking whether something exists in a place.",
+        "learnerPath": "Pair this with 없어요. Together they cover many beginner travel and classroom situations.",
+        "linkedWordIds": [
+          "word-verb-029"
+        ],
+        "relatedPatternIds": [
+          "pattern-003",
+          "pattern-013"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-029"
+      ],
+      "relatedPatternIds": [
+        "pattern-003",
+        "pattern-013"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "시간이 있어요",
+          "romanization": "sigani isseoyo",
+          "en": "I have time.",
+          "note": "Common."
+        },
+        {
+          "ko": "물이 있어요",
+          "romanization": "muri isseoyo",
+          "en": "There is water.",
+          "note": "Existence."
+        },
+        {
+          "ko": "친구가 있어요",
+          "romanization": "chinguga isseoyo",
+          "en": "I have a friend.",
+          "note": "Possession."
+        },
+        {
+          "ko": "예약이 있어요",
+          "romanization": "yeyagi isseoyo",
+          "en": "I have a reservation.",
+          "note": "Travel."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "시간이 있어요.",
+          "romanization": "sigani isseoyo.",
+          "en": "I have time.",
+          "note": "Possession."
+        },
+        {
+          "ko": "여기 화장실이 있어요?",
+          "romanization": "yeogi hwajangsiri isseoyo?",
+          "en": "Is there a bathroom here?",
+          "note": "Question."
+        },
+        {
+          "ko": "예약이 있습니다.",
+          "romanization": "yeyagi itseupnida.",
+          "en": "I have a reservation.",
+          "note": "Formal."
+        }
+      ],
+      "nuance": "Use for existence or possession. 이 follows consonants; 가 follows vowels.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use N이/가 있어요 to express “there is / have” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Pair this with 없어요. Together they cover many beginner travel and classroom situations.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 시간이 있어요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Put the thing before 이/가. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 시간이 있어요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for having time, money, reservations, friends, or for asking whether something exists in a place."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "시간이 있어요",
+            "romanization": "sigani isseoyo",
+            "en": "I have time."
+          },
+          {
+            "speaker": "B",
+            "ko": "물이 있어요",
+            "romanization": "muri isseoyo",
+            "en": "There is water."
+          },
+          {
+            "speaker": "A",
+            "ko": "시간이 있어요.",
+            "romanization": "sigani isseoyo.",
+            "en": "I have time."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "시간이 있어요",
+            "romanization": "sigani isseoyo",
+            "en": "I have time.",
+            "note": "Common."
+          },
+          {
+            "ko": "물이 있어요",
+            "romanization": "muri isseoyo",
+            "en": "There is water.",
+            "note": "Existence."
+          },
+          {
+            "ko": "친구가 있어요",
+            "romanization": "chinguga isseoyo",
+            "en": "I have a friend.",
+            "note": "Possession."
+          },
+          {
+            "ko": "예약이 있어요",
+            "romanization": "yeyagi isseoyo",
+            "en": "I have a reservation.",
+            "note": "Travel."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-04",
+        "chapter-06",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-particle-i-ga",
+        "grammar-particle-e",
+        "grammar-particle-eseo",
+        "grammar-particle-buteo-kkaji"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-003",
+      "sort": 2003,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "N이/가 없어요",
+      "romanization": "N-i/ga eopseoyo",
+      "english": "there is not / do not have",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "N이/가 없어요 means \"there is not / do not have\" as a reusable Korean sentence pattern.",
+      "explanation": "N이/가 없어요 means \"there is not / do not have\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for “I do not have time,” “there is no bathroom,” “there is no problem,” and similar survival sentences.",
+      "patternInfo": {
+        "meaning": "there is not / do not have",
+        "usableWith": [
+          "noun"
+        ],
+        "formNote": "Use for absence or not having something.",
+        "speechLevelTabs": {
+          "casual": "N이/가 없어",
+          "polite": "N이/가 없어요",
+          "formal": "N이/가 없습니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Absence and not having",
+        "howToBuild": [
+          "Put the missing thing before 이/가.",
+          "Use 없어요 to say it does not exist or you do not have it.",
+          "Add a time or place if needed."
+        ],
+        "whenToUse": "Use it for “I do not have time,” “there is no bathroom,” “there is no problem,” and similar survival sentences.",
+        "learnerPath": "Learn it together with 있어요 so yes/no existence questions feel natural.",
+        "linkedWordIds": [
+          "word-verb-029"
+        ],
+        "relatedPatternIds": [
+          "pattern-002",
+          "pattern-009"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-029"
+      ],
+      "relatedPatternIds": [
+        "pattern-002",
+        "pattern-009"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "시간이 없어요",
+          "romanization": "sigani eopseoyo",
+          "en": "I do not have time.",
+          "note": "Common."
+        },
+        {
+          "ko": "돈이 없어요",
+          "romanization": "doni eopseoyo",
+          "en": "I do not have money.",
+          "note": "Possession."
+        },
+        {
+          "ko": "예약이 없어요",
+          "romanization": "yeyagi eopseoyo",
+          "en": "I do not have a reservation.",
+          "note": "Travel."
+        },
+        {
+          "ko": "문제가 없어요",
+          "romanization": "munjega eopseoyo",
+          "en": "There is no problem.",
+          "note": "Reassurance."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "시간이 없어요.",
+          "romanization": "sigani eopseoyo.",
+          "en": "I do not have time.",
+          "note": "Common."
+        },
+        {
+          "ko": "여기 물이 없어요.",
+          "romanization": "yeogi muri eopseoyo.",
+          "en": "There is no water here.",
+          "note": "Existence."
+        },
+        {
+          "ko": "문제가 없습니다.",
+          "romanization": "munjega eopsseupnida.",
+          "en": "There is no problem.",
+          "note": "Formal."
+        }
+      ],
+      "nuance": "Use for absence or not having something.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use N이/가 없어요 to express “there is not / do not have” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Learn it together with 있어요 so yes/no existence questions feel natural.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 시간이 없어요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Put the missing thing before 이/가. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 시간이 없어요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for “I do not have time,” “there is no bathroom,” “there is no problem,” and similar survival sentences."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "시간이 없어요",
+            "romanization": "sigani eopseoyo",
+            "en": "I do not have time."
+          },
+          {
+            "speaker": "B",
+            "ko": "돈이 없어요",
+            "romanization": "doni eopseoyo",
+            "en": "I do not have money."
+          },
+          {
+            "speaker": "A",
+            "ko": "시간이 없어요.",
+            "romanization": "sigani eopseoyo.",
+            "en": "I do not have time."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "시간이 없어요",
+            "romanization": "sigani eopseoyo",
+            "en": "I do not have time.",
+            "note": "Common."
+          },
+          {
+            "ko": "돈이 없어요",
+            "romanization": "doni eopseoyo",
+            "en": "I do not have money.",
+            "note": "Possession."
+          },
+          {
+            "ko": "예약이 없어요",
+            "romanization": "yeyagi eopseoyo",
+            "en": "I do not have a reservation.",
+            "note": "Travel."
+          },
+          {
+            "ko": "문제가 없어요",
+            "romanization": "munjega eopseoyo",
+            "en": "There is no problem.",
+            "note": "Reassurance."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-04",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-particle-i-ga",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-004",
+      "sort": 2004,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "N 주세요",
+      "romanization": "N juseyo",
+      "english": "please give me N",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "N 주세요 means \"please give me N\" as a reusable Korean sentence pattern.",
+      "explanation": "N 주세요 means \"please give me N\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use this in restaurants, cafes, stores, counters, and anywhere you are asking for a concrete item.",
+      "patternInfo": {
+        "meaning": "please give me N",
+        "usableWith": [
+          "noun"
+        ],
+        "formNote": "Use for ordering or asking for an item. Add 좀 when you want the request to sound a little softer.",
+        "speechLevelTabs": {
+          "casual": "N 줘",
+          "polite": "N 주세요",
+          "formal": "N 주십시오"
+        }
+      },
+      "studyGuide": {
+        "title": "Item requests",
+        "howToBuild": [
+          "Name the item you want.",
+          "Add 주세요.",
+          "Add quantity words like 하나 or 한 잔 before 주세요 when needed."
+        ],
+        "whenToUse": "Use this in restaurants, cafes, stores, counters, and anywhere you are asking for a concrete item.",
+        "learnerPath": "This is different from V아/어 주세요. N 주세요 asks for a thing; V아/어 주세요 asks someone to do an action.",
+        "linkedWordIds": [
+          "word-verb-022"
+        ],
+        "relatedPatternIds": [
+          "pattern-015"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-022"
+      ],
+      "relatedPatternIds": [
+        "pattern-015"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "물 주세요",
+          "romanization": "mul juseyo",
+          "en": "Water, please.",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "이거 주세요",
+          "romanization": "igeo juseyo",
+          "en": "This one, please.",
+          "note": "Shopping."
+        },
+        {
+          "ko": "영수증 주세요",
+          "romanization": "yeongsujeung juseyo",
+          "en": "Receipt, please.",
+          "note": "Shopping."
+        },
+        {
+          "ko": "메뉴 주세요",
+          "romanization": "menyu juseyo",
+          "en": "Menu, please.",
+          "note": "Restaurant."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "물 주세요.",
+          "romanization": "mul juseyo.",
+          "en": "Water, please.",
+          "note": "Basic."
+        },
+        {
+          "ko": "이거 하나 주세요.",
+          "romanization": "igeo hana juseyo.",
+          "en": "One of these, please.",
+          "note": "Quantity."
+        },
+        {
+          "ko": "영수증 주세요.",
+          "romanization": "yeongsujeung juseyo.",
+          "en": "Receipt, please.",
+          "note": "Shopping."
+        }
+      ],
+      "nuance": "Use for ordering or asking for an item. Add 좀 when you want the request to sound a little softer.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use N 주세요 to express “please give me N” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "This is different from V아/어 주세요. N 주세요 asks for a thing; V아/어 주세요 asks someone to do an action.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 물 주세요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Name the item you want. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 물 주세요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use this in restaurants, cafes, stores, counters, and anywhere you are asking for a concrete item."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "물 주세요",
+            "romanization": "mul juseyo",
+            "en": "Water, please."
+          },
+          {
+            "speaker": "B",
+            "ko": "이거 주세요",
+            "romanization": "igeo juseyo",
+            "en": "This one, please."
+          },
+          {
+            "speaker": "A",
+            "ko": "물 주세요.",
+            "romanization": "mul juseyo.",
+            "en": "Water, please."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "물 주세요",
+            "romanization": "mul juseyo",
+            "en": "Water, please.",
+            "note": "Restaurant."
+          },
+          {
+            "ko": "이거 주세요",
+            "romanization": "igeo juseyo",
+            "en": "This one, please.",
+            "note": "Shopping."
+          },
+          {
+            "ko": "영수증 주세요",
+            "romanization": "yeongsujeung juseyo",
+            "en": "Receipt, please.",
+            "note": "Shopping."
+          },
+          {
+            "ko": "메뉴 주세요",
+            "romanization": "menyu juseyo",
+            "en": "Menu, please.",
+            "note": "Restaurant."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-07"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-005",
+      "sort": 2005,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V고 싶어요",
+      "romanization": "V-go sipeoyo",
+      "english": "want to do",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V고 싶어요 means \"want to do\" as a reusable Korean sentence pattern.",
+      "explanation": "V고 싶어요 means \"want to do\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for your own wants: 먹고 싶어요, 가고 싶어요, 쉬고 싶어요. It sounds softer and more useful than directly saying “I want X” in many beginner situations.",
+      "patternInfo": {
+        "meaning": "want to do",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Attach 고 싶어요 to a verb stem to say what you want to do.",
+        "speechLevelTabs": {
+          "casual": "V고 싶어",
+          "polite": "V고 싶어요",
+          "formal": "V고 싶습니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Desire: want to do",
+        "howToBuild": [
+          "Remove 다 from the dictionary verb.",
+          "Add 고 싶어요.",
+          "Put the object before the verb if the action needs one."
+        ],
+        "whenToUse": "Use it for your own wants: 먹고 싶어요, 가고 싶어요, 쉬고 싶어요. It sounds softer and more useful than directly saying “I want X” in many beginner situations.",
+        "learnerPath": "Practice this after you know the polite present form. It is one of the fastest ways to turn vocabulary into real conversation.",
+        "linkedWordIds": [
+          "word-verb-001",
+          "word-verb-002",
+          "word-verb-003",
+          "word-verb-026"
+        ],
+        "relatedPatternIds": [
+          "pattern-006",
+          "pattern-016"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-001",
+        "word-verb-002",
+        "word-verb-003",
+        "word-verb-026"
+      ],
+      "relatedPatternIds": [
+        "pattern-006",
+        "pattern-016"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "먹고 싶어요",
+          "romanization": "meokgo sipeoyo",
+          "en": "I want to eat.",
+          "note": "Food."
+        },
+        {
+          "ko": "가고 싶어요",
+          "romanization": "gago sipeoyo",
+          "en": "I want to go.",
+          "note": "Travel."
+        },
+        {
+          "ko": "쉬고 싶어요",
+          "romanization": "swigo sipeoyo",
+          "en": "I want to rest.",
+          "note": "Health."
+        },
+        {
+          "ko": "한국어를 배우고 싶어요",
+          "romanization": "hangugeoreul baeugo sipeoyo",
+          "en": "I want to learn Korean.",
+          "note": "Learning."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "커피를 마시고 싶어요.",
+          "romanization": "keopireul masigo sipeoyo.",
+          "en": "I want to drink coffee.",
+          "note": "Desire."
+        },
+        {
+          "ko": "집에 가고 싶어요.",
+          "romanization": "jibe gago sipeoyo.",
+          "en": "I want to go home.",
+          "note": "Travel."
+        },
+        {
+          "ko": "오늘은 쉬고 싶어요.",
+          "romanization": "oneureun swigo sipeoyo.",
+          "en": "I want to rest today.",
+          "note": "Health."
+        }
+      ],
+      "nuance": "Attach 고 싶어요 to a verb stem to say what you want to do.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V고 싶어요 to express “want to do” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Practice this after you know the polite present form. It is one of the fastest ways to turn vocabulary into real conversation.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 먹고 싶어요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Remove 다 from the dictionary verb. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 먹고 싶어요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for your own wants: 먹고 싶어요, 가고 싶어요, 쉬고 싶어요. It sounds softer and more useful than directly saying “I want X” in many beginner situations."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "먹고 싶어요",
+            "romanization": "meokgo sipeoyo",
+            "en": "I want to eat."
+          },
+          {
+            "speaker": "B",
+            "ko": "가고 싶어요",
+            "romanization": "gago sipeoyo",
+            "en": "I want to go."
+          },
+          {
+            "speaker": "A",
+            "ko": "커피를 마시고 싶어요.",
+            "romanization": "keopireul masigo sipeoyo.",
+            "en": "I want to drink coffee."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "먹고 싶어요",
+            "romanization": "meokgo sipeoyo",
+            "en": "I want to eat.",
+            "note": "Food."
+          },
+          {
+            "ko": "가고 싶어요",
+            "romanization": "gago sipeoyo",
+            "en": "I want to go.",
+            "note": "Travel."
+          },
+          {
+            "ko": "쉬고 싶어요",
+            "romanization": "swigo sipeoyo",
+            "en": "I want to rest.",
+            "note": "Health."
+          },
+          {
+            "ko": "한국어를 배우고 싶어요",
+            "romanization": "hangugeoreul baeugo sipeoyo",
+            "en": "I want to learn Korean.",
+            "note": "Learning."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-08"
+      ],
+      "grammarIds": [
+        "grammar-ending-want",
+        "grammar-ending-can",
+        "grammar-ending-mot"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-006",
+      "sort": 2006,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V고 싶지 않아요",
+      "romanization": "V-go sipji anayo",
+      "english": "do not want to do",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V고 싶지 않아요 means \"do not want to do\" as a reusable Korean sentence pattern.",
+      "explanation": "V고 싶지 않아요 means \"do not want to do\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use this when you do not want to eat, go, wait, talk, or continue. It is often gentler than 싫어요.",
+      "patternInfo": {
+        "meaning": "do not want to do",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Negative desire. Softer than saying 싫어요 in many situations.",
+        "speechLevelTabs": {
+          "casual": "V고 싶지 않아",
+          "polite": "V고 싶지 않아요",
+          "formal": "V고 싶지 않습니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Negative desire",
+        "howToBuild": [
+          "Remove 다 from the verb.",
+          "Add 고 싶지 않아요.",
+          "Add 지금은 or 오늘은 to make the refusal softer."
+        ],
+        "whenToUse": "Use this when you do not want to eat, go, wait, talk, or continue. It is often gentler than 싫어요.",
+        "learnerPath": "Use this with simple time words first, then compare it with 안 V해요, which only says you do not do something.",
+        "linkedWordIds": [
+          "word-verb-001",
+          "word-verb-003",
+          "word-verb-014",
+          "word-verb-018"
+        ],
+        "relatedPatternIds": [
+          "pattern-005",
+          "pattern-009",
+          "pattern-010"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-001",
+        "word-verb-003",
+        "word-verb-014",
+        "word-verb-018"
+      ],
+      "relatedPatternIds": [
+        "pattern-005",
+        "pattern-009",
+        "pattern-010"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "먹고 싶지 않아요",
+          "romanization": "meokgo sipji anayo",
+          "en": "I do not want to eat.",
+          "note": "Food."
+        },
+        {
+          "ko": "가고 싶지 않아요",
+          "romanization": "gago sipji anayo",
+          "en": "I do not want to go.",
+          "note": "Travel."
+        },
+        {
+          "ko": "말하고 싶지 않아요",
+          "romanization": "malhago sipji anayo",
+          "en": "I do not want to speak.",
+          "note": "Boundary."
+        },
+        {
+          "ko": "기다리고 싶지 않아요",
+          "romanization": "gidarigo sipji anayo",
+          "en": "I do not want to wait.",
+          "note": "Feeling."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "지금은 먹고 싶지 않아요.",
+          "romanization": "jigeumeun meokgo sipji anayo.",
+          "en": "I do not want to eat right now.",
+          "note": "Soft refusal."
+        },
+        {
+          "ko": "오늘은 가고 싶지 않아요.",
+          "romanization": "oneureun gago sipji anayo.",
+          "en": "I do not want to go today.",
+          "note": "Feeling."
+        },
+        {
+          "ko": "그 이야기는 하고 싶지 않아요.",
+          "romanization": "geu iyagineun hago sipji anayo.",
+          "en": "I do not want to talk about that.",
+          "note": "Boundary."
+        }
+      ],
+      "nuance": "Negative desire. Softer than saying 싫어요 in many situations.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V고 싶지 않아요 to express “do not want to do” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Use this with simple time words first, then compare it with 안 V해요, which only says you do not do something.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 먹고 싶지 않아요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Remove 다 from the verb. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 먹고 싶지 않아요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use this when you do not want to eat, go, wait, talk, or continue. It is often gentler than 싫어요."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "먹고 싶지 않아요",
+            "romanization": "meokgo sipji anayo",
+            "en": "I do not want to eat."
+          },
+          {
+            "speaker": "B",
+            "ko": "가고 싶지 않아요",
+            "romanization": "gago sipji anayo",
+            "en": "I do not want to go."
+          },
+          {
+            "speaker": "A",
+            "ko": "지금은 먹고 싶지 않아요.",
+            "romanization": "jigeumeun meokgo sipji anayo.",
+            "en": "I do not want to eat right now."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "먹고 싶지 않아요",
+            "romanization": "meokgo sipji anayo",
+            "en": "I do not want to eat.",
+            "note": "Food."
+          },
+          {
+            "ko": "가고 싶지 않아요",
+            "romanization": "gago sipji anayo",
+            "en": "I do not want to go.",
+            "note": "Travel."
+          },
+          {
+            "ko": "말하고 싶지 않아요",
+            "romanization": "malhago sipji anayo",
+            "en": "I do not want to speak.",
+            "note": "Boundary."
+          },
+          {
+            "ko": "기다리고 싶지 않아요",
+            "romanization": "gidarigo sipji anayo",
+            "en": "I do not want to wait.",
+            "note": "Feeling."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-08"
+      ],
+      "grammarIds": [
+        "grammar-ending-want",
+        "grammar-ending-can",
+        "grammar-ending-mot"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-007",
+      "sort": 2007,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "Vㄹ/을 수 있어요",
+      "romanization": "V-l/eul su isseoyo",
+      "english": "can do",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "Vㄹ/을 수 있어요 means \"can do\" as a reusable Korean sentence pattern.",
+      "explanation": "Vㄹ/을 수 있어요 means \"can do\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for skills, schedule possibility, permission-like possibility, and practical questions such as 카드로 살 수 있어요?",
+      "patternInfo": {
+        "meaning": "can do",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Use for ability or possibility. The final sound decides ㄹ 수 있어요 after vowels and 을 수 있어요 after consonants.",
+        "speechLevelTabs": {
+          "casual": "Vㄹ/을 수 있어",
+          "polite": "Vㄹ/을 수 있어요",
+          "formal": "Vㄹ/을 수 있습니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Ability and possibility",
+        "howToBuild": [
+          "Remove 다 from the verb.",
+          "Use ㄹ 수 있어요 after a vowel ending.",
+          "Use 을 수 있어요 after a consonant ending."
+        ],
+        "whenToUse": "Use it for skills, schedule possibility, permission-like possibility, and practical questions such as 카드로 살 수 있어요?",
+        "learnerPath": "Study this with 못 V해요 so you can clearly say what is possible and what is not possible.",
+        "linkedWordIds": [
+          "word-verb-003",
+          "word-verb-006",
+          "word-verb-011",
+          "word-verb-012"
+        ],
+        "relatedPatternIds": [
+          "pattern-008",
+          "pattern-013"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-003",
+        "word-verb-006",
+        "word-verb-011",
+        "word-verb-012"
+      ],
+      "relatedPatternIds": [
+        "pattern-008",
+        "pattern-013"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "갈 수 있어요",
+          "romanization": "gal su isseoyo",
+          "en": "I can go.",
+          "note": "ㄹ after vowel."
+        },
+        {
+          "ko": "먹을 수 있어요",
+          "romanization": "meogeul su isseoyo",
+          "en": "I can eat.",
+          "note": "을 after consonant."
+        },
+        {
+          "ko": "한국어를 읽을 수 있어요",
+          "romanization": "hangugeoreul ilgeul su isseoyo",
+          "en": "I can read Korean.",
+          "note": "Ability."
+        },
+        {
+          "ko": "카드로 살 수 있어요",
+          "romanization": "kadeuro sal su isseoyo",
+          "en": "I can buy it by card.",
+          "note": "Shopping."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 한글을 읽을 수 있어요.",
+          "romanization": "jeoneun hangeureul ilgeul su isseoyo.",
+          "en": "I can read Hangul.",
+          "note": "Ability."
+        },
+        {
+          "ko": "오늘 갈 수 있어요.",
+          "romanization": "oneul gal su isseoyo.",
+          "en": "I can go today.",
+          "note": "Schedule."
+        },
+        {
+          "ko": "카드로 살 수 있어요?",
+          "romanization": "kadeuro sal su isseoyo?",
+          "en": "Can I buy it by card?",
+          "note": "Question."
+        }
+      ],
+      "nuance": "Use for ability or possibility. The final sound decides ㄹ 수 있어요 after vowels and 을 수 있어요 after consonants.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use Vㄹ/을 수 있어요 to express “can do” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Study this with 못 V해요 so you can clearly say what is possible and what is not possible.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 갈 수 있어요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Remove 다 from the verb. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 갈 수 있어요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for skills, schedule possibility, permission-like possibility, and practical questions such as 카드로 살 수 있어요?"
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "갈 수 있어요",
+            "romanization": "gal su isseoyo",
+            "en": "I can go."
+          },
+          {
+            "speaker": "B",
+            "ko": "먹을 수 있어요",
+            "romanization": "meogeul su isseoyo",
+            "en": "I can eat."
+          },
+          {
+            "speaker": "A",
+            "ko": "저는 한글을 읽을 수 있어요.",
+            "romanization": "jeoneun hangeureul ilgeul su isseoyo.",
+            "en": "I can read Hangul."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "갈 수 있어요",
+            "romanization": "gal su isseoyo",
+            "en": "I can go.",
+            "note": "ㄹ after vowel."
+          },
+          {
+            "ko": "먹을 수 있어요",
+            "romanization": "meogeul su isseoyo",
+            "en": "I can eat.",
+            "note": "을 after consonant."
+          },
+          {
+            "ko": "한국어를 읽을 수 있어요",
+            "romanization": "hangugeoreul ilgeul su isseoyo",
+            "en": "I can read Korean.",
+            "note": "Ability."
+          },
+          {
+            "ko": "카드로 살 수 있어요",
+            "romanization": "kadeuro sal su isseoyo",
+            "en": "I can buy it by card.",
+            "note": "Shopping."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-07",
+        "chapter-08"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do",
+        "grammar-ending-want",
+        "grammar-ending-can",
+        "grammar-ending-mot"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-008",
+      "sort": 2008,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "못 + verb",
+      "romanization": "mot + verb",
+      "english": "cannot / be unable to",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "못 + verb means \"cannot / be unable to\" as a reusable Korean sentence pattern.",
+      "explanation": "못 + verb means \"cannot / be unable to\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for inability, schedule conflicts, food restrictions, or language limits: 못 가요, 못 먹어요, 한국어를 잘 못해요. It says “I cannot” because of a real limit, not simply “I choose not to.”",
+      "patternInfo": {
+        "meaning": "cannot / be unable to",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "For most verbs, put 못 before the normal verb form: 가요 becomes 못 가요. For 하다 verbs, use 못 해요 or noun 못 해요. Never make forms like 못 가해요.",
+        "speechLevelTabs": {
+          "casual": "못 가 / 못 해",
+          "polite": "못 가요 / 못 해요",
+          "formal": "못 갑니다 / 못 합니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Cannot / unable to",
+        "howToBuild": [
+          "For most verbs, put 못 before the normal polite verb: 가요 becomes 못 가요, 먹어요 becomes 못 먹어요.",
+          "Do not add 해요 to a non-하다 verb. It is 못 가요, not 못 가해요.",
+          "For 하다 verbs, use 못 해요 or noun 못 해요: 해요 becomes 못 해요, 공부해요 becomes 공부 못 해요."
+        ],
+        "whenToUse": "Use it for inability, schedule conflicts, food restrictions, or language limits: 못 가요, 못 먹어요, 한국어를 잘 못해요. It says “I cannot” because of a real limit, not simply “I choose not to.”",
+        "learnerPath": "This is a survival pattern. First memorize real examples like 못 가요, 못 먹어요, and 말 못 해요 before trying to build new ones.",
+        "linkedWordIds": [
+          "word-verb-001",
+          "word-verb-003",
+          "word-verb-014",
+          "word-verb-018"
+        ],
+        "relatedPatternIds": [
+          "pattern-007",
+          "pattern-009"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-001",
+        "word-verb-003",
+        "word-verb-014",
+        "word-verb-018"
+      ],
+      "relatedPatternIds": [
+        "pattern-007",
+        "pattern-009"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "못 가요",
+          "romanization": "mot gayo",
+          "en": "I cannot go.",
+          "note": "Schedule."
+        },
+        {
+          "ko": "못 먹어요",
+          "romanization": "mot meogeoyo",
+          "en": "I cannot eat.",
+          "note": "Food restriction."
+        },
+        {
+          "ko": "말 못 해요",
+          "romanization": "mal mot haeyo",
+          "en": "I cannot speak.",
+          "note": "Language."
+        },
+        {
+          "ko": "예약 못 해요",
+          "romanization": "yeyak mot haeyo",
+          "en": "I cannot reserve.",
+          "note": "Booking."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "오늘은 못 가요.",
+          "romanization": "oneureun mot gayo.",
+          "en": "I cannot go today.",
+          "note": "Schedule."
+        },
+        {
+          "ko": "매운 음식은 못 먹어요.",
+          "romanization": "maeun eumsigeun mot meogeoyo.",
+          "en": "I cannot eat spicy food.",
+          "note": "Restriction."
+        },
+        {
+          "ko": "한국어를 잘 못해요.",
+          "romanization": "hangugeoreul jal mothaeyo.",
+          "en": "I cannot speak Korean well.",
+          "note": "Learner phrase."
+        }
+      ],
+      "nuance": "For most verbs, put 못 before the normal verb form: 가요 becomes 못 가요. For 하다 verbs, use 못 해요 or noun 못 해요. Never make forms like 못 가해요.",
+      "commonMistakes": [
+        "Do not attach 해요 to every verb. Say 못 가요, not 못 가해요.",
+        "Memorize two complete examples before trying to create new sentences from this pattern.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 못 + verb to express “cannot / be unable to” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "This is a survival pattern. First memorize real examples like 못 가요, 못 먹어요, and 말 못 해요 before trying to build new ones.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 못 가요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "For most verbs, put 못 before the normal polite verb: 가요 becomes 못 가요, 먹어요 becomes 못 먹어요. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 못 가요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for inability, schedule conflicts, food restrictions, or language limits: 못 가요, 못 먹어요, 한국어를 잘 못해요. It says “I cannot” because of a real limit, not simply “I choose not to.”"
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "못 가요",
+            "romanization": "mot gayo",
+            "en": "I cannot go."
+          },
+          {
+            "speaker": "B",
+            "ko": "못 먹어요",
+            "romanization": "mot meogeoyo",
+            "en": "I cannot eat."
+          },
+          {
+            "speaker": "A",
+            "ko": "오늘은 못 가요.",
+            "romanization": "oneureun mot gayo.",
+            "en": "I cannot go today."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "못 가요",
+            "romanization": "mot gayo",
+            "en": "I cannot go.",
+            "note": "Schedule."
+          },
+          {
+            "ko": "못 먹어요",
+            "romanization": "mot meogeoyo",
+            "en": "I cannot eat.",
+            "note": "Food restriction."
+          },
+          {
+            "ko": "말 못 해요",
+            "romanization": "mal mot haeyo",
+            "en": "I cannot speak.",
+            "note": "Language."
+          },
+          {
+            "ko": "예약 못 해요",
+            "romanization": "yeyak mot haeyo",
+            "en": "I cannot reserve.",
+            "note": "Booking."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-07",
+        "chapter-08"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do",
+        "grammar-ending-want",
+        "grammar-ending-can",
+        "grammar-ending-mot"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-009",
+      "sort": 2009,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "안 V해요",
+      "romanization": "an V-haeyo",
+      "english": "do not do / am not doing",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "안 V해요 means \"do not do / am not doing\" as a reusable Korean sentence pattern.",
+      "explanation": "안 V해요 means \"do not do / am not doing\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for ordinary negatives: 안 가요, 안 먹어요, 공부 안 해요. It is short, common, and conversational.",
+      "patternInfo": {
+        "meaning": "do not do / am not doing",
+        "usableWith": [
+          "verb",
+          "adjective"
+        ],
+        "formNote": "Short negative. With noun + 하다 verbs, the 안 often goes between the noun and 하다.",
+        "speechLevelTabs": {
+          "casual": "안 V해",
+          "polite": "안 V해요",
+          "formal": "안 V합니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Short negative",
+        "howToBuild": [
+          "Put 안 before most simple verbs.",
+          "For noun + 하다 verbs, put 안 between the noun and 하다.",
+          "Use it with a time word to make the meaning clear."
+        ],
+        "whenToUse": "Use it for ordinary negatives: 안 가요, 안 먹어요, 공부 안 해요. It is short, common, and conversational.",
+        "learnerPath": "Compare it with 못 V해요. 안 often means you do not do it; 못 means you cannot.",
+        "linkedWordIds": [
+          "word-verb-001",
+          "word-verb-003",
+          "word-verb-015",
+          "word-verb-016"
+        ],
+        "relatedPatternIds": [
+          "pattern-008",
+          "pattern-010"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-001",
+        "word-verb-003",
+        "word-verb-015",
+        "word-verb-016"
+      ],
+      "relatedPatternIds": [
+        "pattern-008",
+        "pattern-010"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "안 가요",
+          "romanization": "an gayo",
+          "en": "I am not going.",
+          "note": "Simple."
+        },
+        {
+          "ko": "안 먹어요",
+          "romanization": "an meogeoyo",
+          "en": "I do not eat.",
+          "note": "Food."
+        },
+        {
+          "ko": "공부 안 해요",
+          "romanization": "gongbu an haeyo",
+          "en": "I do not study.",
+          "note": "Noun + 하다."
+        },
+        {
+          "ko": "일 안 해요",
+          "romanization": "il an haeyo",
+          "en": "I do not work.",
+          "note": "Noun + 하다."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "오늘은 안 가요.",
+          "romanization": "oneureun an gayo.",
+          "en": "I am not going today.",
+          "note": "Simple."
+        },
+        {
+          "ko": "저는 고기를 안 먹어요.",
+          "romanization": "jeoneun gogireul an meogeoyo.",
+          "en": "I do not eat meat.",
+          "note": "Food."
+        },
+        {
+          "ko": "주말에는 일 안 해요.",
+          "romanization": "jumareneun il an haeyo.",
+          "en": "I do not work on weekends.",
+          "note": "Routine."
+        }
+      ],
+      "nuance": "Short negative. With noun + 하다 verbs, the 안 often goes between the noun and 하다.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use 안 V해요 to express “do not do / am not doing” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Compare it with 못 V해요. 안 often means you do not do it; 못 means you cannot.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 안 가요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Put 안 before most simple verbs. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 안 가요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for ordinary negatives: 안 가요, 안 먹어요, 공부 안 해요. It is short, common, and conversational."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "안 가요",
+            "romanization": "an gayo",
+            "en": "I am not going."
+          },
+          {
+            "speaker": "B",
+            "ko": "안 먹어요",
+            "romanization": "an meogeoyo",
+            "en": "I do not eat."
+          },
+          {
+            "speaker": "A",
+            "ko": "오늘은 안 가요.",
+            "romanization": "oneureun an gayo.",
+            "en": "I am not going today."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "안 가요",
+            "romanization": "an gayo",
+            "en": "I am not going.",
+            "note": "Simple."
+          },
+          {
+            "ko": "안 먹어요",
+            "romanization": "an meogeoyo",
+            "en": "I do not eat.",
+            "note": "Food."
+          },
+          {
+            "ko": "공부 안 해요",
+            "romanization": "gongbu an haeyo",
+            "en": "I do not study.",
+            "note": "Noun + 하다."
+          },
+          {
+            "ko": "일 안 해요",
+            "romanization": "il an haeyo",
+            "en": "I do not work.",
+            "note": "Noun + 하다."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-05"
+      ],
+      "grammarIds": [
+        "grammar-particle-eul-reul"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-010",
+      "sort": 2010,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V지 않아요",
+      "romanization": "V-ji anayo",
+      "english": "do not / is not",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V지 않아요 means \"do not / is not\" as a reusable Korean sentence pattern.",
+      "explanation": "V지 않아요 means \"do not / is not\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it with both verbs and adjectives: 가지 않아요, 맵지 않아요, 어렵지 않아요. It sounds more careful than the short 안 negative, so it is useful in explanations, writing, or polite clarification.",
+      "patternInfo": {
+        "meaning": "do not / is not",
+        "usableWith": [
+          "verb",
+          "adjective"
+        ],
+        "formNote": "Longer negative. It sounds a little more careful or written than 안.",
+        "speechLevelTabs": {
+          "casual": "V지 않아",
+          "polite": "V지 않아요",
+          "formal": "V지 않습니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Careful negative",
+        "howToBuild": [
+          "Remove 다 from the verb or adjective.",
+          "Add 지 않아요.",
+          "Use it when you want a more careful or written-sounding negative."
+        ],
+        "whenToUse": "Use it with both verbs and adjectives: 가지 않아요, 맵지 않아요, 어렵지 않아요. It sounds more careful than the short 안 negative, so it is useful in explanations, writing, or polite clarification.",
+        "learnerPath": "Beginners can use 안 first, then learn 지 않아요 for careful speech and longer sentences.",
+        "linkedWordIds": [
+          "word-verb-003",
+          "word-verb-001"
+        ],
+        "relatedPatternIds": [
+          "pattern-009",
+          "pattern-006"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-003",
+        "word-verb-001"
+      ],
+      "relatedPatternIds": [
+        "pattern-009",
+        "pattern-006"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "가지 않아요",
+          "romanization": "gaji anayo",
+          "en": "do not go.",
+          "note": "Verb."
+        },
+        {
+          "ko": "먹지 않아요",
+          "romanization": "meokji anayo",
+          "en": "do not eat.",
+          "note": "Verb."
+        },
+        {
+          "ko": "비싸지 않아요",
+          "romanization": "bissaji anayo",
+          "en": "is not expensive.",
+          "note": "Adjective."
+        },
+        {
+          "ko": "어렵지 않아요",
+          "romanization": "eoryeopji anayo",
+          "en": "is not difficult.",
+          "note": "Adjective."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 오늘 가지 않아요.",
+          "romanization": "jeoneun oneul gaji anayo.",
+          "en": "I am not going today.",
+          "note": "Careful negative."
+        },
+        {
+          "ko": "이 음식은 맵지 않아요.",
+          "romanization": "i eumsigeun maepji anayo.",
+          "en": "This food is not spicy.",
+          "note": "Adjective."
+        },
+        {
+          "ko": "한국어는 쉽지 않지만 재미있어요.",
+          "romanization": "hangugeoneun swipji anhjiman jaemiisseoyo.",
+          "en": "Korean is not easy, but it is fun.",
+          "note": "Contrast."
+        }
+      ],
+      "nuance": "Longer negative. It sounds a little more careful or written than 안.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V지 않아요 to express “do not / is not” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Beginners can use 안 first, then learn 지 않아요 for careful speech and longer sentences.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 가지 않아요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Remove 다 from the verb or adjective. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 가지 않아요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it with both verbs and adjectives: 가지 않아요, 맵지 않아요, 어렵지 않아요. It sounds more careful than the short 안 negative, so it is useful in explanations, writing, or polite clarification."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "가지 않아요",
+            "romanization": "gaji anayo",
+            "en": "do not go."
+          },
+          {
+            "speaker": "B",
+            "ko": "먹지 않아요",
+            "romanization": "meokji anayo",
+            "en": "do not eat."
+          },
+          {
+            "speaker": "A",
+            "ko": "저는 오늘 가지 않아요.",
+            "romanization": "jeoneun oneul gaji anayo.",
+            "en": "I am not going today."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "가지 않아요",
+            "romanization": "gaji anayo",
+            "en": "do not go.",
+            "note": "Verb."
+          },
+          {
+            "ko": "먹지 않아요",
+            "romanization": "meokji anayo",
+            "en": "do not eat.",
+            "note": "Verb."
+          },
+          {
+            "ko": "비싸지 않아요",
+            "romanization": "bissaji anayo",
+            "en": "is not expensive.",
+            "note": "Adjective."
+          },
+          {
+            "ko": "어렵지 않아요",
+            "romanization": "eoryeopji anayo",
+            "en": "is not difficult.",
+            "note": "Adjective."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-05"
+      ],
+      "grammarIds": [
+        "grammar-particle-eul-reul"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-011",
+      "sort": 2011,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V아/어야 해요",
+      "romanization": "V-a/eoya haeyo",
+      "english": "have to / must",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V아/어야 해요 means \"have to / must\" as a reusable Korean sentence pattern.",
+      "explanation": "V아/어야 해요 means \"have to / must\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for rules, appointments, health needs, work, school, and personal plans: 가야 해요, 먹어야 해요, 예약해야 해요.",
+      "patternInfo": {
+        "meaning": "have to / must",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Use for obligation or necessary action. It can describe rules, plans, health needs, or things you personally must do.",
+        "speechLevelTabs": {
+          "casual": "V아/어야 해",
+          "polite": "V아/어야 해요",
+          "formal": "V아/어야 합니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Obligation: have to",
+        "howToBuild": [
+          "Choose the 아/어 form of the verb.",
+          "Add 야 해요.",
+          "Use a reason before it when you want to explain why."
+        ],
+        "whenToUse": "Use it for rules, appointments, health needs, work, school, and personal plans: 가야 해요, 먹어야 해요, 예약해야 해요.",
+        "learnerPath": "This is a core survival pattern because it lets you explain constraints instead of only saying yes or no.",
+        "linkedWordIds": [
+          "word-verb-003",
+          "word-verb-001",
+          "word-verb-015",
+          "word-verb-029"
+        ],
+        "relatedPatternIds": [
+          "pattern-012",
+          "pattern-018"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-003",
+        "word-verb-001",
+        "word-verb-015",
+        "word-verb-029"
+      ],
+      "relatedPatternIds": [
+        "pattern-012",
+        "pattern-018"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "가야 해요",
+          "romanization": "gaya haeyo",
+          "en": "I have to go.",
+          "note": "Common."
+        },
+        {
+          "ko": "먹어야 해요",
+          "romanization": "meogeoya haeyo",
+          "en": "I have to eat.",
+          "note": "Health/routine."
+        },
+        {
+          "ko": "공부해야 해요",
+          "romanization": "gongbuhaeya haeyo",
+          "en": "I have to study.",
+          "note": "School."
+        },
+        {
+          "ko": "예약해야 해요",
+          "romanization": "yeyakhaeya haeyo",
+          "en": "I have to reserve.",
+          "note": "Travel."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "내일 일찍 가야 해요.",
+          "romanization": "naeil iljjik gaya haeyo.",
+          "en": "I have to go early tomorrow.",
+          "note": "Obligation."
+        },
+        {
+          "ko": "약을 먹어야 해요.",
+          "romanization": "yageul meogeoya haeyo.",
+          "en": "I have to take medicine.",
+          "note": "Health."
+        },
+        {
+          "ko": "시험이 있어서 공부해야 해요.",
+          "romanization": "siheomi isseoseo gongbuhaeya haeyo.",
+          "en": "I have a test, so I have to study.",
+          "note": "Reason."
+        }
+      ],
+      "nuance": "Use for obligation or necessary action. It can describe rules, plans, health needs, or things you personally must do.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V아/어야 해요 to express “have to / must” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "This is a core survival pattern because it lets you explain constraints instead of only saying yes or no.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 가야 해요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Choose the 아/어 form of the verb. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 가야 해요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for rules, appointments, health needs, work, school, and personal plans: 가야 해요, 먹어야 해요, 예약해야 해요."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "가야 해요",
+            "romanization": "gaya haeyo",
+            "en": "I have to go."
+          },
+          {
+            "speaker": "B",
+            "ko": "먹어야 해요",
+            "romanization": "meogeoya haeyo",
+            "en": "I have to eat."
+          },
+          {
+            "speaker": "A",
+            "ko": "내일 일찍 가야 해요.",
+            "romanization": "naeil iljjik gaya haeyo.",
+            "en": "I have to go early tomorrow."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "가야 해요",
+            "romanization": "gaya haeyo",
+            "en": "I have to go.",
+            "note": "Common."
+          },
+          {
+            "ko": "먹어야 해요",
+            "romanization": "meogeoya haeyo",
+            "en": "I have to eat.",
+            "note": "Health/routine."
+          },
+          {
+            "ko": "공부해야 해요",
+            "romanization": "gongbuhaeya haeyo",
+            "en": "I have to study.",
+            "note": "School."
+          },
+          {
+            "ko": "예약해야 해요",
+            "romanization": "yeyakhaeya haeyo",
+            "en": "I have to reserve.",
+            "note": "Travel."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-09",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-012",
+      "sort": 2012,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V지 않아도 돼요",
+      "romanization": "V-ji anado dwaeyo",
+      "english": "do not have to do",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V지 않아도 돼요 means \"do not have to do\" as a reusable Korean sentence pattern.",
+      "explanation": "V지 않아도 돼요 means \"do not have to do\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it to reassure someone or explain that something is optional: 기다리지 않아도 돼요, 예약하지 않아도 돼요.",
+      "patternInfo": {
+        "meaning": "do not have to do",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Use to say something is not necessary. It sounds like permission or relief, not like refusing to do something.",
+        "speechLevelTabs": {
+          "casual": "V지 않아도 돼",
+          "polite": "V지 않아도 돼요",
+          "formal": "V지 않아도 됩니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Not necessary / do not have to",
+        "howToBuild": [
+          "Remove 다 from the verb.",
+          "Add 지 않아도 돼요.",
+          "Use it to remove an obligation."
+        ],
+        "whenToUse": "Use it to reassure someone or explain that something is optional: 기다리지 않아도 돼요, 예약하지 않아도 돼요.",
+        "learnerPath": "Study it right after 아/어야 해요. The pair gives you “must” and “do not have to.”",
+        "linkedWordIds": [
+          "word-verb-003",
+          "word-verb-018",
+          "word-verb-029",
+          "word-verb-015"
+        ],
+        "relatedPatternIds": [
+          "pattern-011",
+          "pattern-013"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-003",
+        "word-verb-018",
+        "word-verb-029",
+        "word-verb-015"
+      ],
+      "relatedPatternIds": [
+        "pattern-011",
+        "pattern-013"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "가지 않아도 돼요",
+          "romanization": "gaji anado dwaeyo",
+          "en": "You do not have to go.",
+          "note": "Permission."
+        },
+        {
+          "ko": "기다리지 않아도 돼요",
+          "romanization": "gidariji anado dwaeyo",
+          "en": "You do not have to wait.",
+          "note": "Service."
+        },
+        {
+          "ko": "예약하지 않아도 돼요",
+          "romanization": "yeyakhaji anado dwaeyo",
+          "en": "You do not need to reserve.",
+          "note": "Travel."
+        },
+        {
+          "ko": "공부하지 않아도 돼요",
+          "romanization": "gongbuhaji anado dwaeyo",
+          "en": "You do not have to study.",
+          "note": "School."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "오늘은 가지 않아도 돼요.",
+          "romanization": "oneureun gaji anado dwaeyo.",
+          "en": "You do not have to go today.",
+          "note": "Permission."
+        },
+        {
+          "ko": "여기서 기다리지 않아도 돼요.",
+          "romanization": "yeogiseo gidariji anado dwaeyo.",
+          "en": "You do not have to wait here.",
+          "note": "Service."
+        },
+        {
+          "ko": "예약하지 않아도 돼요.",
+          "romanization": "yeyakhaji anado dwaeyo.",
+          "en": "You do not need to make a reservation.",
+          "note": "Travel."
+        }
+      ],
+      "nuance": "Use to say something is not necessary. It sounds like permission or relief, not like refusing to do something.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V지 않아도 돼요 to express “do not have to do” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Study it right after 아/어야 해요. The pair gives you “must” and “do not have to.”",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 가지 않아도 돼요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Remove 다 from the verb. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 가지 않아도 돼요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it to reassure someone or explain that something is optional: 기다리지 않아도 돼요, 예약하지 않아도 돼요."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "가지 않아도 돼요",
+            "romanization": "gaji anado dwaeyo",
+            "en": "You do not have to go."
+          },
+          {
+            "speaker": "B",
+            "ko": "기다리지 않아도 돼요",
+            "romanization": "gidariji anado dwaeyo",
+            "en": "You do not have to wait."
+          },
+          {
+            "speaker": "A",
+            "ko": "오늘은 가지 않아도 돼요.",
+            "romanization": "oneureun gaji anado dwaeyo.",
+            "en": "You do not have to go today."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "가지 않아도 돼요",
+            "romanization": "gaji anado dwaeyo",
+            "en": "You do not have to go.",
+            "note": "Permission."
+          },
+          {
+            "ko": "기다리지 않아도 돼요",
+            "romanization": "gidariji anado dwaeyo",
+            "en": "You do not have to wait.",
+            "note": "Service."
+          },
+          {
+            "ko": "예약하지 않아도 돼요",
+            "romanization": "yeyakhaji anado dwaeyo",
+            "en": "You do not need to reserve.",
+            "note": "Travel."
+          },
+          {
+            "ko": "공부하지 않아도 돼요",
+            "romanization": "gongbuhaji anado dwaeyo",
+            "en": "You do not have to study.",
+            "note": "School."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-09"
+      ],
+      "grammarIds": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-013",
+      "sort": 2013,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V아/어도 돼요?",
+      "romanization": "V-a/eodo dwaeyo",
+      "english": "may I / is it okay to do?",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V아/어도 돼요? means \"may I / is it okay to do?\" as a reusable Korean sentence pattern.",
+      "explanation": "V아/어도 돼요? means \"may I / is it okay to do?\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it before sitting, entering, taking photos, using a card, or doing anything where permission matters.",
+      "patternInfo": {
+        "meaning": "may I / is it okay to do?",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Ask permission politely. Use a place or object before it when the situation needs to be clear.",
+        "speechLevelTabs": {
+          "casual": "V아/어도 돼?",
+          "polite": "V아/어도 돼요?",
+          "formal": "V아/어도 됩니까?"
+        }
+      },
+      "studyGuide": {
+        "title": "Permission question",
+        "howToBuild": [
+          "Use the 아/어 form of the verb.",
+          "Add 도 돼요?",
+          "Add 여기서, 지금, or the object if the question needs context."
+        ],
+        "whenToUse": "Use it before sitting, entering, taking photos, using a card, or doing anything where permission matters.",
+        "learnerPath": "This is one of the most useful travel patterns. Pair it with 지 마세요 so you understand both permission and prohibition.",
+        "linkedWordIds": [
+          "word-verb-010",
+          "word-verb-030",
+          "word-verb-012",
+          "word-verb-003"
+        ],
+        "relatedPatternIds": [
+          "pattern-014",
+          "pattern-012"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-010",
+        "word-verb-030",
+        "word-verb-012",
+        "word-verb-003"
+      ],
+      "relatedPatternIds": [
+        "pattern-014",
+        "pattern-012"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "앉아도 돼요?",
+          "romanization": "anjado dwaeyo?",
+          "en": "May I sit?",
+          "note": "Permission."
+        },
+        {
+          "ko": "사진 찍어도 돼요?",
+          "romanization": "sajin jjigeodo dwaeyo?",
+          "en": "May I take a photo?",
+          "note": "Travel."
+        },
+        {
+          "ko": "들어가도 돼요?",
+          "romanization": "deureogado dwaeyo?",
+          "en": "May I go in?",
+          "note": "Place."
+        },
+        {
+          "ko": "카드 써도 돼요?",
+          "romanization": "kadeu sseodo dwaeyo?",
+          "en": "May I use a card?",
+          "note": "Payment."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "여기 앉아도 돼요?",
+          "romanization": "yeogi anjado dwaeyo?",
+          "en": "May I sit here?",
+          "note": "Permission."
+        },
+        {
+          "ko": "사진 찍어도 돼요?",
+          "romanization": "sajin jjigeodo dwaeyo?",
+          "en": "May I take a photo?",
+          "note": "Travel."
+        },
+        {
+          "ko": "카드 써도 돼요?",
+          "romanization": "kadeu sseodo dwaeyo?",
+          "en": "Can I use a card?",
+          "note": "Payment."
+        }
+      ],
+      "nuance": "Ask permission politely. Use a place or object before it when the situation needs to be clear.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V아/어도 돼요? to express “may I / is it okay to do?” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "This is one of the most useful travel patterns. Pair it with 지 마세요 so you understand both permission and prohibition.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 앉아도 돼요?.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Use the 아/어 form of the verb. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 앉아도 돼요?. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it before sitting, entering, taking photos, using a card, or doing anything where permission matters."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "앉아도 돼요?",
+            "romanization": "anjado dwaeyo?",
+            "en": "May I sit?"
+          },
+          {
+            "speaker": "B",
+            "ko": "사진 찍어도 돼요?",
+            "romanization": "sajin jjigeodo dwaeyo?",
+            "en": "May I take a photo?"
+          },
+          {
+            "speaker": "A",
+            "ko": "여기 앉아도 돼요?",
+            "romanization": "yeogi anjado dwaeyo?",
+            "en": "May I sit here?"
+          }
+        ],
+        "drills": [
+          {
+            "ko": "앉아도 돼요?",
+            "romanization": "anjado dwaeyo?",
+            "en": "May I sit?",
+            "note": "Permission."
+          },
+          {
+            "ko": "사진 찍어도 돼요?",
+            "romanization": "sajin jjigeodo dwaeyo?",
+            "en": "May I take a photo?",
+            "note": "Travel."
+          },
+          {
+            "ko": "들어가도 돼요?",
+            "romanization": "deureogado dwaeyo?",
+            "en": "May I go in?",
+            "note": "Place."
+          },
+          {
+            "ko": "카드 써도 돼요?",
+            "romanization": "kadeu sseodo dwaeyo?",
+            "en": "May I use a card?",
+            "note": "Payment."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-07",
+        "chapter-09",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-particle-ro-euro",
+        "grammar-particle-man",
+        "grammar-particle-do",
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-014",
+      "sort": 2014,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V지 마세요",
+      "romanization": "V-ji maseyo",
+      "english": "please do not do",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V지 마세요 means \"please do not do\" as a reusable Korean sentence pattern.",
+      "explanation": "V지 마세요 means \"please do not do\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for rules, warnings, and gentle requests: 사진 찍지 마세요, 가지 마세요, 걱정하지 마세요. You will see it on signs and hear it from staff, but use it carefully because it can sound like an instruction.",
+      "patternInfo": {
+        "meaning": "please do not do",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Polite prohibition or warning. It can appear on signs, from staff, or as a gentle request between people.",
+        "speechLevelTabs": {
+          "casual": "V지 마",
+          "polite": "V지 마세요",
+          "formal": "V지 마십시오"
+        }
+      },
+      "studyGuide": {
+        "title": "Prohibition: please do not",
+        "howToBuild": [
+          "Remove 다 from the verb.",
+          "Add 지 마세요.",
+          "Use a place or time phrase if the rule needs context."
+        ],
+        "whenToUse": "Use it for rules, warnings, and gentle requests: 사진 찍지 마세요, 가지 마세요, 걱정하지 마세요. You will see it on signs and hear it from staff, but use it carefully because it can sound like an instruction.",
+        "learnerPath": "You need this mostly for understanding signs and staff instructions. Use it carefully when speaking to others.",
+        "linkedWordIds": [
+          "word-verb-003",
+          "word-verb-030",
+          "word-verb-024",
+          "word-verb-025"
+        ],
+        "relatedPatternIds": [
+          "pattern-013",
+          "pattern-015"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-003",
+        "word-verb-030",
+        "word-verb-024",
+        "word-verb-025"
+      ],
+      "relatedPatternIds": [
+        "pattern-013",
+        "pattern-015"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "가지 마세요",
+          "romanization": "gaji maseyo",
+          "en": "Please do not go.",
+          "note": "Warning."
+        },
+        {
+          "ko": "사진 찍지 마세요",
+          "romanization": "sajin jjikji maseyo",
+          "en": "Please do not take photos.",
+          "note": "Rule."
+        },
+        {
+          "ko": "문 열지 마세요",
+          "romanization": "mun yeolji maseyo",
+          "en": "Please do not open the door.",
+          "note": "Rule."
+        },
+        {
+          "ko": "걱정하지 마세요",
+          "romanization": "geokjeonghaji maseyo",
+          "en": "Please do not worry.",
+          "note": "Reassurance."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "여기서 사진 찍지 마세요.",
+          "romanization": "yeogiseo sajin jjikji maseyo.",
+          "en": "Please do not take photos here.",
+          "note": "Rule."
+        },
+        {
+          "ko": "아직 가지 마세요.",
+          "romanization": "ajik gaji maseyo.",
+          "en": "Please do not go yet.",
+          "note": "Request."
+        },
+        {
+          "ko": "걱정하지 마세요.",
+          "romanization": "geokjeonghaji maseyo.",
+          "en": "Please do not worry.",
+          "note": "Reassurance."
+        }
+      ],
+      "nuance": "Polite prohibition or warning. It can appear on signs, from staff, or as a gentle request between people.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V지 마세요 to express “please do not do” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "You need this mostly for understanding signs and staff instructions. Use it carefully when speaking to others.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 가지 마세요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Remove 다 from the verb. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 가지 마세요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for rules, warnings, and gentle requests: 사진 찍지 마세요, 가지 마세요, 걱정하지 마세요. You will see it on signs and hear it from staff, but use it carefully because it can sound like an instruction."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "가지 마세요",
+            "romanization": "gaji maseyo",
+            "en": "Please do not go."
+          },
+          {
+            "speaker": "B",
+            "ko": "사진 찍지 마세요",
+            "romanization": "sajin jjikji maseyo",
+            "en": "Please do not take photos."
+          },
+          {
+            "speaker": "A",
+            "ko": "여기서 사진 찍지 마세요.",
+            "romanization": "yeogiseo sajin jjikji maseyo.",
+            "en": "Please do not take photos here."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "가지 마세요",
+            "romanization": "gaji maseyo",
+            "en": "Please do not go.",
+            "note": "Warning."
+          },
+          {
+            "ko": "사진 찍지 마세요",
+            "romanization": "sajin jjikji maseyo",
+            "en": "Please do not take photos.",
+            "note": "Rule."
+          },
+          {
+            "ko": "문 열지 마세요",
+            "romanization": "mun yeolji maseyo",
+            "en": "Please do not open the door.",
+            "note": "Rule."
+          },
+          {
+            "ko": "걱정하지 마세요",
+            "romanization": "geokjeonghaji maseyo",
+            "en": "Please do not worry.",
+            "note": "Reassurance."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-09"
+      ],
+      "grammarIds": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-015",
+      "sort": 2015,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V아/어 주세요",
+      "romanization": "V-a/eo juseyo",
+      "english": "please do",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V아/어 주세요 means \"please do\" as a reusable Korean sentence pattern.",
+      "explanation": "V아/어 주세요 means \"please do\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it when asking someone to do an action: 도와주세요, 열어 주세요, 다시 말해 주세요, 사진 찍어 주세요.",
+      "patternInfo": {
+        "meaning": "please do",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Polite request for someone to do an action.",
+        "speechLevelTabs": {
+          "casual": "V아/어 줘",
+          "polite": "V아/어 주세요",
+          "formal": "V아/어 주십시오"
+        }
+      },
+      "studyGuide": {
+        "title": "Action requests",
+        "howToBuild": [
+          "Use the 아/어 form of the verb.",
+          "Add 주세요.",
+          "Add 좀 to soften everyday requests."
+        ],
+        "whenToUse": "Use it when asking someone to do an action: 도와주세요, 열어 주세요, 다시 말해 주세요, 사진 찍어 주세요.",
+        "learnerPath": "This is not the same as N 주세요. Learn both so you can ask for items and actions naturally.",
+        "linkedWordIds": [
+          "word-verb-024",
+          "word-verb-014",
+          "word-verb-021",
+          "word-verb-030"
+        ],
+        "relatedPatternIds": [
+          "pattern-004",
+          "pattern-014"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-024",
+        "word-verb-014",
+        "word-verb-021",
+        "word-verb-030"
+      ],
+      "relatedPatternIds": [
+        "pattern-004",
+        "pattern-014"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "도와주세요",
+          "romanization": "dowajuseyo",
+          "en": "Please help me.",
+          "note": "Survival."
+        },
+        {
+          "ko": "열어 주세요",
+          "romanization": "yeoreo juseyo",
+          "en": "Please open it.",
+          "note": "Request."
+        },
+        {
+          "ko": "다시 말해 주세요",
+          "romanization": "dasi malhae juseyo",
+          "en": "Please say it again.",
+          "note": "Learning."
+        },
+        {
+          "ko": "사진 찍어 주세요",
+          "romanization": "sajin jjigeo juseyo",
+          "en": "Please take a photo.",
+          "note": "Travel."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "문을 열어 주세요.",
+          "romanization": "muneul yeoreo juseyo.",
+          "en": "Please open the door.",
+          "note": "Request."
+        },
+        {
+          "ko": "다시 말해 주세요.",
+          "romanization": "dasi malhae juseyo.",
+          "en": "Please say it again.",
+          "note": "Classroom."
+        },
+        {
+          "ko": "사진 찍어 주세요.",
+          "romanization": "sajin jjigeo juseyo.",
+          "en": "Please take a photo.",
+          "note": "Travel."
+        }
+      ],
+      "nuance": "Polite request for someone to do an action.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V아/어 주세요 to express “please do” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "This is not the same as N 주세요. Learn both so you can ask for items and actions naturally.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 도와주세요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Use the 아/어 form of the verb. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 도와주세요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it when asking someone to do an action: 도와주세요, 열어 주세요, 다시 말해 주세요, 사진 찍어 주세요."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "도와주세요",
+            "romanization": "dowajuseyo",
+            "en": "Please help me."
+          },
+          {
+            "speaker": "B",
+            "ko": "열어 주세요",
+            "romanization": "yeoreo juseyo",
+            "en": "Please open it."
+          },
+          {
+            "speaker": "A",
+            "ko": "문을 열어 주세요.",
+            "romanization": "muneul yeoreo juseyo.",
+            "en": "Please open the door."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "도와주세요",
+            "romanization": "dowajuseyo",
+            "en": "Please help me.",
+            "note": "Survival."
+          },
+          {
+            "ko": "열어 주세요",
+            "romanization": "yeoreo juseyo",
+            "en": "Please open it.",
+            "note": "Request."
+          },
+          {
+            "ko": "다시 말해 주세요",
+            "romanization": "dasi malhae juseyo",
+            "en": "Please say it again.",
+            "note": "Learning."
+          },
+          {
+            "ko": "사진 찍어 주세요",
+            "romanization": "sajin jjigeo juseyo",
+            "en": "Please take a photo.",
+            "note": "Travel."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-01",
+        "chapter-09",
+        "chapter-10"
+      ],
+      "grammarIds": [
+        "grammar-foundation-hangul-blocks",
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante",
+        "grammar-particle-buteo-kkaji",
+        "grammar-particle-e",
+        "grammar-particle-eseo"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-016",
+      "sort": 2016,
+      "type": "pattern",
+      "level": "A1",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "Vㄹ/을까요?",
+      "romanization": "V-l/eulkkayo",
+      "english": "shall we / should I?",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "Vㄹ/을까요? means \"shall we / should I?\" as a reusable Korean sentence pattern.",
+      "explanation": "Vㄹ/을까요? means \"shall we / should I?\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for suggestions and gentle decision questions: 갈까요?, 먹을까요?, 기다릴까요? It can mean “shall we” when deciding together, or “should I” when asking what action you should take.",
+      "patternInfo": {
+        "meaning": "shall we / should I?",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Use for suggestions or asking what to do.",
+        "speechLevelTabs": {
+          "casual": "Vㄹ/을까?",
+          "polite": "Vㄹ/을까요?",
+          "formal": "Vㄹ/을까요?"
+        }
+      },
+      "studyGuide": {
+        "title": "Suggestion / checking what to do",
+        "howToBuild": [
+          "Use ㄹ까요 after a vowel-ending stem.",
+          "Use 을까요 after a consonant-ending stem.",
+          "Add 같이 or 지금 when useful."
+        ],
+        "whenToUse": "Use it for suggestions and gentle decision questions: 갈까요?, 먹을까요?, 기다릴까요? It can mean “shall we” when deciding together, or “should I” when asking what action you should take.",
+        "learnerPath": "This turns verbs into conversation starters. It is especially useful after you know 가다, 먹다, 기다리다, and 주문하다.",
+        "linkedWordIds": [
+          "word-verb-003",
+          "word-verb-001",
+          "word-verb-018",
+          "word-verb-028"
+        ],
+        "relatedPatternIds": [
+          "pattern-005",
+          "pattern-017"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-003",
+        "word-verb-001",
+        "word-verb-018",
+        "word-verb-028"
+      ],
+      "relatedPatternIds": [
+        "pattern-005",
+        "pattern-017"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "갈까요?",
+          "romanization": "galkkayo?",
+          "en": "Shall we go?",
+          "note": "Suggestion."
+        },
+        {
+          "ko": "먹을까요?",
+          "romanization": "meogeulkkayo?",
+          "en": "Shall we eat?",
+          "note": "Suggestion."
+        },
+        {
+          "ko": "기다릴까요?",
+          "romanization": "gidarilkkayo?",
+          "en": "Should I wait?",
+          "note": "Ask what to do."
+        },
+        {
+          "ko": "주문할까요?",
+          "romanization": "jumunhalkkayo?",
+          "en": "Shall we order?",
+          "note": "Restaurant."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "같이 갈까요?",
+          "romanization": "gati galkkayo?",
+          "en": "Shall we go together?",
+          "note": "Suggestion."
+        },
+        {
+          "ko": "지금 주문할까요?",
+          "romanization": "jigeum jumunhalkkayo?",
+          "en": "Shall we order now?",
+          "note": "Restaurant."
+        },
+        {
+          "ko": "여기서 기다릴까요?",
+          "romanization": "yeogiseo gidarilkkayo?",
+          "en": "Should I wait here?",
+          "note": "Question."
+        }
+      ],
+      "nuance": "Use for suggestions or asking what to do.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use Vㄹ/을까요? to express “shall we / should I?” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "This turns verbs into conversation starters. It is especially useful after you know 가다, 먹다, 기다리다, and 주문하다.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 갈까요?.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Use ㄹ까요 after a vowel-ending stem. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 갈까요?. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for suggestions and gentle decision questions: 갈까요?, 먹을까요?, 기다릴까요? It can mean “shall we” when deciding together, or “should I” when asking what action you should take."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "갈까요?",
+            "romanization": "galkkayo?",
+            "en": "Shall we go?"
+          },
+          {
+            "speaker": "B",
+            "ko": "먹을까요?",
+            "romanization": "meogeulkkayo?",
+            "en": "Shall we eat?"
+          },
+          {
+            "speaker": "A",
+            "ko": "같이 갈까요?",
+            "romanization": "gati galkkayo?",
+            "en": "Shall we go together?"
+          }
+        ],
+        "drills": [
+          {
+            "ko": "갈까요?",
+            "romanization": "galkkayo?",
+            "en": "Shall we go?",
+            "note": "Suggestion."
+          },
+          {
+            "ko": "먹을까요?",
+            "romanization": "meogeulkkayo?",
+            "en": "Shall we eat?",
+            "note": "Suggestion."
+          },
+          {
+            "ko": "기다릴까요?",
+            "romanization": "gidarilkkayo?",
+            "en": "Should I wait?",
+            "note": "Ask what to do."
+          },
+          {
+            "ko": "주문할까요?",
+            "romanization": "jumunhalkkayo?",
+            "en": "Shall we order?",
+            "note": "Restaurant."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-09"
+      ],
+      "grammarIds": [
+        "grammar-ending-request",
+        "grammar-ending-permission",
+        "grammar-ending-prohibition",
+        "grammar-ending-must",
+        "grammar-particle-ege-hante"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-017",
+      "sort": 2017,
+      "type": "pattern",
+      "level": "A2",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "Vㄹ/을게요",
+      "romanization": "V-l/eulgeyo",
+      "english": "I will do",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "Vㄹ/을게요 means \"I will do\" as a reusable Korean sentence pattern.",
+      "explanation": "Vㄹ/을게요 means \"I will do\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it when you decide or promise your own action: 제가 할게요, 전화할게요, 기다릴게요. It is common when responding to someone and volunteering what you will do next.",
+      "patternInfo": {
+        "meaning": "I will do",
+        "usableWith": [
+          "verb"
+        ],
+        "formNote": "Speaker’s promise or decision. Use it when you choose what you will do in response to the situation.",
+        "speechLevelTabs": {
+          "casual": "Vㄹ/을게",
+          "polite": "Vㄹ/을게요",
+          "formal": "V겠습니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Speaker decision / promise",
+        "howToBuild": [
+          "Use ㄹ게요 after a vowel-ending stem.",
+          "Use 을게요 after a consonant-ending stem.",
+          "Use it only for what the speaker will do."
+        ],
+        "whenToUse": "Use it when you decide or promise your own action: 제가 할게요, 전화할게요, 기다릴게요. It is common when responding to someone and volunteering what you will do next.",
+        "learnerPath": "Do not use this to predict another person. It is about the speaker’s choice.",
+        "linkedWordIds": [
+          "word-verb-003",
+          "word-verb-007",
+          "word-verb-027",
+          "word-verb-018"
+        ],
+        "relatedPatternIds": [
+          "pattern-016",
+          "pattern-018"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-003",
+        "word-verb-007",
+        "word-verb-027",
+        "word-verb-018"
+      ],
+      "relatedPatternIds": [
+        "pattern-016",
+        "pattern-018"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "갈게요",
+          "romanization": "galgeyo",
+          "en": "I will go.",
+          "note": "Leaving."
+        },
+        {
+          "ko": "제가 할게요",
+          "romanization": "jega halgeyo",
+          "en": "I will do it.",
+          "note": "Offer."
+        },
+        {
+          "ko": "전화할게요",
+          "romanization": "jeonhwahalgeyo",
+          "en": "I will call.",
+          "note": "Promise."
+        },
+        {
+          "ko": "기다릴게요",
+          "romanization": "gidarilgeyo",
+          "en": "I will wait.",
+          "note": "Promise."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "먼저 갈게요.",
+          "romanization": "meonjeo galgeyo.",
+          "en": "I will go first.",
+          "note": "Leaving."
+        },
+        {
+          "ko": "제가 할게요.",
+          "romanization": "jega halgeyo.",
+          "en": "I will do it.",
+          "note": "Offer."
+        },
+        {
+          "ko": "나중에 전화할게요.",
+          "romanization": "najunge jeonhwahalgeyo.",
+          "en": "I will call later.",
+          "note": "Promise."
+        }
+      ],
+      "nuance": "Speaker’s promise or decision. Use it when you choose what you will do in response to the situation.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use Vㄹ/을게요 to express “I will do” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Do not use this to predict another person. It is about the speaker’s choice.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 갈게요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Use ㄹ게요 after a vowel-ending stem. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 갈게요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it when you decide or promise your own action: 제가 할게요, 전화할게요, 기다릴게요. It is common when responding to someone and volunteering what you will do next."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "갈게요",
+            "romanization": "galgeyo",
+            "en": "I will go."
+          },
+          {
+            "speaker": "B",
+            "ko": "제가 할게요",
+            "romanization": "jega halgeyo",
+            "en": "I will do it."
+          },
+          {
+            "speaker": "A",
+            "ko": "먼저 갈게요.",
+            "romanization": "meonjeo galgeyo.",
+            "en": "I will go first."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "갈게요",
+            "romanization": "galgeyo",
+            "en": "I will go.",
+            "note": "Leaving."
+          },
+          {
+            "ko": "제가 할게요",
+            "romanization": "jega halgeyo",
+            "en": "I will do it.",
+            "note": "Offer."
+          },
+          {
+            "ko": "전화할게요",
+            "romanization": "jeonhwahalgeyo",
+            "en": "I will call.",
+            "note": "Promise."
+          },
+          {
+            "ko": "기다릴게요",
+            "romanization": "gidarilgeyo",
+            "en": "I will wait.",
+            "note": "Promise."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-11"
+      ],
+      "grammarIds": [
+        "grammar-connector-because",
+        "grammar-connector-and",
+        "grammar-connector-if",
+        "grammar-ending-promise"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-018",
+      "sort": 2018,
+      "type": "pattern",
+      "level": "A2",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V아서/어서",
+      "romanization": "V-aseo/eoseo",
+      "english": "because / so",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V아서/어서 means \"because / so\" as a reusable Korean sentence pattern.",
+      "explanation": "V아서/어서 means \"because / so\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it to explain why something happened: 바빠서 못 가요, 아파서 쉬어요, 늦어서 죄송합니다. It lets beginners connect a reason to a result without making two separate sentences.",
+      "patternInfo": {
+        "meaning": "because / so",
+        "usableWith": [
+          "verb",
+          "adjective"
+        ],
+        "formNote": "Connect a reason to a result. Do not use it for commands or suggestions in formal grammar.",
+        "speechLevelTabs": {
+          "casual": "V아서/어서",
+          "polite": "V아서/어서요",
+          "formal": "V아서/어서입니다"
+        }
+      },
+      "studyGuide": {
+        "title": "Reason connector",
+        "howToBuild": [
+          "Use 아서/어서 after the first verb or adjective.",
+          "Put the result after it.",
+          "Use 그래서 in your English brain: reason, so result."
+        ],
+        "whenToUse": "Use it to explain why something happened: 바빠서 못 가요, 아파서 쉬어요, 늦어서 죄송합니다. It lets beginners connect a reason to a result without making two separate sentences.",
+        "learnerPath": "This makes your Korean sound connected instead of like separate flashcard sentences.",
+        "linkedWordIds": [
+          "word-verb-026",
+          "word-verb-003",
+          "word-verb-006"
+        ],
+        "relatedPatternIds": [
+          "pattern-011",
+          "pattern-020"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-026",
+        "word-verb-003",
+        "word-verb-006"
+      ],
+      "relatedPatternIds": [
+        "pattern-011",
+        "pattern-020"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "바빠서 못 가요",
+          "romanization": "bappaseo mot gayo",
+          "en": "I am busy, so I cannot go.",
+          "note": "Reason."
+        },
+        {
+          "ko": "아파서 쉬어요",
+          "romanization": "apaseo swieoyo",
+          "en": "I am sick, so I rest.",
+          "note": "Health."
+        },
+        {
+          "ko": "비싸서 안 사요",
+          "romanization": "bissaseo an sayo",
+          "en": "It is expensive, so I am not buying it.",
+          "note": "Shopping."
+        },
+        {
+          "ko": "늦어서 죄송합니다",
+          "romanization": "neujeoseo joesonghapnida",
+          "en": "Sorry I am late.",
+          "note": "Apology."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "바빠서 못 가요.",
+          "romanization": "bappaseo mot gayo.",
+          "en": "I am busy, so I cannot go.",
+          "note": "Reason."
+        },
+        {
+          "ko": "아파서 병원에 가요.",
+          "romanization": "apaseo byeongwone gayo.",
+          "en": "I am sick, so I go to the hospital.",
+          "note": "Reason."
+        },
+        {
+          "ko": "늦어서 죄송합니다.",
+          "romanization": "neujeoseo joesonghapnida.",
+          "en": "Sorry I am late.",
+          "note": "Apology."
+        }
+      ],
+      "nuance": "Connect a reason to a result. Do not use it for commands or suggestions in formal grammar.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V아서/어서 to express “because / so” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "This makes your Korean sound connected instead of like separate flashcard sentences.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 바빠서 못 가요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Use 아서/어서 after the first verb or adjective. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 바빠서 못 가요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it to explain why something happened: 바빠서 못 가요, 아파서 쉬어요, 늦어서 죄송합니다. It lets beginners connect a reason to a result without making two separate sentences."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "바빠서 못 가요",
+            "romanization": "bappaseo mot gayo",
+            "en": "I am busy, so I cannot go."
+          },
+          {
+            "speaker": "B",
+            "ko": "아파서 쉬어요",
+            "romanization": "apaseo swieoyo",
+            "en": "I am sick, so I rest."
+          },
+          {
+            "speaker": "A",
+            "ko": "바빠서 못 가요.",
+            "romanization": "bappaseo mot gayo.",
+            "en": "I am busy, so I cannot go."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "바빠서 못 가요",
+            "romanization": "bappaseo mot gayo",
+            "en": "I am busy, so I cannot go.",
+            "note": "Reason."
+          },
+          {
+            "ko": "아파서 쉬어요",
+            "romanization": "apaseo swieoyo",
+            "en": "I am sick, so I rest.",
+            "note": "Health."
+          },
+          {
+            "ko": "비싸서 안 사요",
+            "romanization": "bissaseo an sayo",
+            "en": "It is expensive, so I am not buying it.",
+            "note": "Shopping."
+          },
+          {
+            "ko": "늦어서 죄송합니다",
+            "romanization": "neujeoseo joesonghapnida",
+            "en": "Sorry I am late.",
+            "note": "Apology."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-11"
+      ],
+      "grammarIds": [
+        "grammar-connector-because",
+        "grammar-connector-and",
+        "grammar-connector-if",
+        "grammar-ending-promise"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-019",
+      "sort": 2019,
+      "type": "pattern",
+      "level": "A2",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V고",
+      "romanization": "V-go",
+      "english": "and / and then",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V고 means \"and / and then\" as a reusable Korean sentence pattern.",
+      "explanation": "V고 means \"and / and then\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it to list actions or describe sequence: 먹고 가요, 씻고 자요, 싸고 좋아요. It is one of the easiest ways to make longer sentences from vocabulary you already know.",
+      "patternInfo": {
+        "meaning": "and / and then",
+        "usableWith": [
+          "verb",
+          "adjective"
+        ],
+        "formNote": "Connect actions or descriptions. It can simply list two ideas, or show one action followed by another.",
+        "speechLevelTabs": {
+          "casual": "V고",
+          "polite": "V고요",
+          "formal": "V고"
+        }
+      },
+      "studyGuide": {
+        "title": "And / sequence connector",
+        "howToBuild": [
+          "Remove 다 from the first verb or adjective.",
+          "Add 고.",
+          "Put the next action or description after it."
+        ],
+        "whenToUse": "Use it to list actions or describe sequence: 먹고 가요, 씻고 자요, 싸고 좋아요. It is one of the easiest ways to make longer sentences from vocabulary you already know.",
+        "learnerPath": "Use this after you can make short sentences. It helps combine two simple ideas into one sentence.",
+        "linkedWordIds": [
+          "word-verb-001",
+          "word-verb-003",
+          "word-verb-008",
+          "word-verb-015"
+        ],
+        "relatedPatternIds": [
+          "pattern-018",
+          "pattern-020"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-001",
+        "word-verb-003",
+        "word-verb-008",
+        "word-verb-015"
+      ],
+      "relatedPatternIds": [
+        "pattern-018",
+        "pattern-020"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "먹고 가요",
+          "romanization": "meokgo gayo",
+          "en": "eat and go.",
+          "note": "Sequence."
+        },
+        {
+          "ko": "공부하고 일해요",
+          "romanization": "gongbuhago ilhaeyo",
+          "en": "study and work.",
+          "note": "Two actions."
+        },
+        {
+          "ko": "싸고 좋아요",
+          "romanization": "ssago joayo",
+          "en": "It is cheap and good.",
+          "note": "Two descriptions."
+        },
+        {
+          "ko": "씻고 자요",
+          "romanization": "ssitgo jayo",
+          "en": "wash and sleep.",
+          "note": "Routine."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "밥을 먹고 학교에 가요.",
+          "romanization": "babeul meokgo hakgyoe gayo.",
+          "en": "I eat and go to school.",
+          "note": "Sequence."
+        },
+        {
+          "ko": "저는 공부하고 일해요.",
+          "romanization": "jeoneun gongbuhago ilhaeyo.",
+          "en": "I study and work.",
+          "note": "Two actions."
+        },
+        {
+          "ko": "이 가방은 싸고 좋아요.",
+          "romanization": "i gabangeun ssago joayo.",
+          "en": "This bag is cheap and good.",
+          "note": "Descriptions."
+        }
+      ],
+      "nuance": "Connect actions or descriptions. It can simply list two ideas, or show one action followed by another.",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V고 to express “and / and then” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "Use this after you can make short sentences. It helps combine two simple ideas into one sentence.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 먹고 가요.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Remove 다 from the first verb or adjective. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 먹고 가요. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it to list actions or describe sequence: 먹고 가요, 씻고 자요, 싸고 좋아요. It is one of the easiest ways to make longer sentences from vocabulary you already know."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "먹고 가요",
+            "romanization": "meokgo gayo",
+            "en": "eat and go."
+          },
+          {
+            "speaker": "B",
+            "ko": "공부하고 일해요",
+            "romanization": "gongbuhago ilhaeyo",
+            "en": "study and work."
+          },
+          {
+            "speaker": "A",
+            "ko": "밥을 먹고 학교에 가요.",
+            "romanization": "babeul meokgo hakgyoe gayo.",
+            "en": "I eat and go to school."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "먹고 가요",
+            "romanization": "meokgo gayo",
+            "en": "eat and go.",
+            "note": "Sequence."
+          },
+          {
+            "ko": "공부하고 일해요",
+            "romanization": "gongbuhago ilhaeyo",
+            "en": "study and work.",
+            "note": "Two actions."
+          },
+          {
+            "ko": "싸고 좋아요",
+            "romanization": "ssago joayo",
+            "en": "It is cheap and good.",
+            "note": "Two descriptions."
+          },
+          {
+            "ko": "씻고 자요",
+            "romanization": "ssitgo jayo",
+            "en": "wash and sleep.",
+            "note": "Routine."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-11"
+      ],
+      "grammarIds": [
+        "grammar-connector-because",
+        "grammar-connector-and",
+        "grammar-connector-if",
+        "grammar-ending-promise"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    },
+    {
+      "id": "pattern-020",
+      "sort": 2020,
+      "type": "pattern",
+      "level": "A2",
+      "topic": [
+        "daily-life"
+      ],
+      "hangul": "V면",
+      "romanization": "V-myeon",
+      "english": "if / when",
+      "partOfSpeech": "pattern",
+      "irregular": null,
+      "shortExplanation": "V면 means \"if / when\" as a reusable Korean sentence pattern.",
+      "explanation": "V면 means \"if / when\". This is a reusable sentence pattern, not a vocabulary word. Replace the marked part with a real noun, verb stem, or adjective stem, then choose the speech level for the person you are talking to. For v1 study, focus on the polite form first and memorize complete examples before creating your own sentences.",
+      "learnerPriority": "First memorize two complete polite examples. Then substitute one word at a time and check whether the pattern attaches to a noun, verb, or adjective.",
+      "contextHint": "Use it for conditions: 시간이 있으면 전화해 주세요, 비싸면 안 사요, 아프면 쉬어야 해요. It helps you say what should happen depending on time, price, health, or permission.",
+      "patternInfo": {
+        "meaning": "if / when",
+        "usableWith": [
+          "verb",
+          "adjective"
+        ],
+        "formNote": "Set a condition. Beginners can read it as “if,” while context sometimes makes it closer to “when.”",
+        "speechLevelTabs": {
+          "casual": "V면",
+          "polite": "V면요",
+          "formal": "V면"
+        }
+      },
+      "studyGuide": {
+        "title": "Condition: if / when",
+        "howToBuild": [
+          "Remove 다 from the verb or adjective.",
+          "Add 면.",
+          "Put the result, request, or advice after it."
+        ],
+        "whenToUse": "Use it for conditions: 시간이 있으면 전화해 주세요, 비싸면 안 사요, 아프면 쉬어야 해요. It helps you say what should happen depending on time, price, health, or permission.",
+        "learnerPath": "This is a bridge into longer Korean. Keep the first half short while you are a beginner.",
+        "linkedWordIds": [
+          "word-verb-026",
+          "word-verb-027",
+          "word-verb-006"
+        ],
+        "relatedPatternIds": [
+          "pattern-018",
+          "pattern-011"
+        ]
+      },
+      "relatedWordIds": [
+        "word-verb-026",
+        "word-verb-027",
+        "word-verb-006"
+      ],
+      "relatedPatternIds": [
+        "pattern-018",
+        "pattern-011"
+      ],
+      "usagePhrases": [
+        {
+          "ko": "시간이 있으면",
+          "romanization": "sigani isseumyeon",
+          "en": "if you have time.",
+          "note": "Condition."
+        },
+        {
+          "ko": "비싸면 안 사요",
+          "romanization": "bissamyeon an sayo",
+          "en": "If it is expensive, I do not buy it.",
+          "note": "Shopping."
+        },
+        {
+          "ko": "아프면 쉬세요",
+          "romanization": "apeumyeon swiseyo",
+          "en": "If you are sick, rest.",
+          "note": "Advice."
+        },
+        {
+          "ko": "괜찮으면 가요",
+          "romanization": "gwaenchaneumyeon gayo",
+          "en": "If it is okay, let us go.",
+          "note": "Suggestion."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "시간이 있으면 전화해 주세요.",
+          "romanization": "sigani isseumyeon jeonhwahae juseyo.",
+          "en": "If you have time, please call.",
+          "note": "Condition."
+        },
+        {
+          "ko": "비싸면 안 사요.",
+          "romanization": "bissamyeon an sayo.",
+          "en": "If it is expensive, I do not buy it.",
+          "note": "Shopping."
+        },
+        {
+          "ko": "아프면 쉬어야 해요.",
+          "romanization": "apeumyeon swieoya haeyo.",
+          "en": "If you are sick, you should rest.",
+          "note": "Advice."
+        }
+      ],
+      "nuance": "Set a condition. Beginners can read it as “if,” while context sometimes makes it closer to “when.”",
+      "commonMistakes": [
+        "Do not say the study symbol V or N out loud; replace it with a real verb stem or noun.",
+        "Check whether the pattern attaches to a noun, verb, or adjective before using it."
+      ],
+      "notes": [],
+      "lesson": {
+        "canDo": "Use V면 to express “if / when” in a short real-life sentence.",
+        "studyFlow": [
+          "Read the pattern explanation before memorizing the shape.",
+          "Study the build steps and identify whether the pattern attaches to a noun, verb, or adjective.",
+          "Practice the usage phrases as substitutions, changing only one part at a time.",
+          "Open one linked word and see the same pattern inside a verb card."
+        ],
+        "teacherNote": "This is a bridge into longer Korean. Keep the first half short while you are a beginner.",
+        "pronunciationTip": "Pattern labels are study tools. In speech, practice the full example phrase such as 시간이 있으면.",
+        "beginnerPath": [
+          {
+            "title": "1. Replace the study symbol",
+            "body": "Remove 다 from the verb or adjective. The letters V and N are textbook symbols. They are never spoken aloud. Replace them with a real verb or noun."
+          },
+          {
+            "title": "2. Memorize two complete examples",
+            "body": "Start with complete phrases such as 시간이 있으면. After two examples feel natural, substitute only one word at a time."
+          },
+          {
+            "title": "3. Check the situation before speaking",
+            "body": "Use it for conditions: 시간이 있으면 전화해 주세요, 비싸면 안 사요, 아프면 쉬어야 해요. It helps you say what should happen depending on time, price, health, or permission."
+          },
+          {
+            "title": "4. Connect it back to word cards",
+            "body": "Open the linked words and find the same pattern inside their form panels. This makes grammar feel reusable instead of abstract."
+          }
+        ],
+        "classroomScript": [
+          "Learner underlines the stem or noun that changes.",
+          "Learner reads two complete examples without saying the study symbols V or N.",
+          "Teacher gives one new word. Learner substitutes it into the same pattern.",
+          "Learner explains when the pattern is natural in plain English."
+        ],
+        "miniDialogue": [
+          {
+            "speaker": "A",
+            "ko": "시간이 있으면",
+            "romanization": "sigani isseumyeon",
+            "en": "if you have time."
+          },
+          {
+            "speaker": "B",
+            "ko": "비싸면 안 사요",
+            "romanization": "bissamyeon an sayo",
+            "en": "If it is expensive, I do not buy it."
+          },
+          {
+            "speaker": "A",
+            "ko": "시간이 있으면 전화해 주세요.",
+            "romanization": "sigani isseumyeon jeonhwahae juseyo.",
+            "en": "If you have time, please call."
+          }
+        ],
+        "drills": [
+          {
+            "ko": "시간이 있으면",
+            "romanization": "sigani isseumyeon",
+            "en": "if you have time.",
+            "note": "Condition."
+          },
+          {
+            "ko": "비싸면 안 사요",
+            "romanization": "bissamyeon an sayo",
+            "en": "If it is expensive, I do not buy it.",
+            "note": "Shopping."
+          },
+          {
+            "ko": "아프면 쉬세요",
+            "romanization": "apeumyeon swiseyo",
+            "en": "If you are sick, rest.",
+            "note": "Advice."
+          },
+          {
+            "ko": "괜찮으면 가요",
+            "romanization": "gwaenchaneumyeon gayo",
+            "en": "If it is okay, let us go.",
+            "note": "Suggestion."
+          }
+        ],
+        "selfCheck": [
+          "Can you say the pattern with one verb or noun from the linked cards?",
+          "Can you explain when this pattern is natural?",
+          "Can you avoid the “Watch out” mistake?"
+        ]
+      },
+      "chapterIds": [
+        "chapter-11"
+      ],
+      "grammarIds": [
+        "grammar-connector-because",
+        "grammar-connector-and",
+        "grammar-connector-if",
+        "grammar-ending-promise"
+      ],
+      "activityTags": [
+        "recognition",
+        "fillBlank",
+        "particleChoice",
+        "formTransform",
+        "sentenceBuild"
+      ]
+    }
+  ]
+}
