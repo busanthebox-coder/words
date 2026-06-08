@@ -872,6 +872,19 @@ function hasAnyFilter() {
          state.letterJump.size > 0 || state.statusFilter || state.topicFilter;
 }
 
+function updateClearFiltersButton() {
+  $('clearFilters').hidden = !hasAnyFilter();
+}
+
+function focusSearchInput(value) {
+  const input = $('searchInput');
+  if (!input) return;
+  if (value !== undefined) input.value = value;
+  input.focus({preventScroll: true});
+  const end = input.value.length;
+  input.setSelectionRange(end, end);
+}
+
 // ============ Mode switching ============
 const modeBtns = document.querySelectorAll('.modes .mode');
 modeBtns.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
@@ -937,7 +950,7 @@ function renderHomeHTML() {
         <h1>오늘도 영어 단어 한 개 더</h1>
         <div class="sub">Oxford 3000 — 한국 학습자를 위한 회화·실용 영어 단어장</div>
         <div class="home-search">
-          <input type="search" id="homeSearch" placeholder="단어, 의미, 예문으로 검색해 보세요…">
+          <input type="search" id="homeSearch" placeholder="단어만 검색해 보세요…">
           <button class="go" id="homeSearchGo">검색</button>
         </div>
       </div>
@@ -1096,12 +1109,22 @@ function wireHome() {
 
   const hs = $('homeSearch');
   if (hs) {
+    const runHomeSearch = () => {
+      const value = hs.value;
+      state.searchQuery = norm(value);
+      $('searchInput').value = value;
+      if (state.searchQuery) {
+        state.view = 'list';
+        updateClearFiltersButton();
+        renderBrowse();
+        focusSearchInput(value);
+      }
+    };
     hs.addEventListener('input', e => {
-      state.searchQuery = norm(e.target.value);
-      $('searchInput').value = e.target.value;
-      if (state.searchQuery) { state.view = 'list'; renderBrowse(); }
+      runHomeSearch();
     });
-    hs.addEventListener('keydown', e => { if (e.key === 'Enter') { state.view = 'list'; renderBrowse(); } });
+    hs.addEventListener('keydown', e => { if (e.key === 'Enter') runHomeSearch(); });
+    $('homeSearchGo').addEventListener('click', runHomeSearch);
   }
 }
 
@@ -1439,7 +1462,7 @@ function renderRail() {
   });
 
   // Clear filters button
-  $('clearFilters').hidden = !hasAnyFilter();
+  updateClearFiltersButton();
 }
 
 $('clearFilters').addEventListener('click', () => {
@@ -1458,7 +1481,8 @@ $('clearFilters').addEventListener('click', () => {
 $('searchInput').addEventListener('input', e => {
   state.searchQuery = norm(e.target.value);
   state.view = state.searchQuery ? 'list' : 'home';
-  renderRail(); renderBrowse();
+  updateClearFiltersButton();
+  renderBrowse();
 });
 
 // ============ Helper: pickRandom ============
