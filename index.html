@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Oxford 3000 Practical English — 한국 학습자 단어장</title>
+<meta name="description" content="Oxford 3000 — 한국 학습자를 위한 회화·실용 영어 단어장. CEFR 레벨별 3,000단어를 플래시카드·퀴즈·발음으로 학습하세요.">
+<meta property="og:title" content="Oxford 3000 — 한국 학습자 단어장">
+<meta property="og:description" content="CEFR 레벨별 3,000단어 · 플래시카드 · 퀴즈 · 발음 지원">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#6C4CE0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%98%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
 <style>
 :root {
@@ -443,6 +449,8 @@ a { color: var(--accent); text-decoration: none; }
 .practice-q { font-size: 14px; color: var(--text-1); line-height: 1.55; }
 .practice-q .blank { display: inline-block; min-width: 70px; border-bottom: 2px solid var(--accent); margin: 0 4px; }
 .practice-a { margin-top: 6px; font-size: 12px; color: var(--success-text); }
+.practice-a summary { cursor: pointer; color: var(--text-2); }
+.practice-a[open] summary { margin-bottom: 4px; }
 .practice-h { font-size: 11.5px; color: var(--text-3); margin-top: 4px; font-style: italic; }
 
 .sense-list { display: flex; flex-direction: column; gap: var(--s-3); margin-top: var(--s-4); }
@@ -616,6 +624,8 @@ a { color: var(--accent); text-decoration: none; }
 .palette-foot { border-top: 1px solid var(--border); padding: 6px 14px; display: flex; gap: var(--s-4); font-size: 11px; color: var(--text-3); }
 .palette-foot kbd { padding: 1px 5px; border-radius: 3px; background: var(--surface-2); border: 1px solid var(--border); font-family: inherit; font-size: 10px; }
 
+.rail-toggle { display: none; }
+
 /* Mobile */
 @media (max-width: 760px) {
   .topbar { grid-template-columns: 1fr auto auto; }
@@ -627,10 +637,16 @@ a { color: var(--accent); text-decoration: none; }
     position: fixed; top: 56px; left: -220px; width: 220px; height: calc(100vh - 56px);
     transition: left var(--d-mid) var(--ease);
     z-index: 25; box-shadow: var(--shadow-3);
+    overflow-y: auto;
   }
   .rail.is-open { left: 0; }
+  .rail-backdrop { display: none; position: fixed; inset: 56px 0 0 0; background: rgba(15,23,42,0.35); z-index: 24; }
+  .rail-backdrop.is-open { display: block; }
+  .rail-toggle { display: inline-flex; align-items: center; gap: 4px; }
   .home-hero { padding: var(--s-6) var(--s-4); }
   .home-section { padding: var(--s-4); }
+  .featured-grid { grid-template-columns: 1fr; }
+  .featured-big .word { font-size: 40px; }
   .detail-view { padding: var(--s-4); }
   .detail-grid { grid-template-columns: 1fr; }
   .sense-grid { grid-template-columns: 1fr; }
@@ -672,6 +688,9 @@ a { color: var(--accent); text-decoration: none; }
     </div>
   </div>
   <div class="right">
+    <button class="icn-btn rail-toggle" id="railToggle" aria-label="필터 열기" title="필터">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+    </button>
     <button class="icn-btn" id="paletteBtn" aria-label="Search (⌘K)" title="Search (⌘K)">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
     </button>
@@ -716,6 +735,7 @@ a { color: var(--accent); text-decoration: none; }
 
     <button class="clear-filters" id="clearFilters" hidden>필터 모두 지우기</button>
   </aside>
+  <div class="rail-backdrop" id="railBackdrop"></div>
 
   <!-- ===== Browse pane ===== -->
   <main class="mode-pane is-active main" id="paneBrowse" role="tabpanel">
@@ -772,22 +792,34 @@ a { color: var(--accent); text-decoration: none; }
 <script>
 // ============ Data load ============
 const _data = JSON.parse(document.getElementById('payload').textContent).entries;
+// Normalize inconsistent source formatting: trailing periods on short Korean
+// meanings, and sentence-cased/punctuated synonym-antonym word lists.
+_data.forEach(e => {
+  e.meaning = e.meaning.replace(/\.\s*$/, '');
+  ['synonyms', 'antonyms', 'wordFamily'].forEach(k => {
+    if (Array.isArray(e[k])) {
+      e[k] = e[k].map(s => s.replace(/\.\s*$/, '').replace(/^[A-Z]/, c => c.toLowerCase()));
+    }
+  });
+});
 const $ = id => document.getElementById(id);
 const esc = v => String(v ?? '').replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const norm = v => String(v || '').toLowerCase();
 function wordSearchMatch(w, query) {
   const q = norm(query).trim();
   if (!q) return true;
-  const fields = [w.headword, w.lookup].map(norm).filter(Boolean);
+  const enFields = [w.headword, w.lookup].map(norm).filter(Boolean);
   if (/^[a-z0-9]+$/i.test(q)) {
-    return fields.some(field =>
+    return enFields.some(field =>
       field.split(/[^a-z0-9]+/).filter(Boolean).some(token => token.startsWith(q))
     );
   }
-  return fields.some(field => field.includes(q));
+  const koFields = [w.meaning, w.coreKo].map(x => norm(x || '')).filter(Boolean);
+  return enFields.concat(koFields).some(field => field.includes(q));
 }
 
 // ============ State ============
+const savedFlash = lsGet('vocab.flash', {});
 const state = {
   mode: 'browse',
   view: 'home', // home / list / detail
@@ -799,10 +831,10 @@ const state = {
   letterJump: new Set(), // multi-select letters
   topicFilter: null, // {name, regex} or null
   selectedNo: null,
-  flashIdx: 0,
+  flashIdx: savedFlash.idx || 0,
   flashRevealed: false,
   flashShuffled: false,
-  flashOrder: null, // array of indices when shuffled
+  flashOrder: savedFlash.order || null, // array of indices when shuffled
   quizQ: 0,
   quizQuestions: [],
   quizAnswers: [],
@@ -898,6 +930,14 @@ function setMode(m) {
   else if (m === 'flashcard') renderFlashcard();
   else if (m === 'quiz') startQuiz();
 }
+// Re-render whichever mode is active after a sidebar filter changes,
+// so CEFR/POS/status filters also affect the Flashcard deck and Quiz pool.
+function afterFilterChange() {
+  renderRail();
+  if (state.mode === 'flashcard') renderFlashcard();
+  else if (state.mode === 'quiz') startQuiz();
+  else renderBrowse();
+}
 
 // ============ Browse view ============
 function renderBrowse() {
@@ -978,7 +1018,7 @@ function renderHomeHTML() {
       </div>
       <div class="featured-grid">
         <article class="featured-big" data-no="${big.no}">
-          <div class="label">B${big.cefr.replace('B','')}? · ${esc(big.posCefr)}</div>
+          <div class="label">${big.cefr} · ${esc(big.corePos)}</div>
           <div class="word">${esc(big.headword)}</div>
           <div class="pron">${esc(big.pronunciation || '')}</div>
           <div class="meaning">${esc(big.meaning)}</div>
@@ -1072,7 +1112,7 @@ function wireHome() {
     state.cefrFilter.clear();
     state.cefrFilter.add(c.dataset.cefr);
     state.view = 'list';
-    renderRail(); renderBrowse();
+    afterFilterChange();
   }));
 
   // Topic tiles — search by keyword regex (matches meaning/coreKo/translation)
@@ -1081,7 +1121,7 @@ function wireHome() {
     state.searchQuery = '';  // clear text search
     state.topicFilter = { name: c.querySelector('.name').textContent, regex: new RegExp(kw) };
     state.view = 'list';
-    renderRail(); renderBrowse();
+    afterFilterChange();
   }));
 
   // Quick start actions
@@ -1144,7 +1184,9 @@ function renderListHTML() {
   if (state.hideKnown && state.statusFilter !== 'known' && known.size > 0) {
     filterChips.push({k:'hideKnown', label:`외운 단어 숨김 ${known.size.toLocaleString()}개`});
   }
-  const emptyMessage = state.hideKnown && known.size > 0
+  const emptyMessage = state.searchQuery
+    ? '결과가 없어요. 영어 철자나 한글 뜻으로 다시 검색해 보세요.'
+    : state.hideKnown && known.size > 0
     ? '결과가 없어요. 외운 단어 숨김을 잠시 꺼 보세요.'
     : '결과가 없어요. 필터를 풀어 보세요.';
   return `
@@ -1217,36 +1259,54 @@ function wireList() {
       lsSet('vocab.hideKnown', state.hideKnown);
     }
     if (!hasAnyFilter()) state.view = 'home';
-    renderRail(); renderBrowse();
+    afterFilterChange();
   }));
   const hideToggle = $('hideKnownListToggle');
   if (hideToggle) hideToggle.addEventListener('click', () => {
     state.hideKnown = !state.hideKnown;
     lsSet('vocab.hideKnown', state.hideKnown);
     state.view = 'list';
-    renderRail(); renderBrowse();
+    afterFilterChange();
   });
 }
 
-function openWord(no) {
+function openWord(no, opts = {}) {
   state.selectedNo = no;
   pushRecent(no);
   const w = _data.find(e => e.no === no);
   if (!w) return;
   $('modalBody').innerHTML = renderDetailHTML(w);
   $('wordModal').classList.add('is-open');
+  $('wordModal').setAttribute('role', 'dialog');
+  $('wordModal').setAttribute('aria-modal', 'true');
   document.body.style.overflow = 'hidden';
   $('wordModal').scrollTop = 0;
   wireDetail();
-  // If home was empty, refresh recent list once modal closes? defer.
+  if (!opts.fromPopstate && location.hash !== '#w=' + no) {
+    history.pushState({ w: no }, '', '#w=' + no);
+  }
+  $('modalClose').focus();
 }
-function closeWordModal() {
+function closeWordModal(opts = {}) {
   $('wordModal').classList.remove('is-open');
+  $('wordModal').removeAttribute('role');
+  $('wordModal').removeAttribute('aria-modal');
   document.body.style.overflow = '';
   // Re-render home/list to reflect any state changes (fav/known/review/recent)
   renderBrowse();
+  if (!opts.fromPopstate && location.hash.startsWith('#w=')) {
+    history.back();
+  }
 }
-$('modalClose').addEventListener('click', closeWordModal);
+window.addEventListener('popstate', () => {
+  if (location.hash.startsWith('#w=')) {
+    const no = parseInt(location.hash.slice(3), 10);
+    if (no) openWord(no, { fromPopstate: true });
+  } else if ($('wordModal').classList.contains('is-open')) {
+    closeWordModal({ fromPopstate: true });
+  }
+});
+$('modalClose').addEventListener('click', () => closeWordModal());
 $('wordModal').addEventListener('click', e => { if (e.target === $('wordModal')) closeWordModal(); });
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && $('wordModal').classList.contains('is-open')) closeWordModal();
@@ -1288,10 +1348,7 @@ function renderDetailHTML(w) {
             <div class="meta">
               <span class="cefr-pill ${w.cefr}">${w.cefr}</span>
               <span class="pos-pill">${esc(w.corePos)}</span>
-              <span class="dot">·</span>
-              <span>${esc(w.posCefr)}</span>
-              <span class="dot">·</span>
-              <span>GSL ${esc(w.gsl || 'N/A')}</span>
+              ${w.gsl && w.gsl !== 'N/A' ? `<span class="dot">·</span><span>GSL ${esc(w.gsl)}</span>` : ''}
             </div>
           </div>
           <div class="detail-actions">
@@ -1326,7 +1383,7 @@ function renderDetailHTML(w) {
             <div class="section-label">연습 문제</div>
             <div class="practice-card">
               <div class="practice-q">${esc(w.practice.question).replace(/____/g, '<span class="blank"></span>')}</div>
-              <div class="practice-a">정답: <strong>${esc(w.practice.answer)}</strong></div>
+              <details class="practice-a"><summary>정답 보기</summary><strong>${esc(w.practice.answer)}</strong></details>
               <div class="practice-h">${esc(w.practice.hint)}</div>
             </div>
           </div>
@@ -1405,7 +1462,7 @@ function renderRail() {
     if (state.letterJump.has(L)) state.letterJump.delete(L);
     else state.letterJump.add(L);
     state.view = 'list';
-    renderRail(); renderBrowse();
+    afterFilterChange();
   }));
 
   // CEFR
@@ -1419,11 +1476,11 @@ function renderRail() {
     if (state.cefrFilter.has(c)) state.cefrFilter.delete(c);
     else state.cefrFilter.add(c);
     state.view = 'list';
-    renderRail(); renderBrowse();
+    afterFilterChange();
   }));
 
   // POS
-  const posLabels = {verb:'동사', noun:'명사', adjective:'형용사', adverb:'부사', preposition:'전치사', conjunction:'접속사', pronoun:'대명사', determiner:'한정사', article:'관사', exclamation:'감탄사'};
+  const posLabels = {verb:'동사', noun:'명사', adjective:'형용사', adverb:'부사', preposition:'전치사', conjunction:'접속사', pronoun:'대명사', determiner:'한정사', article:'관사', exclamation:'감탄사', number:'수사', 'auxiliary verb':'조동사', 'modal verb':'조동사'};
   const posTop = posTopList;
   $('posFilter').innerHTML = posTop.map(p => {
     const lbl = posLabels[p] || p;
@@ -1434,7 +1491,7 @@ function renderRail() {
     if (state.posFilter.has(p)) state.posFilter.delete(p);
     else state.posFilter.add(p);
     state.view = 'list';
-    renderRail(); renderBrowse();
+    afterFilterChange();
   }));
 
   // Status
@@ -1447,7 +1504,7 @@ function renderRail() {
       state.hideKnown = !state.hideKnown;
       lsSet('vocab.hideKnown', state.hideKnown);
       state.view = 'list';
-      renderRail(); renderBrowse();
+      afterFilterChange();
     };
   }
 
@@ -1457,7 +1514,7 @@ function renderRail() {
     b.onclick = () => {
       state.statusFilter = state.statusFilter === s ? null : s;
       state.view = 'list';
-      renderRail(); renderBrowse();
+      afterFilterChange();
     };
   });
 
@@ -1474,7 +1531,7 @@ $('clearFilters').addEventListener('click', () => {
   state.topicFilter = null;
   $('searchInput').value = '';
   state.view = 'home';
-  renderRail(); renderBrowse();
+  afterFilterChange();
 });
 
 // Search input
@@ -1482,7 +1539,10 @@ $('searchInput').addEventListener('input', e => {
   state.searchQuery = norm(e.target.value);
   state.view = state.searchQuery ? 'list' : 'home';
   updateClearFiltersButton();
-  renderBrowse();
+  // Don't call renderRail() here — it would re-create this input and drop focus mid-typing.
+  if (state.mode === 'flashcard') renderFlashcard();
+  else if (state.mode === 'quiz') startQuiz();
+  else renderBrowse();
 });
 
 // ============ Helper: pickRandom ============
@@ -1538,10 +1598,11 @@ function renderFlashcard() {
   }
   if (!state.flashOrder || state.flashOrder.length !== deck.length) state.flashOrder = [...Array(deck.length).keys()];
   if (state.flashShuffled) {
-    state.flashOrder = state.flashOrder.slice().sort(() => Math.random() - 0.5);
+    state.flashOrder = shuffleArr(state.flashOrder);
     state.flashShuffled = false;
   }
   state.flashIdx = Math.min(state.flashIdx, deck.length - 1);
+  lsSet('vocab.flash', { idx: state.flashIdx, order: state.flashOrder });
   $('deckInfo').textContent = `덱: ${deck.length}`;
   $('flashCounter').textContent = `${state.flashIdx + 1} / ${deck.length}`;
   $('flashProgressFill').style.width = `${((state.flashIdx + 1) / deck.length) * 100}%`;
@@ -1559,7 +1620,7 @@ function renderFlashcard() {
       </div>
       <div class="word-block">
         <div class="word">${esc(w.headword)} <button class="audio-btn" data-speak="${esc(w.headword)}" title="발음"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button></div>
-        <div class="word-pos">${esc(w.posCefr)}</div>
+        <div class="word-pos">${w.cefr} · ${esc(w.corePos)}</div>
       </div>
       <div class="reveal-hint">클릭 또는 <kbd>Space</kbd>로 답 보기</div>
     </div>
@@ -1631,7 +1692,7 @@ function startQuiz() {
   state.quizQuestions = [];
   state.quizAnswers = [];
   // Generate 10 questions
-  const shuffled = pool.slice().sort(() => Math.random() - 0.5);
+  const shuffled = shuffleArr(pool);
   const N = Math.min(10, shuffled.length);
   for (let i = 0; i < N; i++) {
     const w = shuffled[i];
@@ -1704,12 +1765,26 @@ function renderQuiz() {
     card.querySelectorAll('.quiz-option').forEach(o => o.addEventListener('click', () => submitMCQ(o, w)));
   }
 }
+function advanceAfter(correct) {
+  if (correct) {
+    setTimeout(() => { state.quizQ++; renderQuiz(); }, 900);
+    return;
+  }
+  const btn = document.createElement('button');
+  btn.className = 'btn primary';
+  btn.style.marginTop = '16px';
+  btn.textContent = '정답 확인했어요 · 다음 →';
+  btn.addEventListener('click', () => { state.quizQ++; renderQuiz(); });
+  $('quizCard').appendChild(btn);
+  btn.focus();
+}
 function submitCloze(w) {
   const ans = $('qInput').value.trim().toLowerCase();
   const correct = ans === w.headword.toLowerCase() || ans === w.lookup.toLowerCase();
   $('quizCard').classList.add(correct ? 'is-correct' : 'is-wrong');
+  $('qInput').disabled = true;
   state.quizAnswers.push({correct, word: w, given: ans});
-  setTimeout(() => { state.quizQ++; renderQuiz(); }, 1100);
+  advanceAfter(correct);
 }
 function submitMCQ(opt, w) {
   const correct = opt.dataset.correct === 'true';
@@ -1717,16 +1792,24 @@ function submitMCQ(opt, w) {
   document.querySelectorAll('.quiz-option').forEach(o => {
     if (o.dataset.correct === 'true') o.classList.add('is-correct');
     else if (o === opt && !correct) o.classList.add('is-wrong');
+    o.disabled = true;
   });
   state.quizAnswers.push({correct, word: w});
-  setTimeout(() => { state.quizQ++; renderQuiz(); }, 1100);
+  advanceAfter(correct);
 }
 function randomDistractors(w, n) {
   const pool = _data.filter(e => e.no !== w.no && e.cefr === w.cefr);
-  const shuffled = pool.slice().sort(() => Math.random() - 0.5);
+  const shuffled = shuffleArr(pool);
   return shuffled.slice(0, n);
 }
-function shuffleArr(a) { return a.slice().sort(() => Math.random() - 0.5); }
+function shuffleArr(a) {
+  const r = a.slice();
+  for (let i = r.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [r[i], r[j]] = [r[j], r[i]];
+  }
+  return r;
+}
 function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 function renderQuizResults() {
   const correct = state.quizAnswers.filter(a => a.correct).length;
@@ -1779,7 +1862,7 @@ function renderPalette(q) {
   paletteResults.innerHTML = matches.map((w, i) =>
     `<button class="palette-row ${i === state.paletteFocus ? 'is-focused' : ''}" data-no="${w.no}">
       <div class="pal-word">${esc(w.headword)} <span style="color: var(--text-3); font-weight: 500;">· ${esc(w.meaning)}</span></div>
-      <div class="pal-meta">${esc(w.posCefr)} · ${esc(w.cefr)}</div>
+      <div class="pal-meta">${esc(w.corePos)} · ${w.cefr}</div>
     </button>`
   ).join('') || `<div style="padding: 24px; text-align: center; color: var(--text-3); font-size: 13px;">결과 없음</div>`;
   paletteResults.querySelectorAll('.palette-row').forEach(r => r.addEventListener('click', () => {
@@ -1788,6 +1871,17 @@ function renderPalette(q) {
     openWord(parseInt(r.dataset.no));
   }));
 }
+function toggleRail(open) {
+  const willOpen = open ?? !$('rail').classList.contains('is-open');
+  $('rail').classList.toggle('is-open', willOpen);
+  $('railBackdrop').classList.toggle('is-open', willOpen);
+  $('railToggle').setAttribute('aria-label', willOpen ? '필터 닫기' : '필터 열기');
+}
+$('railToggle').addEventListener('click', () => toggleRail());
+$('railBackdrop').addEventListener('click', () => toggleRail(false));
+$('rail').addEventListener('click', e => {
+  if (e.target.closest('button') && window.innerWidth <= 760) toggleRail(false);
+});
 $('paletteBtn').addEventListener('click', openPalette);
 paletteOverlay.addEventListener('click', e => { if (e.target === paletteOverlay) closePalette(); });
 paletteInput.addEventListener('input', e => renderPalette(e.target.value));
@@ -1831,6 +1925,7 @@ function goHome() {
   // Close any open modal
   $('wordModal').classList.remove('is-open');
   document.body.style.overflow = '';
+  if (location.hash.startsWith('#w=')) history.replaceState(null, '', location.pathname + location.search);
   // Switch to browse mode
   setMode('browse');
   renderRail();
@@ -1844,6 +1939,10 @@ $('goHome').addEventListener('click', goHome);
 // ============ Init ============
 renderRail();
 renderBrowse();
+if (location.hash.startsWith('#w=')) {
+  const initialNo = parseInt(location.hash.slice(3), 10);
+  if (initialNo) openWord(initialNo, { fromPopstate: true });
+}
 </script>
 </body>
 </html>
