@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const study = require('../words-study.js');
+const sessions = require('../words-session.js');
 const html = fs.readFileSync(require.resolve('../index.html'), 'utf8');
 const entries = JSON.parse(html.match(/<script id="payload" type="application\/json">([\s\S]*?)<\/script>/)[1]).entries;
 function scriptOf(text) { return text.match(/<script>\s*\/\/ ============ Data load ============([\s\S]*?)<\/script>/)[1]; }
@@ -14,7 +15,7 @@ function app(source = scriptOf(html), saved = {}) {
     const handlers = new Map(); const classes = new Set();
     const el = {id, value:'', innerHTML:'', textContent:'', style:{}, dataset:{}, children:[], disabled:false,
       classList:{add:(...v)=>v.forEach(x=>classes.add(x)), remove:(...v)=>v.forEach(x=>classes.delete(x)), toggle:(x,yes)=>yes?classes.add(x):classes.delete(x), contains:x=>classes.has(x)},
-      addEventListener:(k,fn)=>handlers.set(k,fn), setAttribute(){}, getAttribute(){return null;}, focus(){}, setSelectionRange(){}, scrollTo(){},
+      addEventListener:(k,fn)=>handlers.set(k,fn), setAttribute(){}, removeAttribute(){}, getAttribute(){return null;}, focus(){}, setSelectionRange(){}, scrollTo(){},
       querySelector:q=>element(id+q), querySelectorAll:()=>[], appendChild(child){this.children.push(child);},
       click(){if(!this.disabled) {handlers.get('click')?.({target:this,stopPropagation(){}});this.onclick?.();}},
       handlers};
@@ -22,7 +23,7 @@ function app(source = scriptOf(html), saved = {}) {
   }
   element('payload').textContent = JSON.stringify({entries:structuredClone(entries)});
   const document={getElementById:element, querySelectorAll:()=>[], addEventListener(){}, createElement:tag=>element('created-'+tag+'-'+elements.size), body:{style:{}}};
-  const context={document, VocabStudy:study, localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)}, location:{hash:'',pathname:'/',search:''}, history:{replaceState(){},pushState(){}}, console, Date, Math, setTimeout, clearTimeout};
+  const context={document, VocabStudy:study, VocabSession:sessions, localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)}, location:{hash:'',pathname:'/',search:''}, history:{replaceState(){},pushState(){}}, console, Date, Math, setTimeout, clearTimeout};
   context.window=context; context.window.scrollTo=()=>{}; context.window.addEventListener=()=>{};
   vm.createContext(context); vm.runInContext(source,context);
   return {run:code=>vm.runInContext(code,context),elements,storage,element};
@@ -104,4 +105,40 @@ test('cloze duplicate submit is ignored; navigation away has no quiz timer',()=>
   const a=app();a.run("state.quizQuestions=[{type:'cloze',word:_data[0],cloze:{question:'____',answer:'a'}}];state.quizQ=0;state.quizAnswers=[];renderQuiz()");
   a.element('qInput').value='a';a.run('submitCloze(_data[0]);submitCloze(_data[0])');assert.equal(a.run('state.quizAnswers.length'),1);
   assert.ok(!/setTimeout/.test(a.run('advanceAfter.toString()')));
+});
+
+test('daily UI completes ten fixed IDs, persists resume, and undoes the final answer',()=>{
+  const a=app();a.run('startToday()');const selected=a.run('todaySession().ids.join()');
+  for(let i=0;i<3;i++)a.run("markFlash('known')");
+  const saved=Object.fromEntries([...a.storage].map(([k,v])=>[k,JSON.parse(v)]));
+  const b=app(scriptOf(html),saved);b.run('startToday()');
+  assert.equal(b.run('sessions.progress(todaySession()).completed'),3);assert.equal(b.run('deckList().length'),10);
+  assert.equal(b.run('todaySession().ids.join()'),selected);
+  for(let i=0;i<7;i++)b.run("markFlash('unknown')");
+  assert.match(b.element('flashcard').innerHTML,/오늘 10단어 학습 완료/);
+  assert.equal(b.run('sessions.progress(todaySession()).done'),true);
+  b.run('undoFlash()');assert.equal(b.run('sessions.progress(todaySession()).completed'),9);
+  assert.equal(b.run('sessions.progress(todaySession()).done'),false);
+});
+test('ordinary flash undo restores a removed final card and the prior classification',()=>{
+  const a=app();a.run("state.searchQuery='app';state.statusFilter='review';review.add('app');setMode('flashcard')");
+  assert.equal(a.run('deckList().length'),1);a.run("markFlash('known')");assert.equal(a.run('deckList().length'),0);
+  a.run('undoFlash()');assert.equal(a.run('deckList().length'),1);assert.equal(a.run("review.has('app')"),true);assert.equal(a.run("known.has('app')"),false);
+});
+test('leaving today restores the ordinary deck rather than mixing its ID order',()=>{
+  const a=app();a.run("setMode('flashcard');navigateFlash(4)");const old=a.run('flashWord().no');
+  a.run("startToday();goHome();setMode('flashcard')");assert.equal(a.run('flashWord().no'),old);
+});
+test('a directly opened word closes in the app instead of navigating to a foreign page',()=>{
+  const a=app();a.run("location.hash='#w=1';history.state=null;history.back=()=>{throw new Error('must not leave app')};history.replaceState=(value,title,url)=>{location.hash='';location.pathname=url};closeWordModal()");
+  assert.equal(a.run('location.hash'),'');assert.equal(a.run('location.pathname'),'/');
+});
+test('search does not replace the home input on its first character or reparent an already placed input',()=>{
+  const a=app();assert.equal(a.element('homeSearch').handlers.has('input'),false);
+  a.run("window.matchMedia=()=>({matches:true});state.view='list';document.getElementById('searchControl').parentElement=document.getElementById('browseSearchSlot');document.getElementById('browseSearchSlot').appendChild=()=>{throw new Error('focus would be lost')};placeSearch()");
+});
+test('storage failure preserves current-tab daily progress and warns about persistence',()=>{
+  const a=app();a.run("localStorage.setItem=()=>{throw new Error('quota')};startToday();markFlash('unknown')");
+  assert.equal(a.run('sessions.progress(todaySession()).completed'),1);
+  assert.match(a.element('storageWarning').textContent,/저장하지 못했어요/);
 });
